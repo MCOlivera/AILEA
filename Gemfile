@@ -32,6 +32,8 @@ gem 'bootstrap-sass'
 
 gem 'autoprefixer-rails'
 
+gem 'programr'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 

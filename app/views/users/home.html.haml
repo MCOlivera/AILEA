@@ -1,6 +1,17 @@
-- provide(:title, @user.username)
-.row
-  %aside.col-md-4
-    %section.user_info
-      %h1
-        = @user.username
+%h1 AskLEA
+%p.lead LEA stands for legal engineer assistant
+.row.home-row
+  = image_tag "lea_logo.png", :class => "img-circle", :id => "lea-logo"
+
+- if @user.messages.any?
+  %ol.messages= render @messages
+  
+#callout-alerts-no-default.bs-callout.bs-callout-info.leabot-response.hide
+  %h4 LEA says:
+  %p#lea-response
+.row.home-row
+  .col-lg-12
+    .input-group
+      %input#query.form-control{:placeholder => "Ask LEA about cases, glossary or forms...", :type => "text"}/
+      %span.input-group-btn
+        %button#btn-send.btn.btn-default{:type => "button"} Send

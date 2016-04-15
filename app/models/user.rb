@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
-	has_many :swits, dependent: :destroy
+	has_many :messages, dependent: :destroy
 
 	has_secure_password
 
@@ -9,5 +9,5 @@ class User < ActiveRecord::Base
 	validates_presence_of :username
 
 	validates_length_of :password, :in => 6..20, :on => :create
-
+	validates_presence_of :password_confirmation, if: :password_changed?
 end
