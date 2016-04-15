@@ -69,6 +69,8 @@ Rails.application.routes.draw do
   get 'home' => 'users#home'
   
   get 'ask_lea' => 'users#ask_lea'
+  
+  post 'post_message' => 'messages#post_message'
 
   root 'session#index'
 end

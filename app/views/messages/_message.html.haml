@@ -1,5 +1,8 @@
 %ul{:id => "message-#{message.id}"}
     %span.message-content
         #{message.content}
+    %br
     %span.timestamp
-        #{time_ago_in_words(message.created_at)} ago.
+        #{message.created_at.change(:offset => "+0800").strftime("%I:%M%p")}
+        %br
+        #{message.created_at.change(:offset => "+0800").strftime("%B %d, %G")}

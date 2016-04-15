@@ -5,13 +5,10 @@
 
 - if @user.messages.any?
   %ol.messages= render @messages
-  
-#callout-alerts-no-default.bs-callout.bs-callout-info.leabot-response.hide
-  %h4 LEA says:
-  %p#lea-response
-.row.home-row
-  .col-lg-12
+        
+= form_tag post_message_path, remote: true, id: "message-form" do
+  .message-form
     .input-group
-      %input#query.form-control{:placeholder => "Ask LEA about cases, glossary or forms...", :type => "text"}/
+      %input.form-control#content{:name => "content", :placeholder => "Ask LEA about cases, glossary or forms...", :autocomplete => :off}
       %span.input-group-btn
-        %button#btn-send.btn.btn-default{:type => "button"} Send
+        = submit_tag "Send!", class: "btn btn-primary", id: "post-message-button"

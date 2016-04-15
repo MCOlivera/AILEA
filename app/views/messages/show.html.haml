@@ -9,6 +9,10 @@
 %p
   %b Replied:
   = @message.replied
+  
+%p
+  %b Is Lea Response:
+  = @message.is_lea_response
 
 = link_to 'Edit', edit_message_path(@message)
 \|
