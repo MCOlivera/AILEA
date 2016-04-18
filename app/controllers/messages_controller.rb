@@ -67,6 +67,11 @@ class MessagesController < ApplicationController
     
     reaction = LEABOT.get_reaction(params[:content])
     if reaction.present?
+      unless reaction["query"].nil?
+        # reaction = execute_statement(reaction.split(' ').drop(1).join(' '))
+        reaction = reaction.split(' ').drop(1).join(' ')
+      end
+      
       @current_message = @current_user.messages.create(content: reaction, is_lea_response: :true)
     else
       @current_message = @current_user.messages.create(content: 'I do not know the answer. Sorry.', is_lea_response: :true)
@@ -78,6 +83,15 @@ class MessagesController < ApplicationController
       format.js
     end
   end
+  
+  def execute_statement(sql)
+        results = ActiveRecord::Base.connection.execute(sql)
+        if results.present?
+            return results
+        else
+            return nil
+        end
+    end
   
   private
     # Use callbacks to share common setup or constraints between actions.

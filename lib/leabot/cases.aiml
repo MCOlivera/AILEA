@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+    <category>
+        <pattern>I NEED THE CASE REGARDING *</pattern>
+        <template>query SELECT content FROM cases WHERE title="<star/>"</template>
+    </category>
+</aiml>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+    <category>
+        <pattern>WHAT IS *</pattern>
+        <template>query SELECT description FROM glossary where term="<star/>"</template>
+    </category>
+    
+    <category>
+        <pattern>DEFINE *</pattern>
+        <template><srai>WHAT IS *</srai></template>
+    </category>
+    
+    <category>
+        <pattern>DESCRIBE *</pattern>
+        <template><srai>WHAT IS *</srai></template>
+    </category>
+</aiml>

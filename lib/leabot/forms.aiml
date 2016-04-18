@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+    <category>
+        <pattern>I * FORM FOR *</pattern>
+        <template>query SELECT location FROM forms WHERE NAME="<star index="2"/>"</template>
+    </category>
+    
+    <category>
+        <pattern>I NEED * FORM</pattern>
+        <template><srai>I * FORM FOR *</srai></template>
+    </category>
+    
+    <category>
+        <pattern>I NEED THE * FORM</pattern>
+        <template><srai>I * FORM FOR *</srai></template>
+    </category>
+    
+    <category>
+        <pattern>I NEED A * FORM</pattern>
+        <template><srai>I * FORM FOR *</srai></template>
+    </category>
+</aiml>
