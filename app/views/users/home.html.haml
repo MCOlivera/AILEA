@@ -5,6 +5,8 @@
 
 - if @user.messages.any?
   %ol.messages= render @messages
+- else
+  %ol.messages
         
 = form_tag post_message_path, remote: true, id: "message-form" do
   .message-form

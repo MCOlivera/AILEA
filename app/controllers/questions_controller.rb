@@ -42,14 +42,17 @@ class QuestionsController < ApplicationController
   def update
     respond_to do |format|
       if @question.update(question_params)
-        file_contents = File.read('/lib/leabot/lea.aiml')
+        file = File.join(Rails.root, 'lib', 'leabot', 'lea.aiml')
+        
+        file_contents = File.read(file)
         
         file_contents['</aiml>'] = ''
         
-        File.open('/lib/leabot/lea.aiml', 'a') do |f|
+        File.open(file, 'w') do |f|
           pattern = "<pattern>" + @question.question + "</pattern>"
           template = "<template>" + @question.answer + "</template>"
-          f.puts "<category>" + pattern + template + "</category>" + "</aiml>"
+          f.puts file_contents + "<category>" + pattern + template + "</category>" + "</aiml>"
+        end
         
         format.html { redirect_to @question, notice: 'Question was successfully updated.' }
         format.json { render :show, status: :ok, location: @question }

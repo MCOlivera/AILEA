@@ -5,4 +5,9 @@
         <pattern>HI *</pattern>
         <template>Hello!</template>
     </category>
+    
+    <category>
+        <pattern>Hello</pattern>
+        <template>Hi</template>
+    </category>
 </aiml>

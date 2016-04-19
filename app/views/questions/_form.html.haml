@@ -6,13 +6,15 @@
         - @question.errors.full_messages.each do |msg|
           %li= msg
 
-  .field
-    = f.label :question
-    = @question.question
-  .field
-    = f.label :answer
-    = f.text_field :answer
-  .field
-    = f.hidden_field :question_id, value: @question.id
-  .actions
-    = f.submit 'Save'
+  %table{:class => "table"}
+    %tr.field
+      %td= f.label :question
+      %td= @question.question
+    %tr.field
+      %td= f.label :answer
+      %td= f.text_area :answer, :class => "form-control"
+    .field
+      = f.hidden_field :question_id, value: @question.id
+    %tr.actions
+      %td= f.submit 'Save', :class => "btn btn-success"
+      %td

@@ -1,9 +1,14 @@
 %h1 Listing questions
 
-%table
+%table{:class => "table"}
+  %thead
+    %tr
+      %th Question
+      %th Answer
+      %th
   %tbody
     - @questions.each do |question|
       %tr
         %td= question.question
         %td= question.answer
-        %td= link_to 'Answer', edit_question_path(question)
+        %td= link_to 'Answer', edit_question_path(question), :class => "btn btn-success"

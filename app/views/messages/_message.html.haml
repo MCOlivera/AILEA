@@ -1,8 +1,19 @@
-%ul{:id => "message-#{message.id}"}
-    %span.message-content
-        #{message.content}
-    %br
-    %span.timestamp
-        #{message.created_at.change(:offset => "+0800").strftime("%I:%M%p")}
+- if message.is_lea_response
+    %ul{:id => "message-#{message.id}", :class => "chat lea-response"}
+        %span.message-content
+            #{message.content}
         %br
-        #{message.created_at.change(:offset => "+0800").strftime("%B %d, %G")}
+        %span.timestamp
+            #{message.created_at.change(:offset => "+0800").strftime("%I:%M%p")}
+            %br
+            #{message.created_at.change(:offset => "+0800").strftime("%B %d, %G")}
+- else
+    %ul{:id => "message-#{message.id}", :class => "chat user-question"}
+        %span.message-content
+            #{message.content}
+        %br
+        %span.timestamp
+            #{message.created_at.change(:offset => "+0800").strftime("%I:%M%p")}
+            %br
+            #{message.created_at.change(:offset => "+0800").strftime("%B %d, %G")}
+        

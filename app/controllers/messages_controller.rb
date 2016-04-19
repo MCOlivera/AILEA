@@ -67,8 +67,8 @@ class MessagesController < ApplicationController
     
     line = params[:content]
     
-    unless line[/[\.\!\?]/].nil?
-      line.chop
+    unless /[[:punct:]]/.match(line).nil?
+      line = line.chop
     end
     
     reaction = LEABOT.get_reaction(line)
@@ -77,9 +77,9 @@ class MessagesController < ApplicationController
         reaction = reaction.split(' ').drop(1).join(' ')
       end
       
-      @current_message = @current_user.messages.create(content: reaction, is_lea_response: :true)
+      @current_message = @current_user.messages.create(content: reaction, is_lea_response: true)
     else
-      @current_message = @current_user.messages.create(content: 'I do not know the answer. Sorry.', is_lea_response: :true)
+      @current_message = @current_user.messages.create(content: 'I do not know the answer. Sorry.', is_lea_response: true)
       @current_user.questions.create(question: line)
     end
 
