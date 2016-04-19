@@ -1,0 +1,27 @@
+%table
+  %thead
+    %tr
+      %th Question
+      %th Answer
+      %th
+
+  %tbody
+    - @questions.each do |question|
+      %tr
+        %td= question.question
+        %td= f.text_field :answer, :class => 'form-control'
+        %td= link_to 'Post Answer', question
+        
+= form_tag answer_question_path, remote: true, id: "message-form" do
+  %table
+    %thead
+      %tr
+        %th Question
+        %th Answer
+        %th
+    %tbody
+      - @questions.each do |question|
+        %tr
+        %td= question.question
+        %td%input.form-control{:name => "answer", :autocomplete => :off}
+        %td= submit_tag "Send!", class: "btn btn-primary", id: "post-answer-button"

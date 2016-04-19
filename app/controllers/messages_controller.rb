@@ -65,16 +65,22 @@ class MessagesController < ApplicationController
     @current_user = User.find(session[:user_id])
     @current_message = @current_user.messages.create(content: params[:content])
     
-    reaction = LEABOT.get_reaction(params[:content])
+    line = params[:content]
+    
+    unless line[/[\.\!\?]/].nil?
+      line.chop
+    end
+    
+    reaction = LEABOT.get_reaction(line)
     if reaction.present?
       unless reaction["query"].nil?
-        # reaction = execute_statement(reaction.split(' ').drop(1).join(' '))
         reaction = reaction.split(' ').drop(1).join(' ')
       end
       
       @current_message = @current_user.messages.create(content: reaction, is_lea_response: :true)
     else
       @current_message = @current_user.messages.create(content: 'I do not know the answer. Sorry.', is_lea_response: :true)
+      @current_user.questions.create(question: line)
     end
 
     @messages = @current_user.messages
@@ -82,6 +88,7 @@ class MessagesController < ApplicationController
     respond_to do |format|
       format.js
     end
+    
   end
   
   def execute_statement(sql)

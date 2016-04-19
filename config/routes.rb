@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :questions
   resources :messages
   resources :users
   
@@ -71,6 +72,10 @@ Rails.application.routes.draw do
   get 'ask_lea' => 'users#ask_lea'
   
   post 'post_message' => 'messages#post_message'
+  
+  get 'show_questions' => 'questions#show_questions'
+  
+  get 'answer_question' => 'questions#answer_question'
 
   root 'session#index'
 end

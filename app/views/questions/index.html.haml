@@ -1,0 +1,9 @@
+%h1 Listing questions
+
+%table
+  %tbody
+    - @questions.each do |question|
+      %tr
+        %td= question.question
+        %td= question.answer
+        %td= link_to 'Answer', edit_question_path(question)
