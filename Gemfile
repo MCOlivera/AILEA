@@ -34,6 +34,8 @@ gem 'autoprefixer-rails'
 
 gem 'programr'
 
+gem 'mysql2'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 

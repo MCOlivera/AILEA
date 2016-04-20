@@ -1,3 +1,7 @@
 $('#content').val("");
 
 $('.messages').html("<%= j render @messages %>");
+
+$('.messages').animate({
+            scrollTop: $('.messages')[0].scrollHeight
+        }, 100);

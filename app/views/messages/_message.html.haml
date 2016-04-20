@@ -2,7 +2,7 @@
     %ul{:id => "message-#{message.id}", :class => "chat lea-response"}
         %span.message-content
             #{message.content}
-        %br
+        %hr
         %span.timestamp
             #{message.created_at.change(:offset => "+0800").strftime("%I:%M%p")}
             %br
@@ -11,7 +11,7 @@
     %ul{:id => "message-#{message.id}", :class => "chat user-question"}
         %span.message-content
             #{message.content}
-        %br
+        %hr
         %span.timestamp
             #{message.created_at.change(:offset => "+0800").strftime("%I:%M%p")}
             %br

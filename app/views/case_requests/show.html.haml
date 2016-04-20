@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b User:
+  = @case_request.user_id
+%p
+  %b Title:
+  = @case_request.title
+
+= link_to 'Edit', edit_case_request_path(@case_request)
+\|
+= link_to 'Back', case_requests_path

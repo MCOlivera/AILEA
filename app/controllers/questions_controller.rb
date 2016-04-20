@@ -54,6 +54,12 @@ class QuestionsController < ApplicationController
           f.puts file_contents + "<category>" + pattern + template + "</category>" + "</aiml>"
         end
         
+        load Rails.root.join('config/initializers/leabot.rb')
+        
+        @question.user.messages.create(content: @question.answer, is_lea_response: true)
+        
+        @question.destroy
+        
         format.html { redirect_to @question, notice: 'Question was successfully updated.' }
         format.json { render :show, status: :ok, location: @question }
       else

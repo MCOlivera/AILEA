@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+    <category>
+        <pattern>* CASE SUMMARY FOR *</pattern>
+        <template>query INSERT INTO case_requests (title) VALUES ("<star index="2"/>")</template>
+    </category>
+    
+    <category>
+        <pattern>* CASE SUMMARY FOR * THANKS</pattern>
+        <template><srai>* CASE SUMMARY FOR *</srai></template>
+    </category>
+    
+</aiml>

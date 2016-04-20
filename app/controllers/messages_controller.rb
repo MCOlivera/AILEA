@@ -79,7 +79,7 @@ class MessagesController < ApplicationController
       
       @current_message = @current_user.messages.create(content: reaction, is_lea_response: true)
     else
-      @current_message = @current_user.messages.create(content: 'I do not know the answer. Sorry.', is_lea_response: true)
+      @current_message = @current_user.messages.create(content: 'I do not know the answer yet. I\'ll get back to you as soon as I can.', is_lea_response: true)
       @current_user.questions.create(question: line)
     end
 

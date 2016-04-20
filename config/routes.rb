@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :case_requests
   resources :questions
   resources :messages
   resources :users

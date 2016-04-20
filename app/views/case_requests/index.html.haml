@@ -1,0 +1,23 @@
+%h1 Listing case_requests
+
+%table
+  %thead
+    %tr
+      %th User
+      %th Title
+      %th
+      %th
+      %th
+
+  %tbody
+    - @case_requests.each do |case_request|
+      %tr
+        %td= case_request.user_id
+        %td= case_request.title
+        %td= link_to 'Show', case_request
+        %td= link_to 'Edit', edit_case_request_path(case_request)
+        %td= link_to 'Destroy', case_request, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Case request', new_case_request_path
