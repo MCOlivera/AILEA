@@ -1,4 +1,4 @@
-class LegalFormsController < ApplicationController
+class Admin::LegalFormsController < AdminController
   before_action :set_legal_form, only: [:show, :edit, :update, :destroy]
 
   # GET /legal_forms

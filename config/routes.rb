@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-  resources :cases
-  resources :legal_forms
-  resources :glossaries
-  resources :case_requests
-  resources :questions
-  resources :messages
-  resources :users
+  # resources :cases
+  # resources :legal_forms
+  # resources :glossaries
+  # resources :case_requests
+  # resources :questions
+  # resources :messages
+  resources :users, only: [:home]
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -62,6 +62,15 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   
+  scope module: 'admin' do
+    resources :cases
+    resources :legal_forms
+    resources :glossaries
+    resources :case_requests
+    resources :questions
+    resources :messages
+    resources :users
+  end
 
   get 'login' => 'session#new'
 
@@ -77,7 +86,7 @@ Rails.application.routes.draw do
   
   post 'post_message' => 'messages#post_message'
   
-  get 'show_questions' => 'questions#show_questions'
+  # get 'show_questions' => 'questions#show_questions'
   
   get 'answer_question' => 'questions#answer_question'
 

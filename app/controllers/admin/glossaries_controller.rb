@@ -1,4 +1,4 @@
-class GlossariesController < ApplicationController
+class Admin::GlossariesController < AdminController
   before_action :set_glossary, only: [:show, :edit, :update, :destroy]
 
   # GET /glossaries

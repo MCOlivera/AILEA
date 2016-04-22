@@ -1,4 +1,4 @@
-class CaseRequestsController < ApplicationController
+class Admin::CaseRequestsController < AdminController
   before_action :set_case_request, only: [:show, :edit, :update, :destroy]
 
   # GET /case_requests
