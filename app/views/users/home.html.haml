@@ -1,16 +1,18 @@
-%h1 AskLEA
-%p.lead LEA stands for legal engineer assistant
-.row.home-row
-  = image_tag "lea_logo.png", :class => "img-circle", :id => "lea-logo"
+.asklea
+  %h1 AskLEA
+  %p.lead LEA stands for legal engineer assistant
+  .row.home-row
+    = image_tag "lea_logo.png", :class => "img-circle", :id => "lea-logo"
 
-- if @user.messages.any?
-  %ol.messages= render @messages
-- else
-  %ol.messages
-        
-= form_tag post_message_path, remote: true, id: "message-form" do
-  .message-form
-    .input-group
-      %input.form-control#content{:name => "content", :placeholder => "Ask LEA about cases, glossary or forms...", :autocomplete => :off}
-      %span.input-group-btn
-        = submit_tag "Send!", class: "btn btn-primary", id: "post-message-button"
+.chat-box
+  - if @user.messages.any?
+    %ul.chat= render @messages
+  - else
+    %ul.chat
+          
+  = form_tag post_message_path, remote: true, id: "message-form" do
+    .message-form
+      .input-group
+        %input.form-control#content{:name => "content", :placeholder => "Ask LEA about cases, glossary or forms...", :autocomplete => :off}
+        %span.input-group-btn
+          = submit_tag "Send!", class: "btn btn-primary", id: "post-message-button"

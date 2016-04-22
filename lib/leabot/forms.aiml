@@ -3,7 +3,7 @@
 <aiml version="1.0">
     <category>
         <pattern>I * FORM FOR *</pattern>
-        <template>query SELECT location FROM forms WHERE NAME="<star index="2"/>"</template>
+        <template>query SELECT forms <star index="2"/></template>
     </category>
     
     <category>

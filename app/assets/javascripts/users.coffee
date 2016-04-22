@@ -3,6 +3,6 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 $ ->
-    $('.messages').animate {
-        scrollTop: $('.messages')[0].scrollHeight
+    $('.chat').animate {
+        scrollTop: $('.chat')[0].scrollHeight
     }, 100

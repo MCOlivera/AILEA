@@ -1,19 +1,16 @@
 - if message.is_lea_response
-    %ul{:id => "message-#{message.id}", :class => "chat lea-response"}
-        %span.message-content
+    %li{:id => "message-#{message.id}", :class => "left clearfix"}
+        %p.message-content
             #{message.content}
-        %hr
-        %span.timestamp
-            #{message.created_at.change(:offset => "+0800").strftime("%I:%M%p")}
-            %br
-            #{message.created_at.change(:offset => "+0800").strftime("%B %d, %G")}
+        %br
+        %small.pull-right.text-muted
+            %span.glyphicon.glyphicon-time
+            #{time_ago_in_words(message.created_at)} ago
 - else
-    %ul{:id => "message-#{message.id}", :class => "chat user-question"}
-        %span.message-content
+    %li{:id => "message-#{message.id}", :class => "right clearfix"}
+        %p.message-content
             #{message.content}
-        %hr
-        %span.timestamp
-            #{message.created_at.change(:offset => "+0800").strftime("%I:%M%p")}
-            %br
-            #{message.created_at.change(:offset => "+0800").strftime("%B %d, %G")}
-        
+        %br
+        %small.pull-right.text-muted
+            %span.glyphicon.glyphicon-time
+            #{time_ago_in_words(message.created_at)} ago

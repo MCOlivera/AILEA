@@ -73,8 +73,48 @@ class MessagesController < ApplicationController
     
     reaction = LEABOT.get_reaction(line)
     if reaction.present?
+      
+      
       unless reaction["query"].nil?
+        # remove query keyword
         reaction = reaction.split(' ').drop(1).join(' ')
+        
+        method = reaction.split(' ')[0]
+        
+        if method.casecmp("SELECT")
+          table_name = reaction.split(' ')[1]
+          
+          if table_name.casecmp("GLOSSARY").eql? 0
+            result = Glossary.find_by_glossary_term(reaction.split(' ').drop(2).join(' '))
+            if result.nil?
+              reaction = "I can\'t find the definition in my database."
+            else
+              reaction = result.glossary_description
+            end
+          elsif table_name.casecmp("CASES").eql? 0
+            result = Case.find_by_case_title(reaction.split(' ').drop(2).join(' '))
+            if result.nil?
+              reaction = "I can\'t find the case in my database."
+            else
+              reaction = result.case_content
+            end
+          elsif table_name.casecmp("FORMS").eql? 0
+            result = LegalForm.find_by_legal_form_title(reaction.split(' ').drop(2).join(' '))
+            if result.nil?
+              reaction = "I can\'t find the form in my database."
+            else
+              reaction = result.legal_form_content
+            end
+          end
+          
+        elsif method.casecmp("INSERT")
+          table_name = reaction.split(' ')[1]
+          
+          if table_name.casecmp("CASE_REQUEST")
+            @current_user.case_requests.create(title: reaction.split(' ').drop(2).join(' '))
+          end
+          
+        end
       end
       
       @current_message = @current_user.messages.create(content: reaction, is_lea_response: true)

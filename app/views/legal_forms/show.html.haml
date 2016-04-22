@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b String:
+  = @legal_form.string
+%p
+  %b Text:
+  = @legal_form.text
+
+= link_to 'Edit', edit_legal_form_path(@legal_form)
+\|
+= link_to 'Back', legal_forms_path

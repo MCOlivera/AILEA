@@ -5,7 +5,7 @@ class CaseRequestsController < ApplicationController
   # GET /case_requests.json
   def index
     @user = User.find(session[:user_id])
-    @case_requests = CaseRequest.all
+    @case_requests = CaseRequest.all.paginate(page: params[:page])
   end
 
   # GET /case_requests/1

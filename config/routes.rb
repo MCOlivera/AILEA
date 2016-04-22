@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :cases
+  resources :legal_forms
+  resources :glossaries
   resources :case_requests
   resources :questions
   resources :messages

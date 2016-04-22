@@ -1,23 +1,18 @@
-%h1 Listing case_requests
+%h1 Case Requests
 
-%table
+%table{:class => "table"}
   %thead
     %tr
       %th User
-      %th Title
-      %th
-      %th
-      %th
+      %th Case Title
+      %th Action
 
   %tbody
     - @case_requests.each do |case_request|
       %tr
-        %td= case_request.user_id
+        %td= case_request.user.username
         %td= case_request.title
-        %td= link_to 'Show', case_request
-        %td= link_to 'Edit', edit_case_request_path(case_request)
-        %td= link_to 'Destroy', case_request, :method => :delete, :data => { :confirm => 'Are you sure?' }
+        %td
+          = link_to 'Done', edit_case_request_path(case_request), :class => "btn btn-success"
+          = link_to 'Destroy', case_request, :method => :delete, :data => { :confirm => 'Are you sure?' }, :class => "btn btn-danger"
 
-%br
-
-= link_to 'New Case request', new_case_request_path

@@ -3,7 +3,7 @@
 <aiml version="1.0">
     <category>
         <pattern>WHAT IS *</pattern>
-        <template>query SELECT description FROM glossary where term="<star/>"</template>
+        <template>query SELECT glossary <star/></template>
     </category>
     
     <category>

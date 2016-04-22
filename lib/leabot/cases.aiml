@@ -3,6 +3,6 @@
 <aiml version="1.0">
     <category>
         <pattern>I NEED THE CASE REGARDING *</pattern>
-        <template>query SELECT content FROM cases WHERE title="<star/>"</template>
+        <template>query SELECT cases <star/></template>
     </category>
 </aiml>

@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b String:
+  = @glossary.string
+%p
+  %b String:
+  = @glossary.string
+
+= link_to 'Edit', edit_glossary_path(@glossary)
+\|
+= link_to 'Back', glossaries_path

@@ -1,0 +1,23 @@
+%h1 Listing cases
+
+%table
+  %thead
+    %tr
+      %th String
+      %th String
+      %th
+      %th
+      %th
+
+  %tbody
+    - @cases.each do |case|
+      %tr
+        %td= case.string
+        %td= case.string
+        %td= link_to 'Show', case
+        %td= link_to 'Edit', edit_case_path(case)
+        %td= link_to 'Destroy', case, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Case', new_case_path

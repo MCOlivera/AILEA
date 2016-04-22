@@ -1,0 +1,23 @@
+%h1 Listing legal_forms
+
+%table
+  %thead
+    %tr
+      %th String
+      %th Text
+      %th
+      %th
+      %th
+
+  %tbody
+    - @legal_forms.each do |legal_form|
+      %tr
+        %td= legal_form.string
+        %td= legal_form.text
+        %td= link_to 'Show', legal_form
+        %td= link_to 'Edit', edit_legal_form_path(legal_form)
+        %td= link_to 'Destroy', legal_form, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Legal form', new_legal_form_path

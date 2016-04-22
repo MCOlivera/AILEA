@@ -40,4 +40,6 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
   
   config.web_console.whiny_requests = false
+  
+  config.assets.paths << Rails.root.join("vendor/bootstrap-3.3.6-dist")
 end
