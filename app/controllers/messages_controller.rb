@@ -67,7 +67,7 @@ class MessagesController < ApplicationController
     
     line = params[:content]
     
-    unless /[[:punct:]]/.match(line).nil?
+    unless /[?]/.match(line).nil?
       line = line.chop
     end
     
@@ -81,7 +81,7 @@ class MessagesController < ApplicationController
         
         method = reaction.split(' ')[0]
         
-        if method.casecmp("SELECT")
+        if method.casecmp("SELECT").eql? 0
           table_name = reaction.split(' ')[1]
           
           if table_name.casecmp("GLOSSARY").eql? 0
@@ -107,11 +107,15 @@ class MessagesController < ApplicationController
             end
           end
           
-        elsif method.casecmp("INSERT")
+        elsif method.casecmp("INSERT").eql? 0
           table_name = reaction.split(' ')[1]
           
-          if table_name.casecmp("CASE_REQUEST")
-            @current_user.case_requests.create(title: reaction.split(' ').drop(2).join(' '))
+          if table_name.casecmp("CASE_REQUESTS")
+           if @current_user.case_requests.create(title: reaction.split(' ').drop(2).join(' ')).valid?
+              reaction = "Your case request is now under processing."
+            else
+              reaction = "An error occurred while processing your request."
+            end
           end
           
         end
