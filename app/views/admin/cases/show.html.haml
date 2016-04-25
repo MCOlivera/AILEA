@@ -1,11 +1,29 @@
 %p#notice= notice
 
 %p
-  %b String:
-  = @case.string
+  %b Case solr:
+  = @case.case_solr
 %p
-  %b String:
-  = @case.string
+  %b Case number:
+  = @case.case_number
+%p
+  %b Case date:
+  = @case.case_date
+%p
+  %b Case title:
+  = @case.case_title
+%p
+  %b Case longtitle:
+  = @case.case_longtitle
+%p
+  %b Case content:
+  = @case.case_content
+%p
+  %b Case created:
+  = @case.case_created
+%p
+  %b Case updated:
+  = @case.case_updated
 
 = link_to 'Edit', edit_case_path(@case)
 \|

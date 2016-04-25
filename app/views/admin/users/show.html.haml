@@ -1,12 +1,19 @@
-%p#notice= notice
+.asklea
+  %h1 AskLEA
+  %p.lead LEA stands for legal engineer assistant
+  .row.home-row
+    = image_tag "lea_logo.png", :class => "img-circle", :id => "lea-logo"
 
-%p
-  %b Username:
-  = @user.username
-%p
-  %b Password:
-  = @user.password
-
-= link_to 'Edit', edit_user_path(@user)
-\|
-= link_to 'Back', users_path
+.chat-box
+  - if @user.messages.any?
+    %ul.chat= render @messages
+  - else
+    %ul.chat
+          
+  = form_tag admin_post_message_path, remote: true, id: "message-form" do
+    .message-form
+      .input-group
+        %input.form-control#content{:name => "content", :autocomplete => :off}
+        %input{:type=>"hidden", :name => "user_id", :value => @user.id}
+        %span.input-group-btn
+          = submit_tag "Send!", class: "btn btn-primary", id: "post-message-button"

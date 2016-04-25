@@ -3,8 +3,17 @@
 %table
   %thead
     %tr
-      %th String
-      %th Text
+      %th Legal form title
+      %th Legal form content
+      %th Legal form doc
+      %th Legal form docx
+      %th Legal form related forms
+      %th Credit
+      %th Legal form created
+      %th Legal form updated
+      %th Legal form credit
+      %th Legal form is lea output
+      %th Legal form pdf
       %th
       %th
       %th
@@ -12,8 +21,17 @@
   %tbody
     - @legal_forms.each do |legal_form|
       %tr
-        %td= legal_form.string
-        %td= legal_form.text
+        %td= legal_form.legal_form_title
+        %td= legal_form.legal_form_content
+        %td= legal_form.legal_form_doc
+        %td= legal_form.legal_form_docx
+        %td= legal_form.legal_form_related_forms
+        %td= legal_form.credit
+        %td= legal_form.legal_form_created
+        %td= legal_form.legal_form_updated
+        %td= legal_form.legal_form_credit
+        %td= legal_form.legal_form_is_lea_output
+        %td= legal_form.legal_form_pdf
         %td= link_to 'Show', legal_form
         %td= link_to 'Edit', edit_legal_form_path(legal_form)
         %td= link_to 'Destroy', legal_form, :method => :delete, :data => { :confirm => 'Are you sure?' }

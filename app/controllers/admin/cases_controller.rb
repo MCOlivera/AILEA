@@ -69,6 +69,6 @@ class Admin::CasesController < AdminController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def case_params
-      params.require(:case).permit(:string, :string)
+      params.require(:case).permit(:case_solr, :case_number, :case_date, :case_title, :case_longtitle, :case_content, :case_created, :case_updated)
     end
 end

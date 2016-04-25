@@ -76,7 +76,7 @@ Rails.application.routes.draw do
 
   post 'login' => 'session#create'
 
-  post 'signup' => 'users#create'
+  # post 'signup' => 'users#create'
 
   get 'logout' => 'session#destroy'
   
@@ -86,9 +86,14 @@ Rails.application.routes.draw do
   
   post 'post_message' => 'messages#post_message'
   
+  post 'admin_post_message' => 'admin/users#post_message'
+  
   # get 'show_questions' => 'questions#show_questions'
   
   get 'answer_question' => 'questions#answer_question'
+  
+  get 'admin_home' => 'admin/users#home'
+  
 
   root 'session#index'
 end

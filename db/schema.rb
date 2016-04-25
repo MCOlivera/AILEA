@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160422062258) do
+ActiveRecord::Schema.define(version: 20160425101457) do
 
   create_table "case_requests", force: :cascade do |t|
     t.integer  "user_id",    limit: 4
@@ -21,24 +21,53 @@ ActiveRecord::Schema.define(version: 20160422062258) do
   end
 
   create_table "cases", force: :cascade do |t|
-    t.string   "case_title",   limit: 255
-    t.text     "case_content", limit: 65535
-    t.datetime "created_at",                 null: false
-    t.datetime "updated_at",                 null: false
+    t.string   "case_solr",      limit: 255
+    t.string   "case_number",    limit: 255
+    t.string   "case_date",      limit: 255
+    t.text     "case_title",     limit: 65535
+    t.text     "case_longtitle", limit: 65535
+    t.text     "case_content",   limit: 65535
+    t.datetime "case_created"
+    t.datetime "case_updated"
   end
 
   create_table "glossaries", force: :cascade do |t|
-    t.string   "glossary_term",        limit: 255
-    t.string   "glossary_description", limit: 255
-    t.datetime "created_at",                       null: false
-    t.datetime "updated_at",                       null: false
+    t.string   "glossary_solr",           limit: 255
+    t.string   "glossary_term",           limit: 255
+    t.text     "glossary_description",    limit: 65535
+    t.text     "glossary_case_number",    limit: 65535
+    t.string   "glossary_year",           limit: 255
+    t.string   "glossary_month",          limit: 255
+    t.text     "glossary_laws",           limit: 65535
+    t.text     "glossary_reference",      limit: 65535
+    t.text     "glossary_bir_number",     limit: 65535
+    t.text     "glossary_bir_year",       limit: 65535
+    t.text     "glossary_bir_month",      limit: 65535
+    t.text     "glossary_revenue_number", limit: 65535
+    t.text     "glossary_revenue_year",   limit: 65535
+    t.text     "glossary_revenue_month",  limit: 65535
+    t.datetime "glossary_created"
+    t.datetime "glossary_updated"
+    t.integer  "glossary_credit",         limit: 4
+    t.integer  "glossary_is_lea_output",  limit: 4
+    t.datetime "created_at",                            null: false
+    t.datetime "updated_at",                            null: false
   end
 
   create_table "legal_forms", force: :cascade do |t|
-    t.string   "legal_form_title",   limit: 255
-    t.text     "legal_form_content", limit: 65535
-    t.datetime "created_at",                       null: false
-    t.datetime "updated_at",                       null: false
+    t.text     "legal_form_title",         limit: 65535
+    t.text     "legal_form_content",       limit: 65535
+    t.text     "legal_form_doc",           limit: 65535
+    t.text     "legal_form_docx",          limit: 65535
+    t.text     "legal_form_related_forms", limit: 65535
+    t.integer  "credit",                   limit: 4
+    t.datetime "legal_form_created"
+    t.datetime "legal_form_updated"
+    t.integer  "legal_form_credit",        limit: 4
+    t.integer  "legal_form_is_lea_output", limit: 4
+    t.text     "legal_form_pdf",           limit: 65535
+    t.datetime "created_at",                             null: false
+    t.datetime "updated_at",                             null: false
   end
 
   create_table "messages", force: :cascade do |t|
@@ -51,10 +80,10 @@ ActiveRecord::Schema.define(version: 20160422062258) do
   end
 
   create_table "questions", force: :cascade do |t|
-    t.string   "question",   limit: 255
-    t.string   "answer",     limit: 255
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
+    t.text     "question",   limit: 65535
+    t.text     "answer",     limit: 65535
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
     t.integer  "user_id",    limit: 4
   end
 

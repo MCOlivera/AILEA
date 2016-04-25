@@ -3,8 +3,24 @@
 %table
   %thead
     %tr
-      %th String
-      %th String
+      %th Glossary solr
+      %th Glossary term
+      %th Glossary description
+      %th Glossary case number
+      %th Glossary year
+      %th Glossary month
+      %th Glossary laws
+      %th Glossary reference
+      %th Glossary bir number
+      %th Glossary bir year
+      %th Glossary bir month
+      %th Glossary revenue number
+      %th Glossary revenue year
+      %th Glossary revenue month
+      %th Glossary created
+      %th Glossary updated
+      %th Glossary credit
+      %th Glossary is lea output
       %th
       %th
       %th
@@ -12,8 +28,24 @@
   %tbody
     - @glossaries.each do |glossary|
       %tr
-        %td= glossary.string
-        %td= glossary.string
+        %td= glossary.glossary_solr
+        %td= glossary.glossary_term
+        %td= glossary.glossary_description
+        %td= glossary.glossary_case_number
+        %td= glossary.glossary_year
+        %td= glossary.glossary_month
+        %td= glossary.glossary_laws
+        %td= glossary.glossary_reference
+        %td= glossary.glossary_bir_number
+        %td= glossary.glossary_bir_year
+        %td= glossary.glossary_bir_month
+        %td= glossary.glossary_revenue_number
+        %td= glossary.glossary_revenue_year
+        %td= glossary.glossary_revenue_month
+        %td= glossary.glossary_created
+        %td= glossary.glossary_updated
+        %td= glossary.glossary_credit
+        %td= glossary.glossary_is_lea_output
         %td= link_to 'Show', glossary
         %td= link_to 'Edit', edit_glossary_path(glossary)
         %td= link_to 'Destroy', glossary, :method => :delete, :data => { :confirm => 'Are you sure?' }

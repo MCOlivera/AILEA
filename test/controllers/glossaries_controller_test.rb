@@ -18,7 +18,7 @@ class GlossariesControllerTest < ActionController::TestCase
 
   test "should create glossary" do
     assert_difference('Glossary.count') do
-      post :create, glossary: { string: @glossary.string, string: @glossary.string }
+      post :create, glossary: { glossary_bir_month: @glossary.glossary_bir_month, glossary_bir_number: @glossary.glossary_bir_number, glossary_bir_year: @glossary.glossary_bir_year, glossary_case_number: @glossary.glossary_case_number, glossary_created: @glossary.glossary_created, glossary_credit: @glossary.glossary_credit, glossary_description: @glossary.glossary_description, glossary_is_lea_output: @glossary.glossary_is_lea_output, glossary_laws: @glossary.glossary_laws, glossary_month: @glossary.glossary_month, glossary_reference: @glossary.glossary_reference, glossary_revenue_month: @glossary.glossary_revenue_month, glossary_revenue_number: @glossary.glossary_revenue_number, glossary_revenue_year: @glossary.glossary_revenue_year, glossary_solr: @glossary.glossary_solr, glossary_term: @glossary.glossary_term, glossary_updated: @glossary.glossary_updated, glossary_year: @glossary.glossary_year }
     end
 
     assert_redirected_to glossary_path(assigns(:glossary))
@@ -35,7 +35,7 @@ class GlossariesControllerTest < ActionController::TestCase
   end
 
   test "should update glossary" do
-    patch :update, id: @glossary, glossary: { string: @glossary.string, string: @glossary.string }
+    patch :update, id: @glossary, glossary: { glossary_bir_month: @glossary.glossary_bir_month, glossary_bir_number: @glossary.glossary_bir_number, glossary_bir_year: @glossary.glossary_bir_year, glossary_case_number: @glossary.glossary_case_number, glossary_created: @glossary.glossary_created, glossary_credit: @glossary.glossary_credit, glossary_description: @glossary.glossary_description, glossary_is_lea_output: @glossary.glossary_is_lea_output, glossary_laws: @glossary.glossary_laws, glossary_month: @glossary.glossary_month, glossary_reference: @glossary.glossary_reference, glossary_revenue_month: @glossary.glossary_revenue_month, glossary_revenue_number: @glossary.glossary_revenue_number, glossary_revenue_year: @glossary.glossary_revenue_year, glossary_solr: @glossary.glossary_solr, glossary_term: @glossary.glossary_term, glossary_updated: @glossary.glossary_updated, glossary_year: @glossary.glossary_year }
     assert_redirected_to glossary_path(assigns(:glossary))
   end
 

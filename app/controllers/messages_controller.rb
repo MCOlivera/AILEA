@@ -60,6 +60,18 @@ class MessagesController < ApplicationController
       format.json { head :no_content }
     end
   end
+  
+  def remove_pleasantries(str)
+    unless str[/(T|t)hanks/].nil?
+      str[/(T|t)hanks/] = ''
+    end
+    
+    unless str[/(T|t)hank you/].nil?
+      str[/(T|t)hank you/] = ''
+    end
+    
+    return str
+  end
 
   def post_message
     @current_user = User.find(session[:user_id])
@@ -67,13 +79,15 @@ class MessagesController < ApplicationController
     
     line = params[:content]
     
-    unless /[?]/.match(line).nil?
-      line = line.chop
-    end
+    line = line.gsub(/[?!]/, '')
+    
+    line = remove_pleasantries(line)
+    
+    print line
     
     reaction = LEABOT.get_reaction(line)
+    
     if reaction.present?
-      
       
       unless reaction["query"].nil?
         # remove query keyword
@@ -84,40 +98,38 @@ class MessagesController < ApplicationController
         if method.casecmp("SELECT").eql? 0
           table_name = reaction.split(' ')[1]
           
+          if reaction.split(' ').drop(2).join(' ')[-1].eql? '.'
+            content = reaction.split(' ').drop(2).join(' ').chop
+          else 
+            content = reaction.split(' ').drop(2).join(' ')
+          end
+          
           if table_name.casecmp("GLOSSARY").eql? 0
-            result = Glossary.find_by_glossary_term(reaction.split(' ').drop(2).join(' '))
+            result = Glossary.find_by_glossary_term(content)
             if result.nil?
               reaction = "I can\'t find the definition in my database."
             else
               reaction = result.glossary_description
             end
           elsif table_name.casecmp("CASES").eql? 0
-            result = Case.find_by_case_title(reaction.split(' ').drop(2).join(' '))
+            result = Case.find_by_case_title(content)
             if result.nil?
-              reaction = "I can\'t find the case in my database."
+              if @current_user.case_requests.create(title: reaction.split(' ').drop(2).join(' ')).valid?
+                reaction = "Your case request is now under processing."
+              else
+                reaction = "An error occurred while processing your request."
+              end
             else
               reaction = result.case_content
             end
           elsif table_name.casecmp("FORMS").eql? 0
-            result = LegalForm.find_by_legal_form_title(reaction.split(' ').drop(2).join(' '))
+            result = LegalForm.find_by_legal_form_title(content)
             if result.nil?
               reaction = "I can\'t find the form in my database."
             else
               reaction = result.legal_form_content
             end
           end
-          
-        elsif method.casecmp("INSERT").eql? 0
-          table_name = reaction.split(' ')[1]
-          
-          if table_name.casecmp("CASE_REQUESTS")
-           if @current_user.case_requests.create(title: reaction.split(' ').drop(2).join(' ')).valid?
-              reaction = "Your case request is now under processing."
-            else
-              reaction = "An error occurred while processing your request."
-            end
-          end
-          
         end
       end
       
@@ -134,15 +146,6 @@ class MessagesController < ApplicationController
     end
     
   end
-  
-  def execute_statement(sql)
-        results = ActiveRecord::Base.connection.execute(sql)
-        if results.present?
-            return results
-        else
-            return nil
-        end
-    end
   
   private
     # Use callbacks to share common setup or constraints between actions.

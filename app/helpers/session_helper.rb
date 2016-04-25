@@ -1,6 +1,7 @@
 module SessionHelper
 	def login(user)
 		session[:user_id] = user.id
+		session[:is_admin] = user.admin
 	end
 
 	def current_user

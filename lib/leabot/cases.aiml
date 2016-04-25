@@ -2,7 +2,42 @@
 
 <aiml version="1.0">
     <category>
+        <pattern>* I NEED THE CASE REGARDING *</pattern>
+        <template>query SELECT cases <star index="2"/></template>
+    </category>
+    
+    <category>
         <pattern>I NEED THE CASE REGARDING *</pattern>
+        <template>query SELECT cases <star/></template>
+    </category>
+    
+    <category>
+        <pattern>* CASE SUMMARY FOR *</pattern>
+        <template>query SELECT cases <star index="2"/></template>
+    </category>
+    
+    <category>
+        <pattern>CASE SUMMARY FOR *</pattern>
+        <template>query SELECT cases <star/></template>
+    </category>
+    
+    <category>
+        <pattern>* CASE SUMMARY OF *</pattern>
+        <template>query SELECT cases <star index="2"/></template>
+    </category>
+    
+    <category>
+        <pattern>CASE SUMMARY OF *</pattern>
+        <template>query SELECT cases <star/></template>
+    </category>
+    
+    <category>
+        <pattern>* SUMMARY OF *</pattern>
+        <template>query SELECT cases <star index="2"/></template>
+    </category>
+    
+    <category>
+        <pattern>SUMMARY OF *</pattern>
         <template>query SELECT cases <star/></template>
     </category>
 </aiml>

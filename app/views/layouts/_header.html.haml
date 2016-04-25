@@ -3,7 +3,12 @@
     %ul.nav.navbar-nav
       %li
         = link_to image_tag('favicon.ico'), home_path, class: 'navbar-brand'
-      %li
-        // = link_to @user.username, home_path
+      - if session['is_admin']
+        %li
+          = link_to 'User Messages', admin_home_path
+        %li
+          = link_to 'Questions', questions_path
+        %li
+          = link_to 'Requests', case_requests_path
       %li
         = link_to 'Logout', logout_path

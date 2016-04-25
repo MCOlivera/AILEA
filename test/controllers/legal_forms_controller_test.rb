@@ -18,7 +18,7 @@ class LegalFormsControllerTest < ActionController::TestCase
 
   test "should create legal_form" do
     assert_difference('LegalForm.count') do
-      post :create, legal_form: { string: @legal_form.string, text: @legal_form.text }
+      post :create, legal_form: { credit: @legal_form.credit, legal_form_content: @legal_form.legal_form_content, legal_form_created: @legal_form.legal_form_created, legal_form_credit: @legal_form.legal_form_credit, legal_form_doc: @legal_form.legal_form_doc, legal_form_docx: @legal_form.legal_form_docx, legal_form_is_lea_output: @legal_form.legal_form_is_lea_output, legal_form_pdf: @legal_form.legal_form_pdf, legal_form_related_forms: @legal_form.legal_form_related_forms, legal_form_title: @legal_form.legal_form_title, legal_form_updated: @legal_form.legal_form_updated }
     end
 
     assert_redirected_to legal_form_path(assigns(:legal_form))
@@ -35,7 +35,7 @@ class LegalFormsControllerTest < ActionController::TestCase
   end
 
   test "should update legal_form" do
-    patch :update, id: @legal_form, legal_form: { string: @legal_form.string, text: @legal_form.text }
+    patch :update, id: @legal_form, legal_form: { credit: @legal_form.credit, legal_form_content: @legal_form.legal_form_content, legal_form_created: @legal_form.legal_form_created, legal_form_credit: @legal_form.legal_form_credit, legal_form_doc: @legal_form.legal_form_doc, legal_form_docx: @legal_form.legal_form_docx, legal_form_is_lea_output: @legal_form.legal_form_is_lea_output, legal_form_pdf: @legal_form.legal_form_pdf, legal_form_related_forms: @legal_form.legal_form_related_forms, legal_form_title: @legal_form.legal_form_title, legal_form_updated: @legal_form.legal_form_updated }
     assert_redirected_to legal_form_path(assigns(:legal_form))
   end
 

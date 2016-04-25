@@ -69,6 +69,6 @@ class Admin::LegalFormsController < AdminController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def legal_form_params
-      params.require(:legal_form).permit(:string, :text)
+      params.require(:legal_form).permit(:legal_form_title, :legal_form_content, :legal_form_doc, :legal_form_docx, :legal_form_related_forms, :credit, :legal_form_created, :legal_form_updated, :legal_form_credit, :legal_form_is_lea_output, :legal_form_pdf)
     end
 end

@@ -18,7 +18,7 @@ class CasesControllerTest < ActionController::TestCase
 
   test "should create case" do
     assert_difference('Case.count') do
-      post :create, case: { string: @case.string, string: @case.string }
+      post :create, case: { case_content: @case.case_content, case_created: @case.case_created, case_date: @case.case_date, case_longtitle: @case.case_longtitle, case_number: @case.case_number, case_solr: @case.case_solr, case_title: @case.case_title, case_updated: @case.case_updated }
     end
 
     assert_redirected_to case_path(assigns(:case))
@@ -35,7 +35,7 @@ class CasesControllerTest < ActionController::TestCase
   end
 
   test "should update case" do
-    patch :update, id: @case, case: { string: @case.string, string: @case.string }
+    patch :update, id: @case, case: { case_content: @case.case_content, case_created: @case.case_created, case_date: @case.case_date, case_longtitle: @case.case_longtitle, case_number: @case.case_number, case_solr: @case.case_solr, case_title: @case.case_title, case_updated: @case.case_updated }
     assert_redirected_to case_path(assigns(:case))
   end
 

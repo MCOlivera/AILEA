@@ -7,10 +7,58 @@
           %li= msg
 
   .field
-    = f.label :string
-    = f.text_field :string
+    = f.label :glossary_solr
+    = f.text_field :glossary_solr
   .field
-    = f.label :string
-    = f.text_field :string
+    = f.label :glossary_term
+    = f.text_field :glossary_term
+  .field
+    = f.label :glossary_description
+    = f.text_area :glossary_description
+  .field
+    = f.label :glossary_case_number
+    = f.text_area :glossary_case_number
+  .field
+    = f.label :glossary_year
+    = f.text_field :glossary_year
+  .field
+    = f.label :glossary_month
+    = f.text_field :glossary_month
+  .field
+    = f.label :glossary_laws
+    = f.text_area :glossary_laws
+  .field
+    = f.label :glossary_reference
+    = f.text_area :glossary_reference
+  .field
+    = f.label :glossary_bir_number
+    = f.text_area :glossary_bir_number
+  .field
+    = f.label :glossary_bir_year
+    = f.text_area :glossary_bir_year
+  .field
+    = f.label :glossary_bir_month
+    = f.text_area :glossary_bir_month
+  .field
+    = f.label :glossary_revenue_number
+    = f.text_area :glossary_revenue_number
+  .field
+    = f.label :glossary_revenue_year
+    = f.text_area :glossary_revenue_year
+  .field
+    = f.label :glossary_revenue_month
+    = f.text_area :glossary_revenue_month
+  .field
+    = f.label :glossary_created
+    = f.datetime_select :glossary_created
+  .field
+    = f.label :glossary_updated
+    = f.datetime_select :glossary_updated
+  .field
+    = f.label :glossary_credit
+    = f.number_field :glossary_credit
+  .field
+    = f.label :glossary_is_lea_output
+    = f.number_field :glossary_is_lea_output
   .actions
     = f.submit 'Save'

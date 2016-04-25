@@ -10,6 +10,7 @@ class Admin::UsersController < AdminController
   # GET /users/1
   # GET /users/1.json
   def show
+    @messages = @user.messages
   end
 
   # GET /users/new
@@ -18,7 +19,12 @@ class Admin::UsersController < AdminController
   end
   
   def home
-    @user = User.find(session[:user_id])
+    @users = User.all
+  end
+  
+  def post_message
+    @user = User.find(params[:user_id])
+    @current_message = @user.messages.create(content: params[:content], is_lea_response: true)
     @messages = @user.messages
   end
 

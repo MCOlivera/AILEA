@@ -7,10 +7,28 @@
           %li= msg
 
   .field
-    = f.label :string
-    = f.text_field :string
+    = f.label :case_solr
+    = f.text_field :case_solr
   .field
-    = f.label :string
-    = f.text_field :string
+    = f.label :case_number
+    = f.text_field :case_number
+  .field
+    = f.label :case_date
+    = f.text_field :case_date
+  .field
+    = f.label :case_title
+    = f.text_area :case_title
+  .field
+    = f.label :case_longtitle
+    = f.text_area :case_longtitle
+  .field
+    = f.label :case_content
+    = f.text_area :case_content
+  .field
+    = f.label :case_created
+    = f.datetime_select :case_created
+  .field
+    = f.label :case_updated
+    = f.datetime_select :case_updated
   .actions
     = f.submit 'Save'

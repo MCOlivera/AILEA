@@ -16,7 +16,12 @@ class SessionController < ApplicationController
   	user = User.find_by(username: params[:session][:username])
     if user && user.authenticate(params[:session][:password])
       	login user
-      	redirect_to home_path
+      	
+      	if user.admin?
+      	  redirect_to admin_home_path
+      	else
+      	  redirect_to home_path
+      	end
     else
     	flash.now[:danger] = 'Invalid Username or Password'
   		render 'new'

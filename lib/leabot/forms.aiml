@@ -7,17 +7,67 @@
     </category>
     
     <category>
-        <pattern>I NEED * FORM</pattern>
-        <template><srai>I * FORM FOR *</srai></template>
+        <pattern>* I NEED THE * FORM *</pattern>
+        <template>query SELECT forms <star index="2"/></template>
     </category>
     
     <category>
-        <pattern>I NEED THE * FORM</pattern>
-        <template><srai>I * FORM FOR *</srai></template>
+        <pattern>* I NEED A * FORM</pattern>
+        <template>query SELECT forms <star index="2"/></template>
     </category>
     
     <category>
         <pattern>I NEED A * FORM</pattern>
-        <template><srai>I * FORM FOR *</srai></template>
+        <template>query SELECT forms <star index="2"/></template>
+    </category>
+    
+    <category>
+        <pattern>* MAY I ASK FOR A *</pattern>
+        <template>query SELECT forms <star index="2"/></template>
+    </category>
+    
+    <category>
+        <pattern>MAY I ASK FOR A *</pattern>
+        <template>query SELECT forms <star index="2"/></template>
+    </category>
+    
+    <category>
+        <pattern>* CAN YOU SEND ME A *</pattern>
+        <template>query SELECT forms <star index="2"/></template>
+    </category>
+    
+    <category>
+        <pattern>CAN YOU SEND ME A *</pattern>
+        <template>query SELECT forms <star index="2"/></template>
+    </category>
+    
+    <category>
+        <pattern>* PROVIDE ME WITH A FORM *</pattern>
+        <template>query SELECT forms <star index="2"/></template>
+    </category>
+    
+    <category>
+        <pattern>PROVIDE ME WITH A FORM *</pattern>
+        <template>query SELECT forms <star index="2"/></template>
+    </category>
+    
+     <category>
+        <pattern>* PROVIDE ME A *</pattern>
+        <template>query SELECT forms <star index="2"/></template>
+    </category
+    
+    <category>
+        <pattern>PROVIDE ME A *</pattern>
+        <template>query SELECT forms <star index="2"/></template>
+    </category>
+    
+    <category>
+        <pattern>* PROVIDE ME AN *</pattern>
+        <template>query SELECT forms <star index="2"/></template>
+    </category>
+    
+    <category>
+        <pattern>PROVIDE ME AN *</pattern>
+        <template>query SELECT forms <star index="2"/></template>
     </category>
 </aiml>

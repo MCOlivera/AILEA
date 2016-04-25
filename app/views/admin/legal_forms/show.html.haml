@@ -1,11 +1,38 @@
 %p#notice= notice
 
 %p
-  %b String:
-  = @legal_form.string
+  %b Legal form title:
+  = @legal_form.legal_form_title
 %p
-  %b Text:
-  = @legal_form.text
+  %b Legal form content:
+  = @legal_form.legal_form_content
+%p
+  %b Legal form doc:
+  = @legal_form.legal_form_doc
+%p
+  %b Legal form docx:
+  = @legal_form.legal_form_docx
+%p
+  %b Legal form related forms:
+  = @legal_form.legal_form_related_forms
+%p
+  %b Credit:
+  = @legal_form.credit
+%p
+  %b Legal form created:
+  = @legal_form.legal_form_created
+%p
+  %b Legal form updated:
+  = @legal_form.legal_form_updated
+%p
+  %b Legal form credit:
+  = @legal_form.legal_form_credit
+%p
+  %b Legal form is lea output:
+  = @legal_form.legal_form_is_lea_output
+%p
+  %b Legal form pdf:
+  = @legal_form.legal_form_pdf
 
 = link_to 'Edit', edit_legal_form_path(@legal_form)
 \|

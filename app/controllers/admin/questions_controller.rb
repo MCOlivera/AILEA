@@ -51,7 +51,7 @@ class Admin::QuestionsController < AdminController
         File.open(file, 'w') do |f|
           pattern = "<pattern>" + @question.question + "</pattern>"
           template = "<template>" + @question.answer + "</template>"
-          f.puts file_contents + "<category>" + pattern + template + "</category>" + "</aiml>"
+          f.puts file_contents + "<category>\n" + pattern + "\n" + template + "\n</category>\n\n" + "</aiml>"
         end
         
         load Rails.root.join('config/initializers/leabot.rb')

@@ -1,9 +1,27 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  string: 
-  text: 
+  legal_form_title: MyText
+  legal_form_content: MyText
+  legal_form_doc: MyText
+  legal_form_docx: MyText
+  legal_form_related_forms: MyText
+  credit: 1
+  legal_form_created: 2016-04-22 07:03:39
+  legal_form_updated: 2016-04-22 07:03:39
+  legal_form_credit: 1
+  legal_form_is_lea_output: 1
+  legal_form_pdf: MyText
 
 two:
-  string: 
-  text: 
+  legal_form_title: MyText
+  legal_form_content: MyText
+  legal_form_doc: MyText
+  legal_form_docx: MyText
+  legal_form_related_forms: MyText
+  credit: 1
+  legal_form_created: 2016-04-22 07:03:39
+  legal_form_updated: 2016-04-22 07:03:39
+  legal_form_credit: 1
+  legal_form_is_lea_output: 1
+  legal_form_pdf: MyText

@@ -1,9 +1,41 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  string: 
-  string: 
+  glossary_solr: MyString
+  glossary_term: MyString
+  glossary_description: MyText
+  glossary_case_number: MyText
+  glossary_year: MyString
+  glossary_month: MyString
+  glossary_laws: MyText
+  glossary_reference: MyText
+  glossary_bir_number: MyText
+  glossary_bir_year: MyText
+  glossary_bir_month: MyText
+  glossary_revenue_number: MyText
+  glossary_revenue_year: MyText
+  glossary_revenue_month: MyText
+  glossary_created: 2016-04-22 07:09:02
+  glossary_updated: 2016-04-22 07:09:02
+  glossary_credit: 1
+  glossary_is_lea_output: 1
 
 two:
-  string: 
-  string: 
+  glossary_solr: MyString
+  glossary_term: MyString
+  glossary_description: MyText
+  glossary_case_number: MyText
+  glossary_year: MyString
+  glossary_month: MyString
+  glossary_laws: MyText
+  glossary_reference: MyText
+  glossary_bir_number: MyText
+  glossary_bir_year: MyText
+  glossary_bir_month: MyText
+  glossary_revenue_number: MyText
+  glossary_revenue_year: MyText
+  glossary_revenue_month: MyText
+  glossary_created: 2016-04-22 07:09:02
+  glossary_updated: 2016-04-22 07:09:02
+  glossary_credit: 1
+  glossary_is_lea_output: 1

@@ -7,10 +7,37 @@
           %li= msg
 
   .field
-    = f.label :string
-    = f.text_field :string
+    = f.label :legal_form_title
+    = f.text_area :legal_form_title
   .field
-    = f.label :text
-    = f.text_field :text
+    = f.label :legal_form_content
+    = f.text_area :legal_form_content
+  .field
+    = f.label :legal_form_doc
+    = f.text_area :legal_form_doc
+  .field
+    = f.label :legal_form_docx
+    = f.text_area :legal_form_docx
+  .field
+    = f.label :legal_form_related_forms
+    = f.text_area :legal_form_related_forms
+  .field
+    = f.label :credit
+    = f.number_field :credit
+  .field
+    = f.label :legal_form_created
+    = f.datetime_select :legal_form_created
+  .field
+    = f.label :legal_form_updated
+    = f.datetime_select :legal_form_updated
+  .field
+    = f.label :legal_form_credit
+    = f.number_field :legal_form_credit
+  .field
+    = f.label :legal_form_is_lea_output
+    = f.number_field :legal_form_is_lea_output
+  .field
+    = f.label :legal_form_pdf
+    = f.text_area :legal_form_pdf
   .actions
     = f.submit 'Save'
