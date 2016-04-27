@@ -1,0 +1,17 @@
+%h1 Listing Glossary Requests
+
+%table{:class => "table"}
+  %thead
+    %tr
+      %th User
+      %th Term
+      %th Definition
+      %th
+
+  %tbody
+    - @glossary_requests.each do |glossary_request|
+      %tr
+        %td= glossary_request.user.username
+        %td= glossary_request.term
+        %td= glossary_request.definition
+        %td= link_to 'Add Glossary Entry', edit_glossary_request_path(glossary_request), :class => "btn btn-success"

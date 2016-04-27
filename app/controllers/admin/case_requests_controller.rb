@@ -6,6 +6,8 @@ class Admin::CaseRequestsController < AdminController
   def index
     @user = User.find(session[:user_id])
     @case_requests = CaseRequest.all.paginate(page: params[:page])
+    @glossary_requests = GlossaryRequest.all.paginate(page: params[:page])
+    @form_requests = FormRequest.all.paginate(page: params[:page])
   end
 
   # GET /case_requests/1

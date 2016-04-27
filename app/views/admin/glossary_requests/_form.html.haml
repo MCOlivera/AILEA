@@ -1,0 +1,23 @@
+= form_for @glossary_request do |f|
+  - if @glossary_request.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@glossary_request.errors.count, "error")} prohibited this glossary_request from being saved:"
+      %ul
+        - @glossary_request.errors.full_messages.each do |msg|
+          %li= msg
+
+  %table{:class => "table"}
+    %tr.field
+      %td= f.label :user
+      %td= @glossary_request.user_id
+    %tr.field
+      %td= f.label :term
+      %td= @glossary_request.term
+    %tr.field
+      %td= f.label :definition
+      %td= f.text_field :definition, :class => "form-control"
+    .field
+      = f.hidden_field :glossary_request_id, value: @glossary_request.id
+    %tr.actions
+      %td= f.submit 'Save', :class => "btn btn-success"
+      %td

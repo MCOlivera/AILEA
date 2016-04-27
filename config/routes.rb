@@ -67,6 +67,8 @@ Rails.application.routes.draw do
     resources :legal_forms
     resources :glossaries
     resources :case_requests
+    resources :form_requests
+    resources :glossary_requests
     resources :questions
     resources :messages
     resources :users

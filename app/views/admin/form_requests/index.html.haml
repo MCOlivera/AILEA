@@ -1,0 +1,17 @@
+%h1 Listing Form Requests
+
+%table{:class => "table"}
+  %thead
+    %tr
+      %th User
+      %th Title
+      %th Content
+      %th
+
+  %tbody
+    - @form_requests.each do |form_request|
+      %tr
+        %td= form_request.user.username
+        %td= form_request.title
+        %td= form_request.content
+        %td= link_to 'Create', edit_form_request_path(form_request), :class => "btn btn-success"

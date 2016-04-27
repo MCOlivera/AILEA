@@ -2,6 +2,8 @@ class User < ActiveRecord::Base
 	has_many :messages, dependent: :destroy
 	has_many :questions, dependent: :destroy
 	has_many :case_requests, dependent: :destroy
+	has_many :glossary_requests, dependent: :destroy
+	has_many :form_requests, dependent: :destroy
 
 	has_secure_password
 

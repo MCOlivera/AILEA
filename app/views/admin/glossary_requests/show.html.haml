@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b User:
+  = @glossary_request.user_id
+%p
+  %b Term:
+  = @glossary_request.term
+%p
+  %b Definition:
+  = @glossary_request.definition
+
+= link_to 'Edit', edit_glossary_request_path(@glossary_request)
+\|
+= link_to 'Back', glossary_requests_path

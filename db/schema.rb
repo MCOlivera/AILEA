@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160425101457) do
+ActiveRecord::Schema.define(version: 20160427021141) do
 
   create_table "case_requests", force: :cascade do |t|
     t.integer  "user_id",    limit: 4
@@ -29,6 +29,14 @@ ActiveRecord::Schema.define(version: 20160425101457) do
     t.text     "case_content",   limit: 65535
     t.datetime "case_created"
     t.datetime "case_updated"
+  end
+
+  create_table "form_requests", force: :cascade do |t|
+    t.integer  "user_id",    limit: 4
+    t.string   "title",      limit: 255
+    t.text     "content",    limit: 65535
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
   end
 
   create_table "glossaries", force: :cascade do |t|
@@ -52,6 +60,14 @@ ActiveRecord::Schema.define(version: 20160425101457) do
     t.integer  "glossary_is_lea_output",  limit: 4
     t.datetime "created_at",                            null: false
     t.datetime "updated_at",                            null: false
+  end
+
+  create_table "glossary_requests", force: :cascade do |t|
+    t.integer  "user_id",    limit: 4
+    t.string   "term",       limit: 255
+    t.string   "definition", limit: 255
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
   end
 
   create_table "legal_forms", force: :cascade do |t|

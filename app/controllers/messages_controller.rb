@@ -107,7 +107,11 @@ class MessagesController < ApplicationController
           if table_name.casecmp("GLOSSARY").eql? 0
             result = Glossary.find_by_glossary_term(content)
             if result.nil?
-              reaction = "I can\'t find the definition in my database."
+              if @current_user.glossary_requests.create(term: reaction.split(' ').drop(2).join(' ')).valid?
+                reaction = "I can\'t find the definition in my database. I'll ask around."
+              else
+                reaction = "An error occurred while processing the request."
+              end
             else
               reaction = result.glossary_description
             end
@@ -125,7 +129,11 @@ class MessagesController < ApplicationController
           elsif table_name.casecmp("FORMS").eql? 0
             result = LegalForm.find_by_legal_form_title(content)
             if result.nil?
-              reaction = "I can\'t find the form in my database."
+              if @current_user.form_requests.create(title: reaction.split(' ').drop(2).join(' ')).valid?
+                reaction = "I can\'t find the form in my database. I\'ll request it for you."
+              else
+                reaction = "An error occurred while processing the request."
+              end
             else
               reaction = result.legal_form_content
             end

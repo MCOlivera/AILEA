@@ -1,0 +1,23 @@
+= form_for @form_request do |f|
+  - if @form_request.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@form_request.errors.count, "error")} prohibited this form_request from being saved:"
+      %ul
+        - @form_request.errors.full_messages.each do |msg|
+          %li= msg
+
+  %table{:class => "table"}
+    %tr.field
+      %td= f.label :user
+      %td= @form_request.user_id
+    %tr.field
+      %td= f.label :title
+      %td= @form_request.title
+    %tr.field
+      %td= f.label :content
+      %td= f.text_field :content, :class => "form-control"
+    .field
+      = f.hidden_field :form_request_id, value: @form_request.id
+    %tr.actions
+      %td= f.submit 'Save', :class => "btn btn-success"
+      %td

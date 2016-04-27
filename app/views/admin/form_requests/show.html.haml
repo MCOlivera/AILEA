@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b User:
+  = @form_request.user_id
+%p
+  %b Title:
+  = @form_request.title
+%p
+  %b Content:
+  = @form_request.content
+
+= link_to 'Edit', edit_form_request_path(@form_request)
+\|
+= link_to 'Back', form_requests_path
