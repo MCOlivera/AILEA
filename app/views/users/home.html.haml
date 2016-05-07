@@ -1,8 +1,35 @@
 .asklea
   %h1 AskLEA
   %p.lead LEA stands for legal engineer assistant
-  .row.home-row
-    = image_tag "lea_logo.png", :class => "img-circle", :id => "lea-logo"
+  // .row.home-row
+  // = image_tag "lea_logo.png", :class => "img-circle", :id => "lea-logo"
+  .guidelines
+    #glossary-guidelines.panel.panel-default
+      .panel-heading Possible formats for asking definitions:
+      .panel-body
+        %ul
+          %li What is/are #{"<term>"}?
+          %li Define #{"<term>"}.
+          %li Describe #{"<term>"}.
+          %li What do/does #{"<term>"} mean?
+    #case-guidelines.panel.panel-default
+      .panel-heading Possible formats for finding/requesting cases:
+      .panel-body
+        %ul
+          %li Case summary of #{"<case title>"}.
+          %li I need the summary of #{"<case title>"}.
+    #form-guidelines.panel.panel-default
+      .panel-heading Possible formats for finding/requesting forms:
+      .panel-body
+        %ul
+          %li I need a form for #{"<form title>"}.
+          %li I need a #{"<form title>"} form.
+          %li May I ask for a #{"<form title>"}?
+          %li Provide me with a form #{"<form title>"}.
+          %li Can you send me a #{"<form title>"}?
+          %li Provide me a/an #{"<form title>"}.
+    
+      
 
 .chat-box
   - if @user.messages.any?

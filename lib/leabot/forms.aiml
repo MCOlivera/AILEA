@@ -54,7 +54,7 @@
      <category>
         <pattern>* PROVIDE ME A *</pattern>
         <template>query SELECT forms <star index="2"/></template>
-    </category
+    </category>
     
     <category>
         <pattern>PROVIDE ME A *</pattern>
