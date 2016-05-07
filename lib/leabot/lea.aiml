@@ -10,4 +10,16 @@
         <pattern>Hello</pattern>
         <template>Hi</template>
     </category>
+
+    <category>
+        <pattern>Thank you</pattern>
+        <template>You're welcome!</template>
+    </category>
+
+
+<category>
+<pattern>How are you</pattern>
+<template>I'm fine</template>
+</category>
+
 </aiml>

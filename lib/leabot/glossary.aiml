@@ -12,6 +12,16 @@
     </category>
     
     <category>
+        <pattern>WHAT ARE *</pattern>
+        <template>query SELECT glossary <star/></template>
+    </category>
+    
+    <category>
+        <pattern>* WHAT ARE *</pattern>
+        <template>query SELECT glossary <star index="2"/></template>
+    </category>
+    
+    <category>
         <pattern>DEFINE *</pattern>
         <template>query SELECT glossary <star/></template>
     </category>
@@ -38,6 +48,16 @@
     
     <category>
         <pattern>* WHAT DOES * MEAN</pattern>
+        <template>query SELECT glossary <star index="2"/></template>
+    </category>
+    
+    <category>
+        <pattern>WHAT DO * MEAN</pattern>
+        <template>query SELECT glossary <star index="2"/></template>
+    </category>
+    
+    <category>
+        <pattern>* WHAT DO * MEAN</pattern>
         <template>query SELECT glossary <star index="2"/></template>
     </category>
 </aiml>

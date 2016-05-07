@@ -105,7 +105,7 @@ class MessagesController < ApplicationController
           end
           
           if table_name.casecmp("GLOSSARY").eql? 0
-            result = Glossary.find_by_glossary_term(content)
+            result = Glossary.find_by_glossary_term(content.singularize)
             if result.nil?
               if @current_user.glossary_requests.create(term: reaction.split(' ').drop(2).join(' ')).valid?
                 reaction = "I can\'t find the definition in my database. I'll ask around."
