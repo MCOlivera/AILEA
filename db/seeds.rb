@@ -3,6 +3,7 @@ User.create(username: "user2", password: "useruser");
 User.create(username: "admin", password: "adminadmin", admin: true);
 
 Glossary.create(glossary_term: "murder", glossary_description: "Murder is the killing of another human being without justification or valid excuse, and it is especially the unlawful killing of another human being with malice aforethought.");
+Glossary.create(glossary_term: "child murder", glossary_description: "Child murder is the killing of another human being without justification or valid excuse, and it is especially the unlawful killing of another human being with malice aforethought.");
 Glossary.create(glossary_term: "rape", glossary_description: "Rape is a type of sexual assault usually involving sexual intercourse or other forms of sexual penetration perpetrated against a person without that person's consent.");
 Glossary.create(glossary_term: "assault", glossary_description: "An assault is carried out by a threat of bodily harm coupled with an apparent, present ability to cause the harm.");
 

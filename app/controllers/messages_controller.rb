@@ -105,7 +105,8 @@ class MessagesController < ApplicationController
           end
           
           if table_name.casecmp("GLOSSARY").eql? 0
-            result = Glossary.find_by_glossary_term(content.singularize)
+            # result = Glossary.find_by_glossary_term(content.singularize)
+            result = Glossary.where('glossary_term LIKE ?', '%' + content.singularize + '%').all
             if result.nil?
               if @current_user.glossary_requests.create(term: reaction.split(' ').drop(2).join(' ')).valid?
                 reaction = "I can\'t find the definition in my database. I'll ask around."
@@ -113,7 +114,12 @@ class MessagesController < ApplicationController
                 reaction = "An error occurred while processing the request."
               end
             else
-              reaction = result.glossary_description
+              reaction = 'I found ' + result.count.to_s + ' term/s matching your request: '
+              reaction += "<ul>"
+              result.each do |r|
+                reaction += "<li>" + r.glossary_description + "</li>"
+              end
+              reaction += "</ul>"
             end
           elsif table_name.casecmp("CASES").eql? 0
             result = Case.find_by_case_title(content)
