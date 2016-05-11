@@ -83,8 +83,6 @@ class MessagesController < ApplicationController
     
     line = remove_pleasantries(line)
     
-    print line
-    
     reaction = LEABOT.get_reaction(line)
     
     if reaction.present?
@@ -107,9 +105,24 @@ class MessagesController < ApplicationController
           if table_name.casecmp("GLOSSARY").eql? 0
             # result = Glossary.find_by_glossary_term(content.singularize)
             result = Glossary.where('glossary_term LIKE ?', '%' + content.singularize + '%').all
-            if result.nil?
+            
+            if result.count.eql? 0
               if @current_user.glossary_requests.create(term: reaction.split(' ').drop(2).join(' ')).valid?
-                reaction = "I can\'t find the definition in my database. I'll ask around."
+                fuzzy_result = Glossary.find_by_fuzzy_glossary_term(content.singularize, :limit => 10)
+                if fuzzy_result.nil?
+                  reaction = "I can\'t find the definition in my database. I'll ask around."
+                else
+                  if fuzzy_result.count > 1
+                    reaction = 'I found ' + fuzzy_result.count.to_s + ' terms matching your request: '
+                    reaction += "<ul>"
+                    fuzzy_result.each do |r|
+                      reaction += "<li>" + r.glossary_description + "</li>"
+                    end
+                    reaction += "</ul>"
+                  else
+                    reaction = fuzzy_result.first.glossary_description
+                  end
+                end
               else
                 reaction = "An error occurred while processing the request."
               end
@@ -125,12 +138,27 @@ class MessagesController < ApplicationController
                 reaction = result.first.glossary_description
               end
             end
+            
           elsif table_name.casecmp("CASES").eql? 0
             # result = Case.find_by_case_title(content)
             result = Case.where('case_title LIKE ?', '%' + content + '%').all
-            if result.nil?
+            if result.count.eql? 0
               if @current_user.case_requests.create(title: reaction.split(' ').drop(2).join(' ')).valid?
-                reaction = "Your case request is now under processing."
+                fuzzy_result = Case.find_by_fuzzy_case_title(content, :limit => 10)
+                if fuzzy_result.nil?
+                  reaction = "Your case request is now under processing."
+                else
+                  if fuzzy_result.count > 1
+                    reaction = 'I found ' + fuzzy_result.count.to_s + ' cases matching your request: '
+                    reaction += "<ul>"
+                    fuzzy_result.each do |r|
+                      reaction += "<li>" + r.case_title + "<br>" + r.case_number + "<br>" + r.case_date  + "<br>" + r.case_content + "</li>"
+                    end
+                    reaction += "</ul>"
+                  else
+                    reaction = fuzzy_result.first.case_title + "<br>" + fuzzy_result.first.case_number + "<br>" + fuzzy_result.first.case_date  + "<br>" + fuzzy_result.first.case_content
+                  end
+                end
               else
                 reaction = "An error occurred while processing your request."
               end
@@ -146,12 +174,27 @@ class MessagesController < ApplicationController
                 reaction = result.first.case_title + "<br>" + result.first.case_number + "<br>" + result.first.case_date  + "<br>" + result.first.case_content
               end
             end
+            
           elsif table_name.casecmp("FORMS").eql? 0
             # result = LegalForm.find_by_legal_form_title(content)
             result = LegalForm.where('legal_form_title LIKE ?', '%' + content + '%').all
-            if result.nil?
+            if result.count.eql? 0
               if @current_user.form_requests.create(title: reaction.split(' ').drop(2).join(' ')).valid?
-                reaction = "I can\'t find the form in my database. I\'ll request it for you."
+                fuzzy_result = LegalForm.find_by_fuzzy_legal_form_title(content, :limit => 10)
+                if fuzzy_result.nil?
+                  reaction = "I can\'t find the form in my database. I\'ll request it for you."
+                else
+                  if fuzzy_result.count > 1
+                    reaction = 'I found ' + fuzzy_result.count.to_s + ' forms matching your request: '
+                    reaction += "<ul>"
+                    fuzzy_result.each do |r|
+                      reaction += "<li>" + r.legal_form_content + "</li>"
+                    end
+                    reaction += "</ul>"
+                  else
+                    reaction = fuzzy_result.first.legal_form_content
+                  end
+                end
               else
                 reaction = "An error occurred while processing the request."
               end

@@ -38,6 +38,8 @@ gem 'mysql2'
 
 gem 'will_paginate'
 
+gem 'fuzzily'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
