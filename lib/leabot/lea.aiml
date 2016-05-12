@@ -22,4 +22,10 @@
 <template>I'm fine</template>
 </category>
 
+
+<category>
+<pattern>How do I logout</pattern>
+<template>Click the logout button at the upper left part of the screen.</template>
+</category>
+
 </aiml>
