@@ -2286,38 +2286,504 @@ LegalForm.create(legal_form_title: "Contract or Agreement", legal_form_content: 
 
 <p>Doc. No. ____ Page No. ____ Book No. ____ Series of 2013.</p>");
 
-# LegalForm.create(legal_form_title: "", legal_form_content: "");
+LegalForm.create(legal_form_title: "Affidavit of Mother", legal_form_content: "
+<p>REPUBLIC OF THE PHILIPPINES) CITY OF ILOILO ) S.S. x-------------------------------------x  </p>
 
-# LegalForm.create(legal_form_title: "", legal_form_content: "");
+<p>AFFIDAVIT OF MOTHER</p>
 
-# LegalForm.create(legal_form_title: "", legal_form_content: "");
+<p> I, JUDAY S. SANTOS, of legal age, Filipino, single and a resident of Balabago, Jaro, Iloilo City, after having been duly sworn to in accordance with law, depose and state:</p>
 
-# LegalForm.create(legal_form_title: "", legal_form_content: "");
+<p>1. That I am the LEGITIMATE mother of RYAN SANTOS who was born last June 25, 2013 in Tacloban City;</p>
 
-# LegalForm.create(legal_form_title: "", legal_form_content: "");
+<p>2. That I am very much willing to allow my child RYAN SANTOS to use the surname of the father for whatever legal purpose his birth be used;</p>
 
-# LegalForm.create(legal_form_title: "", legal_form_content: "");
+<p>3. That I am executing this affidavit to attest to the truth of the following facts in accordance with RA 9255.</p>
 
-# LegalForm.create(legal_form_title: "", legal_form_content: "");
+<p> IN WITNESS WHEREOF, I have hereunto set my hand this 29th day of August 2013 in Iloilo City, Philippines.</p>
 
-# LegalForm.create(legal_form_title: "", legal_form_content: "");
+<p> JUDAY S. SANTOS Affiant Voter's ID No. 5555</p>
 
-# LegalForm.create(legal_form_title: "", legal_form_content: "");
+<p> SUBCRIBED AND SWORN TO before me this 29th day of August 2013 in Iloilo City, Philippines, affiant exhibiting to me her valid proof of identification.</p>
 
-# LegalForm.create(legal_form_title: "", legal_form_content: "");
+<p>Doc. No. _____; Page No. _____; Book No. _____; Series of 2013.</p>");
 
-# LegalForm.create(legal_form_title: "", legal_form_content: "");
+LegalForm.create(legal_form_title: "Service by Mail", legal_form_content: "
+<p>REPUBLIC OF THE PHILIPPINES) CITY OF MAKATI ) S.S. x-------------------------------------x  </p>
 
-# LegalForm.create(legal_form_title: "", legal_form_content: "");
+<p>AFFIDAVIT OF SERVICE</p>
 
-# LegalForm.create(legal_form_title: "", legal_form_content: "");
+<p>  I, MARIO B. DELA CRUZ, of legal age, Filipino, single and a resident of 3333 Washington Street, Pio del Pilar, Makati City, after having been duly sworn to in accordance with law, depose and state:</p>
 
-# LegalForm.create(legal_form_title: "", legal_form_content: "");
+<p>1. That I am employed as a messenger of Atty. Abo Gado with office address at Room 3333 Cityland 10, Tower I, H.V. dela Costa Street, Salcedo Village, Makati City;</p>
 
-# LegalForm.create(legal_form_title: "", legal_form_content: "");
+<p>2. That on November 15, 2013, I served a copy of the following pleading/paper by registered mail in accordance with Sec. 10 of Rule 13 of the Rules of Court:</p>
 
-# LegalForm.create(legal_form_title: "", legal_form_content: "");
+<p> Nature of Pleading/Paper</p>
 
-# LegalForm.create(legal_form_title: "", legal_form_content: "");
+<p>____________________________ ____________________________ ____________________________</p>
 
-# LegalForm.create(legal_form_title: "", legal_form_content: "");
+<p> in Case No. 123456 entitled &quot;Plain Tiff vs. Defen Dant&quot; by depositing a copy in the post office in a sealed envelope, plainly addressed to the defendant's lawyer at his office with postage fully paid, as evidenced by Registry Receipt No. 1111 attached and with instructions to the post master to return the mail to sender after ten (10) days if undelivered.</p>
+
+<p>  IN WITNESS WHEREOF, I have hereunto set my hand this 19th day of November 2013 in Makati City, Metro Manila, Philippines.  </p>
+
+<p>MARIO B. DELA CRUZ Affiant Voter's ID No. 5555</p>
+
+<p> SUBCRIBED AND SWORN TO before me this 19th day of November 2013 in Makati City, Metro Manila, Philippines, affiant exhibiting to me his valid proof of identification.</p>
+
+<p>Doc. No. _____; Page No. _____; Book No. _____; Series of 2013.</p>");
+
+LegalForm.create(legal_form_title: "Lease Contract", legal_form_content: "
+<p>CONTRACT OF LEASE</p>
+
+<p> KNOW ALL MEN BY THESE PRESENTS:</p>
+
+<p> This CONTRACT OF LEASE is made and executed at the City of _____, this day of _______________, 20__, by and between:</p>
+
+<p> (NAME OF LESSOR), of legal age, single/married to (Name of spouse if any), Filipino, and with residence and postal address at (Address), hereinafter referred to as the LESSOR.</p>
+
+<p>-AND-</p>
+
+<p> (NAME OF LESSEE), Filipino and with residence and postal address at (Address), hereinafter referred to as the LESSEE.</p>
+
+<p>WITNESSETH; That</p>
+
+<p>WHEREAS, the LESSOR is the owner of THE LEASED PREMISES, a residential property situated at (Address of property to be leased);</p>
+
+<p>WHEREAS, the LESSOR agrees to lease-out the property to the LESSEE and the LESSEE is willing to lease the same;</p>
+
+<p>NOW THEREFORE, for and in consideration of the foregoing premises, the LESSOR leases unto the LESSEE and the LESSEE hereby accepts from the LESSOR the LEASED premises, subject to the following: </p>
+
+<p>TERMS AND CONDITIONS</p>
+
+<p>1. PURPOSES: That premises hereby leased shall be used exclusively by the LESSEE for residential purposes only and shall not be diverted to other uses. It is hereby expressly agreed that if at any time the premises are used for other purposes, the LESSOR shall have the right to rescind this contract without prejudice to its other rights under the law.</p>
+
+<p>2. TERM: This term of lease is for ONE (1) YEAR. from (Date) to (Date) inclusive. Upon its expiration, this lease may be renewed under such terms and conditions as my be mutually agreed upon by both parties, written notice of intention to renew the lease shall be served to the LESSOR not later than seven (7) days prior to the expiry date of the period herein agreed upon.</p>
+
+<p>3. RENTAL RATE: The monthly rental rate for the leased premises shall be in PESOS: AMOUNT IN WORDS (P 00,000.00), Philippine Currency. All rental payments shall be payable to the LESSOR.</p>
+
+<p>4. DEPOSIT: That the LESSEE shall deposit to the LESSOR upon signing of this contract and prior to move-in an amount equivalent to the rent for THREE (3) MONTHS or the sum of PESOS: AMOUNT IN WORDS (P 00,000.00), Philippine Currency. wherein the two (2) months deposit shall be applied as rent for the 11th and 12th months and the remaining one (1) month deposit shall answer partially for damages and any other obligations, for utilities such as Water, Electricity, CATV, Telephone, Association Dues or resulting from violation(s) of any of the provision of this contract.</p>
+
+<p>5. DEFAULT PAYMENT: In case of default by the LESSEE in the payment of the rent, such as when the checks are dishonored, the LESSOR at its option may terminate this contract and eject the LESSEE. The LESSOR has the right to padlock the premises when the LESSEE is in default of payment for One (1) month and may forfeit whatever rental deposit or advances have been given by the LESSEE.</p>
+
+<p>6. SUB-LEASE: The LESSEE shall not directly or indirectly sublet, allow or permit the leased premises to be occupied in whole or in part by any person, form or corporation, neither shall the LESSEE assign its rights hereunder to any other person or entity and no right of interest thereto or therein shall be conferred on or vested in anyone by the LESSEE without the LESSOR'S written approval.</p>
+
+<p>7. PUBLIC UTILITIES: The LESSEE shall pay for its telephone, electric, cable TV, water, Internet, association dues and other public services and utilities during the duration of the lease.</p>
+
+<p>8. FORCE MAJEURE: If whole or any part of the leased premises shall be destroyed or damaged by fire, flood, lightning, typhoon, earthquake, storm, riot or any other unforeseen disabling cause of acts of God, as to render the leased premises during the term substantially unfit for use and occupation of the LESSEE, then this lease contract may be terminated without compensation by the LESSOR or by the LESSEE by notice in writing to the other.</p>
+
+<p>9. LESSOR'S RIGHT OF ENTRY: The LESSOR or its authorized agent shall after giving due notice to the LESSEE shall have the right to enter the premises in the presence of the LESSEE or its representative at any reasonable hour to examine the same or make repairs therein or for the operation and maintenance of the building or to exhibit the leased premises to prospective LESSEE, or for any other lawful purposes which it may deem necessary.</p>
+
+<p>10. EXPIRATION OF LEASE: At the expiration of the term of this lease or cancellation thereof, as herein provided, the LESSEE will promptly deliver to the LESSOR the leased premises with all corresponding keys and in as good and tenable condition as the same is now, ordinary wear and tear expected devoid of all occupants, movable furniture, articles and effects of any kind. Non-compliance with the terms of this clause by the LESSEE will give the LESSOR the right, at the latter's option, to refuse to accept the delivery of the premises and compel the LESSEE to pay rent therefrom at the same rate plus Twenty Five (25) % thereof as penalty until the LESSEE shall have complied with the terms hereof. The same penalty shall be imposed in case the LESSEE fails to leave the premises after the expiration of this Contract of Lease or termination for any reason whatsoever.</p>
+
+<p>11. JUDICIAL RELIEF: Should any one of the parties herein be compelled to seek judicial relief against the other, the losing party shall pay an amount of One Hundred (100) % of the amount clamed in the complaint as attorney's fees which shall in no case be less than P50,000.00 pesos in addition to other cost and damages which the said party may be entitled to under the law.</p>
+
+<p>12. This CONTRACT OF LEASE shall be valid and binding between the parties, their successors-in-interest and assigns.</p>
+
+<p>IN WITNESS WHEREOF, parties herein affixed their signatures on the date and place above written.</p>
+
+<p>(Name of Lessor) (Name of Lessee) LESSOR LESSEE</p>
+
+<p>Signed in the presence of:</p>
+
+<p> _____________________________ ______________________________</p>
+
+<p>ACKNOWLEDGEMENT</p>
+
+<p>Republic of the Philippines) _________________________) S.S</p>
+
+<p>BEFORE ME, personally appeared:</p>
+
+<p>Name Identification Card Date/Place Issued</p>
+
+<p>(Name of Lessor) SSS ID No. 12345 February 24, 2013 / Cavite City  (Name of Lessee) SSS ID No. 12345 January 07, 2013 / Makati</p>
+
+<p>Known to me and to me known to be the same persons who executed the foregoing instrument and acknowledged to me that the same is their free and voluntary act and deed.</p>
+
+<p>This instrument consisting of ____ page/s, including the page on which this acknowledgement is written, has been signed on each and every page thereof by the concerned parties and their witnesses, and and sealed with my notarial seal.</p>
+
+<p>WITNESS MY HAND AND SEAL, on the date and place first above written.  </p>
+
+<p>Doc. No.______; Page No. ______; Book No.______; Series of 2013.</p>");
+
+LegalForm.create(legal_form_title: "Affidavit of Death for Insurance Claim", legal_form_content: "
+<p>Republic of the Philippines ) City of Makati ) S.S. x--------------------------x</p>
+
+<p>AFFIDAVIT </p>
+
+<p> I, LIZA S. DELA CRUZ of legal age, Filipino citizen, widow and presently residing at 3333 M. Ocampo Street, Pio del Pilar, Makati City, after having been duly sworn to in accordance with law, do hereby depose and say:</p>
+
+<p>1. That I am the widow of BENITO D. DELA CRUZ who died on July 30, 2013 in Quezon City because of head injuries sustained in a vehicular accident as per autopsy result conducted by Dr. Lito R. Santos;</p>
+
+<p>2. That per investigation of the Quezon City Police Station, my husband was driving along the northbound lane of EDSA in front of Camp Aguinaldo in Quezon City when he was hit/bumped by a truck coming from the opposite direction; copy of the Traffic Investigation Report is hereto attached as Annex &quot;A&quot;;</p>
+
+<p>3. That at the time of the incident, my husband was a duly licensed driver carrying Driver's License No. 123456 and was riding on a Toyota Innova, gray in color and with Plate No. XYZ-123 owned by me with Certificate of Registration No. 55667788;</p>
+
+<p>4. That I am executing this affidavit in support of my application for insurance claim with _____________, to attest to the truth of the foregoing, and for whatever legal purposes it may serve.</p>
+
+<p>IN WITNESS WHEREOF, I have hereunto set my hand this 6th day of October 2013 at Makati City, Philippines.</p>
+
+<p>  LIZA S. DELA CRUZ  Affiant  </p>
+
+<p> SUBSCRIBED AND SWORN to before me this 6th day of October 2013 in the City of Makati, Philippines, affiant exhibiting to me her competent evidence of identity by way of Philippine Passport No. 12344 issued at Manila, Philippines on September 5, 2012.</p>
+
+<p>Doc No. : _____  Page No.: ______  Book No.: ______  Series of 2013 Notary Public</p>");
+
+LegalForm.create(legal_form_title: "Affidavit of No Improvement", legal_form_content: "
+<p>REPUBLIC OF THE PHILIPPINES) CITY OF ILOILO ) S.S. x-------------------------------------x  </p>
+
+<p>AFFIDAVIT OF NO IMPROVEMENT</p>
+
+<p>  I, PEDRO B. DELA CRUZ, of legal age, Filipino, married and a resident of Balabago, Jaro, Iloilo City, after having been duly sworn to in accordance with law, depose and state:</p>
+
+<p>1. That I am the registered owner of a parcel of land situated at Brgy. Cubay, Miag-ao, Iloilo containing an area of TWENTY THOUSAND TWO HUNDRED (20,200) square meters, more or less, covered by Transfer Certificate of Title No. 12345 of the Register of Deeds of Iloilo City;</p>
+
+<p>2. That I hereby state that the above-mentioned property has no existing improvements of whatever kind and nature and it remained idle up to the present;</p>
+
+<p>3. That I am executing this affidavit to attest to the truth of the foregoing facts and for whatever legal intents and purposes that it may serve;</p>
+
+<p> IN WITNESS WHEREOF, I have hereunto set my hand this 29th day of August 2013 in Iloilo City, Philippines.  </p>
+
+<p>PEDRO B. DELA CRUZ Affiant</p>
+
+<p> SUBCRIBED AND SWORN TO before me this 29th day of August 2013 in Iloilo City, Philippines, affiant exhibiting to me his Competent Evidence of Identity by way of SSS Identification Card No. 12345 issued on April 5, 2012 in Manila.</p>
+
+<p>Doc. No. _____; Page No. _____; Book No. _____; Series of 2013.</p>");
+
+LegalForm.create(legal_form_title: "Holographic Will", legal_form_content: "
+<p>HOLOGRAPHIC WILL</p>
+
+<p>(NOTE: This should be handwritten)   15, May 2000</p>
+
+<p> I, JUAN B. DELA CRUZ, of legal age, Filipino, married and a resident of 1212 Teresa Street, Brgy. Valenzuela, Makati City, being of sound and disposing mind, and not acting under undue influence or intimidation from anyone, do hereby declare this instrument to be my Last Will and Testament, which I have written in my own handwriting in English, a language which I am well conversant, and I hereby declare that all my properties shall upon my death be distributed to my wife Maria C. Dela Cruz and to my only child Pedro C. Dela Cruz share and share alike.</p>
+
+<p> Juan B. Dela Cruz</p>");
+
+LegalForm.create(legal_form_title: "Extrajudicial Settlement of Estate", legal_form_content: "
+<p>EXTRAJUDICIAL SETTLEMENT OF ESTATE</p>
+
+<p>KNOW ALL MEN BY THESE PRESENTS:</p>
+
+<p> This AGREEMENT made and entered into this 2nd day of October 2013 by and among:</p>
+
+<p>LEILA M. SANTOS, of legal age, Filipino, single, and with residence and postal address at 1111 Santillan Street, Pio del Pilar, Makati City;</p>
+
+<p>MILA M. SANTOS-RUBIO, of legal age, Filipino, married, and with residence and postal address at 2222 J. Victor Street, Pio del Pilar, Makati City:</p>
+
+<p>JOSE M. SANTOS, of legal age, Filipino, single, and with residence and postal address at 3333 Taylo Street, Pio del Pilar, Makati City;   WITNESSETH:</p>
+
+<p> THAT we are the legitimate children and sole heirs of LUCIO T. SANTOS who died on June 25, 2013 in Makati City; copy of his death certificate is hereto attached as Annex &quot;A&quot;; </p>
+
+<p> THAT said deceased died without any will or testament and without any outstanding debts in favor of any person or entity;</p>
+
+<p> THAT said deceased, at the time of his death, left a certain real property, situated in Makati City and more particularly described as follows, to wit: </p>
+
+<p>(Technical Description of property; specify metes  and bounds of the property with approximate area  thereof, as indicated on the face of the title)</p>
+
+<p> THAT pursuant to Section 1 of Rule 74 of the Revised Rules of Court of the Philippines, and we being all of age and with full capacity to contract, we do hereby adjudicate unto ourselves the land described above, in equal shares. </p>
+
+<p> IN WITNESSS WHEREOF, we have hereunto signed this AGREEMENT, this 2nd day of October 2013 in the City of Makati, Philippines.</p>
+
+<p> THE HEIRS OF LUCIO T. SANTOS</p>
+
+<p>  LEILA M. SANTOS MILA M. SANTOS-RUBIO</p>
+
+<p> JOSE M. SANTOS</p>
+
+<p> SIGNED IN THE PRESENCE OF:</p>
+
+<p> __________________________ _____________________________  Witness Witness</p>
+
+<p> ACKNOWLEDGMENT</p>
+
+<p>Republic of the Philippines) City of Makati ) S.S.</p>
+
+<p>BEFORE ME, a Notary Public, for and in the City of Makati, this 2ndday of October 2013 personally appeared:</p>
+
+<p> Name Identification Card Issued On/At</p>
+
+<p> ____________________ ________________ _____________   ____________________ ________________ _____________   ____________________ ________________ _____________   ____________________ ________________ _____________ </p>
+
+<p>all known to me to be the same persons who executed the foregoing instrument and hereby acknowledged to me that the same is their free and voluntary act and deed.</p>
+
+<p> This instrument consisting of two (2) pages, including this page on which this acknowledgment is written refers to an EXTRAJUDICIAL SETTLEMENT OF ESTATE and has been signed by the parties and their witnesses and sealed with my notarial seal.</p>
+
+<p> WITNESS MY HAND AND NOTARIAL SEAL.</p>
+
+<p>Doc. No. ____ Page No. ____ Book No. ____ Series of 2013.</p>");
+
+LegalForm.create(legal_form_title: "Affidavit of Self-Adjudication by Sole Heir", legal_form_content: "
+<p>REPUBLIC OF THE PHILIPPINES) CITY OF MAKATI ) S.S. x-------------------------------------x  </p>
+
+<p>AFFIDAVIT OF SELF-ADJUDICATION</p>
+
+<p>  I, MARIA B. DELA CRUZ, of legal age, Filipino, single and a resident of 6789 Washington Street, Pio del Pilar, Makati City, after having been duly sworn to in accordance with law, depose and state:</p>
+
+<p>1. That I am the only daughter of JUAN B. DELA CRUZ who died without any last will and testament on July 20, 2013 in Makati City as evidenced by his Death Certificate issued by the City of Makati hereto attached as Annex &ldquo;A&rdquo; and made an integral part of this Affidavit; </p>
+
+<p>2. That at the time his death, my father had no debts, liabilities or obligations to any persons, agency or institution;</p>
+
+<p>3. That the only property he left is a parcel of land consisting of 60 square meters located in J.B. Roxas Street, Makati City more particularly described in TCT No. 112233 hereto attached as Annex &ldquo;B&rdquo; and made an integral part of this Affidavit;</p>
+
+<p>4. That pursuant to Rule 74, Sec. 1 of the Rules of Court, I hereby adjudicate unto myself the above-described real estate by means of this Affidavit and hereby files the same with the Register of Deed of Makati City with the request that the said adjudication be made effective without judicial proceeding as prescribed by the aforementioned provision of the Rules of Court.</p>
+
+<p> IN WITNESS WHEREOF, I have hereunto set my hand this 26th day of September 2013 in Makati City, Metro Manila, Philippines.  </p>
+
+<p>MARIA B. DELA CRUZ Affiant</p>
+
+<p> SUBCRIBED AND SWORN TO before me this 26th day of September 2013 in Makati City, Metro Manila, Philippines, affiant exhibiting to me her Philippine Passport No. 123456 issued in Manila on January 12, 2012 and valid until January 12, 2017.</p>
+
+<p>Doc. No. _____; Page No. _____; Book No. _____; Series of 2013.</p>");
+
+LegalForm.create(legal_form_title: "Affidavit of Publication", legal_form_content: "
+<p>REPUBLIC OF THE PHILIPPINES) CITY OF MAKATI ) S.S. x-------------------------------------x  </p>
+
+<p>AFFIDAVIT OF PUBLICATION</p>
+
+<p>  I, JUAN B. DELA CRUZ, of legal age, Filipino, single and a resident of 1122 Washington Street, Pio del Pilar, Makati City, after having been duly sworn to in accordance with law, depose and state:</p>
+
+<p>1. That I am the Classified Ads Manager of the Daily News, Inc. a domestic corporation duly organized and existing under and by virtue of Philippine laws with office and business address at __________________________;</p>
+
+<p>2. That the said corporation publishes THE DAILY NEWS, a newspaper of general circulation published for the dissemination of local news and general information with a bona fide list of subscribers published at regular weekly intervals;</p>
+
+<p>3. That an Alias Summons, Alias Process Server's Return, Order and Complaint as per Civil Case No. 123456 entitled &quot;ABCD vs. WXYZ&quot;, printed copies of which are herewith attached, were published in the said newspaper on April 24, May 1 and 8, 2013.</p>
+
+<p> IN WITNESS WHEREOF, I have hereunto set my hand this 26th day of September 2013 in Makati City, Metro Manila, Philippines.  </p>
+
+<p>JUAN B. DELA CRUZ Affiant</p>
+
+<p> SUBCRIBED AND SWORN TO before me this 26th day of September 2013 in Makati City, Metro Manila, Philippines, affiant exhibiting to me his Philippine Passport No. 123456 issued in Manila on January 12, 2012 and valid until January 12, 2017.</p>
+
+<p>Doc. No. _____; Page No. _____; Book No. _____; Series of 2013.</p>");
+
+LegalForm.create(legal_form_title: "Motion to Set Case for Pre-Trial", legal_form_content: "
+<p>Republic of the Philippines National Capital Judicial Region  METROPOLITAN TRIAL COURT Branch 67 Makati City</p>
+
+<p> ABC CORPORATION,  Plaintiff,</p>
+
+<p> - versus - Civil Case No. 111222</p>
+
+<p>RAYMOND CORPUZ MAPA,  Defendant. x-------------------------------------------x</p>
+
+<p> EX-PARTE MOTION TO SET CASE FOR PRE-TRIAL</p>
+
+<p>  PLAINTIFF, by counsel, through the undersigned counsel unto this Honorable Court, most respectfully moves that the instant case be set for pre-trial considering that the issues have been joined by the filing of defendant's Answer.</p>
+
+<p> WHEREFORE, in view of the foregoing, it is most respectfully prayed that the instant case be immediately set for pre-trial.    Makati City, Philippines. August 30, 2013.</p>
+
+<p> ATTY. VX YZ  Counsel for Plaintiff</p>
+
+<p> NOTICE OF HEARING</p>
+
+<p>THE BRANCH CLERK OF COURT MeTC - Branch 67 Makati City</p>
+
+<p> Greetings!   Being a non-litigated motion, please submit the foregoing motion for consideration and approval of this Honorable Court immediately upon receipt hereof.</p>
+
+<p>  VX YZ   Copy furnished:   ATTY. AB CD Counsel for the Defendant 2233 Zamora Street, Pasay City</p>
+
+<p> Please take notice that counsel has requested for the approval of this motion immediately upon receipt.</p>
+
+<p> VX YZ</p>");
+
+LegalForm.create(legal_form_title: "Application for Probation", legal_form_content: "
+<p>Republic of the Philippines National Capital Judicial Region  METROPOLITAN TRIAL COURT Branch LXI (61) Makati City</p>
+
+<p> PEOPLE OF THE PHILIPPINES,    - versus - Crim. Case Nos. 666666   RODNEY CRUZ y PEREZ,  Accused. x----------------------------------------x</p>
+
+<p> APPLICATION FOR PROBATION</p>
+
+<p>  ACCUSED, through the undersigned counsel and unto this Honorable Court, most respectfully applies for probation under the provisions of Presidential Decree No. 968 as amended and states that:</p>
+
+<p>1. On 02 September 2012, accused was convicted of the crime of Malicious Mischief and was sentenced to suffer thirty (30) days imprisonment;</p>
+
+<p>2. The crime for which the accused was convicted is not an offense against national security or public order;</p>
+
+<p>3. Accused has not been previously convicted by final judgment of any offense punishable by imprisonment of not less than one month and one day and/or fine of not less than two hundred pesos;</p>
+
+<p>4. Accused has not been once placed on probation under the provisions of Presidential Decree No. 968, otherwise known as the Probation Law of 1976, as amended; </p>
+
+<p>5. Accused has all the qualifications and none of the disqualifications to avail of the benefits of the Probation Law. </p>
+
+<p> WHEREFORE, premises considered, it is most respectfully prayed of this Honorable Court that the Application for Probation be referred to the Parole and Probation Officer of Makati City for the requisite post-sentence investigation and thereafter, the application for probation be approved. </p>
+
+<p> Other reliefs just and equitable in the premises are likewise sought.    Makati City, Philippines. September 19, 2013.</p>
+
+<p>  ATTY. VX YZ  Counsel for the Accused</p>
+
+<p>NOTICE OF HEARING</p>
+
+<p>THE BRANCH CLERK OF COURT MeTC - Branch 61 Makati City</p>
+
+<p> Greetings!   Please submit the foregoing motion to the Honorable Court on September 27, 2013 at 8:30 in the morning for its favorable consideration and approval.</p>
+
+<p>  VX YZ   Copy furnished by personal service:</p>
+
+<p>PROSECUTOR WX YZ Office of the City Prosecutor, Makati City   PAROLE AND PROBATION OFFICE Makati City</p>");
+
+LegalForm.create(legal_form_title: "Motion for Permanent Dismissal", legal_form_content: "
+<p>Republic of the Philippines National Capital Judicial Region  METROPOLITAN TRIAL COURT Branch LXI (61) Makati City</p>
+
+<p> PEOPLE OF THE PHILIPPINES,    - versus - Crim. Case Nos. 555555   ROD SANTOS y PEREZ,  Accused. x----------------------------------------x</p>
+
+<p> MOTION FOR PERMANENT DISMISSAL</p>
+
+<p>  ACCUSED, assisted by the undersigned counsel, unto this Honorable Court, most respectfully alleges that:</p>
+
+<p>1. On 02 September 2012, an Order was issued by this Honorable Court dismissing the case provisionally with the expressed conformity of the accused. Attached is a copy of the said Order hereto marked as Annex &quot;1&quot; and forms and integral part hereof;</p>
+
+<p>2. Under the Rules on Criminal Procedure, the provisional dismissal of the offenses punishable by imprisonment not exceeding six (6) years, shall become permanent one (1) year after the issuance of the order without the case having been revived; </p>
+
+<p>3. A year had already lapsed, and the prosecution has not instituted any action to revive the case; hence, accused respectfully moves that the case be permanently dismissed. </p>
+
+<p> WHEREFORE, premises considered, accused most respectfully moves for the permanent dismissal of this case.</p>
+
+<p> Other reliefs just and equitable in the premises are likewise sought.    Makati City, Philippines. September 2, 2013.</p>
+
+<p>  ATTY. VX YZ  Counsel for the Accused</p>
+
+<p> NOTICE OF HEARING</p>
+
+<p>THE BRANCH CLERK OF COURT MeTC - Branch 61 Makati City</p>
+
+<p> Greetings!   Please submit the foregoing motion to the Honorable Court on September 18, 2013 at 8:30 in the morning for its favorable consideration and approval.</p>
+
+<p>  VX YZ   Copy furnished by personal service:</p>
+
+<p>PROSECUTOR WX YZ Office of the City Prosecutor, Makati City   ATTY. AB CD Private Prosecutor 2233 Zamora Street, Pasay City</p>");
+
+LegalForm.create(legal_form_title: "Authorization Letter to Claim NBI Clearance", legal_form_content: "
+<p>August 27, 2013</p>
+
+<p> NBI Clearance Center NBI Clearance Building U.N. Avenue, Ermita, Manila</p>
+
+<p> To whom it may concern,</p>
+
+<p>I hereby authorized the bearer of this letter, MARIA M. DELA CRUZ, to claim and receive my NBI Clearance which is due to be released on August 28, 2013. The bearer will present to you my SSS and Voter's Identification Cards as proof of my consent on the said matter. She will also present her SSS ID for identification purposes. </p>
+
+<p>Thank you very much. </p>
+
+<p> Respectfully yours,</p>
+
+<p> JUAN C. DELA CRUZ</p>");
+
+LegalForm.create(legal_form_title: "Motion for Extension of Time to File Comment", legal_form_content: "
+<p>Republic of the Philippines National Capital Judicial Region  REGIONAL TRIAL COURT Branch 39 Quezon City</p>
+
+<p> ABC CORPORATION,  Plaintiff,</p>
+
+<p> - versus - Civil Case No. 111222</p>
+
+<p>RAYMOND CORPUZ MAPA,  Defendant. x-------------------------------------------x</p>
+
+<p> MOTION FOR EXTENSION OF TIME TO FILE COMMENT TO OFFER OF EVIDENCE</p>
+
+<p>  Defendant, by counsel, respectfully alleges that:</p>
+
+<p>1. On August 3, 2013, he received a copy of the plaintiff's Offer of Evidence dated July 25, 2013. Hence, pursuant to the order of the Honorable Court in open court during the July 22, 2013 hearing, defendant has five (5) days or until August 8, 2013 within which to file its Comment to the same;</p>
+
+<p>2. However, due to volume and pressure of work, coupled with other equally important and urgent professional commitments, the undersigned counsel cannot complete the said Comment to the Offer of Evidence within the period required and will need an additional ten (10) days from August 8, 2013 or until August 18, 2013 within which to do so; </p>
+
+<p>3. This motion is being filed due to the reason above-stated and not for the purpose of delaying the instant case. </p>
+
+<p> WHEREFORE, defendant prays that he be granted an additional ten (10) days from August 8, 2013 or until August 18, 2013 within which to submit a Comment to the Offer of Evidence.    Quezon City, Philippines. August 30, 2013.</p>
+
+<p> ATTY. VX YZ  Counsel for Defendant</p>
+
+<p> NOTICE OF HEARING</p>
+
+<p>THE BRANCH CLERK OF COURT RTC - Branch 39 Quezon City</p>
+
+<p> Greetings!   Kindly submit the foregoing motion for consideration and approval of this Honorable Court immediately upon receipt hereof.</p>
+
+<p>  VX YZ   Copy furnished by registered mail:   ATTY. AB CD Counsel for the Defendant 2233 Zamora Street, Pasay City</p>
+
+<p> Please take notice that counsel has requested for the approval of this motion immediately upon receipt.</p>
+
+<p> VX YZ</p>");
+
+LegalForm.create(legal_form_title: "Affidavit of Delayed Registration of Birth", legal_form_content: "
+<p>REPUBLIC OF THE PHILIPPINES) CITY OF MAKATI ) S.S. x-------------------------------------x  </p>
+
+<p>AFFIDAVIT OF DELAYED  REGISTRATION OF BIRTH</p>
+
+<p>  I, MARIA B. DELA CRUZ, of legal age, Filipino, single and a resident of 6789 Washington Street, Pio del Pilar, Makati City, after having been duly sworn to in accordance with law, depose and state:</p>
+
+<p>1. That I am the applicant for the delayed registration of birth of my son Pedro Dela Cruz;</p>
+
+<p>2. That he was born in Davao City on October 25, 2012;</p>
+
+<p>3. That I was delayed in registering his birth for the reason that _______________________________________________________ .</p>
+
+<p>4. That I am executing this affidavit to attest to the truth and veracity of the foregoing facts and and in compliance with the requirements of the Philippines Civil Registrar.</p>
+
+<p> IN WITNESS WHEREOF, I have hereunto set my hand this 6th day of September 2013 in Makati City, Metro Manila, Philippines.  </p>
+
+<p>MARIA B. DELA CRUZ Affiant</p>
+
+<p> SUBCRIBED AND SWORN TO before me this 6th day of September 2013 in Makati City, Metro Manila, Philippines, affiant exhibiting to me her Philippine Passport No. 123456 issued in Manila on January 12, 2012 and valid until January 12, 2017.</p>
+
+<p>Doc. No. _____; Page No. _____; Book No. _____; Series of 2013.</p>");
+
+LegalForm.create(legal_form_title: "Motion to Order the Sheriff to Make a Return", legal_form_content: "
+<p>Republic of the Philippines National Capital Judicial Region  METROPOLITAN TRIAL COURT Branch LXIII (63) Makati City</p>
+
+<p> XYZ CORPORATION,  Plaintiff,    - versus - Civil Case No. 123456   RODA M. PEREZ,  Defendant. x----------------------------------------x</p>
+
+<p> MOTION TO ORDER THE SHERIFF TO MAKE A RETURN</p>
+
+<p>  PLAINTIFF, by counsel, before this Honorable Court, most respectfully moves that the Sheriff of this Honorable Court, be ordered to make the Sheriff's Return on the summons intended for the defendant. The Complaint was filed as early as March 6, 2013, and to date, plaintiff still has not received the Sheriff's Return.</p>
+
+<p> WHEREFORE, it is respectfully prayed that the foregoing motion be granted. </p>
+
+<p> Other reliefs just and equitable are also prayed for.   Makati City, Philippines. August 12, 2013.</p>
+
+<p>  ATTY. VX YZ  Counsel for the Plaintiff</p>
+
+<p> NOTICE OF HEARING</p>
+
+<p>THE BRANCH CLERK OF COURT MeTC - Branch 63 Makati City</p>
+
+<p> Greetings!   Kindly set and submit the foregoing Motion for the consideration and approval of this Honorable Court immediately upon receipt hereof.</p>
+
+<p> VX YZ</p>");
+
+LegalForm.create(legal_form_title: "Notice of Satisfaction of Judgment", legal_form_content: "
+<p>Republic of the Philippines National Capital Judicial Region  METROPOLITAN TRIAL COURT Branch LXII (62) Makati City</p>
+
+<p> JUAN S. SANTOS,  Plaintiff,</p>
+
+<p> - versus - Civil Case No. 111222</p>
+
+<p>ELLA CORPUZ MAPA,  Defendant. x-------------------------------------------x</p>
+
+<p> NOTICE OF SATISFACTION OF JUDGMENT</p>
+
+<p>  Plaintiff, by counsel, respectfully states that:</p>
+
+<p>1. On June 21, 2013 judgment was rendered ordering defendant to pay plaintiff the amount of P200,000.00;</p>
+
+<p>2. On July 5, 2013, defendant fully satisfied the aforementioned judgment by tendering to plaintiff the sum adjudged against him;</p>
+
+<p> WHEREFORE, in view of the payment and acceptance, plaintiff executes this notice and prays that satisfaction of judgment in the instant case be noted and entered by the clerk in the court docket.    Makati City, Philippines. July 10, 2013.</p>
+
+<p>  ATTY. VX YZ  Counsel for Plaintiff</p>
+
+<p>Copy furnished:   ATTY. AB CD Counsel for the Defendant 2233 Zamora Street, Pasay City</p>");
+
+LegalForm.create(legal_form_title: "Authorization Letter to Claim Mail", legal_form_content: "
+<p>August 27, 2013</p>
+
+<p> THE POSTMASTER Main Post Office Makati City</p>
+
+<p> Dear Sir/Madam:</p>
+
+<p>This is to authorized the bearer, MARIA M. DELA CRUZ, to claim and receive one (1) mail matter which your office received on August 15, 2013 and which is addressed to me at my office in Rm. 2222 Cityland 10, Tower 1, H.V. dela Costa St., Salcedo Village, Makati City. </p>
+
+<p>Enclosed is your informal notice addressed to me bearing the date August 25, 2013.</p>
+
+<p>The bearer will present to you my identification card for two purposes, namely: to confirm her authority; and to identify myself as the addressee thereon. </p>
+
+<p>Thank you for this and past courtesies. </p>
+
+<p> Very truly yours,</p>
+
+<p> JUAN C. DELA CRUZ</p>");
