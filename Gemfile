@@ -40,6 +40,8 @@ gem 'will_paginate'
 
 gem 'fuzzily'
 
+gem 'text'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 

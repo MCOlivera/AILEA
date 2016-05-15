@@ -1,7 +1,7 @@
 - if message.is_lea_response
     %li{:id => "message-#{message.id}", :class => "left clearfix"}
         %p.message-content
-            #{message.content}
+            = raw message.content
         %br
         %small.pull-right.text-muted
             %span.glyphicon.glyphicon-time
@@ -9,7 +9,7 @@
 - else
     %li{:id => "message-#{message.id}", :class => "right clearfix"}
         %p.message-content
-            #{message.content}
+            = raw message.content
         %br
         %small.pull-right.text-muted
             %span.glyphicon.glyphicon-time

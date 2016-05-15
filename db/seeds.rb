@@ -2,22 +2,408 @@ User.create(username: "user1", password: "useruser");
 User.create(username: "user2", password: "useruser");
 User.create(username: "admin", password: "adminadmin", admin: true);
 
-Glossary.create(glossary_term: "murder", glossary_description: "Murder is the killing of another human being without justification or valid excuse, and it is especially the unlawful killing of another human being with malice aforethought.");
-Glossary.create(glossary_term: "child murder", glossary_description: "Child murder or child homicide is the homicide of an individual under the age of 18.");
-Glossary.create(glossary_term: "rape", glossary_description: "Rape is a type of sexual assault usually involving sexual intercourse or other forms of sexual penetration perpetrated against a person without that person's consent.");
-Glossary.create(glossary_term: "assault", glossary_description: "An assault is carried out by a threat of bodily harm coupled with an apparent, present ability to cause the harm.");
+Glossary.create(glossary_term: "abandonment", glossary_description: "the act of abandoning property or a right");
+Glossary.create(glossary_term: "abduction", glossary_description: "the action of abducting");
+Glossary.create(glossary_term: "abolish", glossary_description: "to end the observance or effect of");
+Glossary.create(glossary_term: "abortion", glossary_description: "the termination of a pregnancy after, accompanied by, or closely followed by the death of the embryo or fetus");
+Glossary.create(glossary_term: "accident", glossary_description: "an unexpected usually sudden event that occurs without intent or volition although sometimes through carelessness, unawareness, ignorance, or a combination of causes");
+Glossary.create(glossary_term: "acknowledge", glossary_description: "to indicate recognition and acceptance of [the power of taxation in the general and state governments is acknowledged to be concurrent");
+Glossary.create(glossary_term: "addiction", glossary_description: "compulsive physiological need for a habit-forming drug (as heroin)");
+Glossary.create(glossary_term: "adoption", glossary_description: "legal process pursuant to state statute in which a child's legal rights and duties toward his natural parents are terminated and similar rights and duties toward his adoptive parents are substituted.");
+Glossary.create(glossary_term: "adultery", glossary_description: "voluntary sexual activity (as sexual intercourse) between a married man and someone other than his wife or between a married woman and someone other than her husband");
+Glossary.create(glossary_term: "assets", glossary_description: "any item with measurable value.");
+Glossary.create(glossary_term: "autonomy", glossary_description: "the quality or state of being self-governing");
+Glossary.create(glossary_term: "bad faith", glossary_description: "intentional deception, dishonesty, or failure to meet an obligation or duty");
+Glossary.create(glossary_term: "bankrupt", glossary_description: "a debtor (as an individual or organization) whose property is subject to administration under the bankruptcy laws for the benefit of the debtor's creditors");
+Glossary.create(glossary_term: "battery", glossary_description: "the crime or tort of intentionally or recklessly causing offensive physical contact or bodily harm");
+Glossary.create(glossary_term: "bigamy", glossary_description: "the crime of marrying someone while still legally married to someone else");
+Glossary.create(glossary_term: "bill of rights", glossary_description: "a summary of fundamental rights and privileges guaranteed to a people against violation by the government");
+Glossary.create(glossary_term: "bill of sale", glossary_description: ":a formal instrument for the conveyance or transfer of title to goods and chattels");
+Glossary.create(glossary_term: "bill", glossary_description: "a draft of a law presented to a legislature for enactment");
+Glossary.create(glossary_term: "blue ribbon", glossary_description: "consisting of individuals selected for quality, reputation, or authority");
+Glossary.create(glossary_term: "bona fide", glossary_description: "characterized by good faith and lack of fraud or deceit");
+Glossary.create(glossary_term: "bona vacantia", glossary_description: "goods that are unclaimed and without an apparent owner");
+Glossary.create(glossary_term: "boycott", glossary_description: "to engage in a concerted refusal to have dealings with (as a store, business, or organization) usually to express disapproval or to force acceptance of certain conditions");
+Glossary.create(glossary_term: "bribe", glossary_description: "a benefit (as money) given, promised, or offered in order to influence the judgment or conduct of a person in a position of trust (as an official or witness) compare kickback");
+Glossary.create(glossary_term: "canon law", glossary_description: "a body of religious law governing the conduct of members of a particular faith");
+Glossary.create(glossary_term: "carjacking", glossary_description: "theft by force or intimidation of an auto that has a driver or passenger present");
+Glossary.create(glossary_term: "case", glossary_description: "a civil or criminal suit or action");
+Glossary.create(glossary_term: "case law", glossary_description: "law established by judicial decisions in cases as distinguished from law created by legislation called also decisional law");
+Glossary.create(glossary_term: "censorship", glossary_description: "the institution, system, or practice of censoring compare freedom of speech, prior restraint");
+Glossary.create(glossary_term: "census", glossary_description: "a usually complete count of a population (as of a state)");
+Glossary.create(glossary_term: "certificate", glossary_description: "a document containing a certified statement esp. as to the truth of something");
+Glossary.create(glossary_term: "certificate of title", glossary_description: "a certificate of ownership stating that the title to the specified property is free and clear except for any encumbrance (as a mortgage) listed on it");
+Glossary.create(glossary_term: "certificate of deposit", glossary_description: "a money-market bond of a preset face value (as $10,000) paying fixed interest and redeemable without penalty only on maturity (as after two years)");
+Glossary.create(glossary_term: "certificate of authority", glossary_description: "A certificate granted by a state authority (usually the secretary of state) that allows a foreign corporation to conduct business");
+Glossary.create(glossary_term: "charity", glossary_description: "a gift for humanitarian, philanthropic, or other purposes beneficial to the public");
+Glossary.create(glossary_term: "charter", glossary_description: "a grant or guarantee of rights, powers, or privileges from an authority");
+Glossary.create(glossary_term: "chief justice", glossary_description: "a chief judge of a usually higher level court");
+Glossary.create(glossary_term: "chief judge", glossary_description: "the principal, presiding, or most senior judge of esp. a lower level court or of a circuit");
+Glossary.create(glossary_term: "citizen", glossary_description: "a native or naturalized individual who owes allegiance to a government");
+Glossary.create(glossary_term: "civilian", glossary_description: "a specialist in Roman or modern civil law");
+Glossary.create(glossary_term: "clemency", glossary_description: "willingness or ability to moderate the severity of a punishment (as a sentence)");
+Glossary.create(glossary_term: "clerk of court", glossary_description: "an officer appointed by the court to work with the chief judge and other judges in overseeing the court's administration, especially to assist in managing the flow of cases through the court");
+Glossary.create(glossary_term: "closing statement", glossary_description: "A lawyers final statement to the judge or jury before deliberation begins in which the lawyer requests the judge or jury to consider the evidence and apply the law in his or her client's favor");
+Glossary.create(glossary_term: "coast guard", glossary_description: "the government agency responsible for enforcing federal laws on the high seas and navigable waters of the United States and its possessions.");
+Glossary.create(glossary_term: "collaborate", glossary_description: "to work jointly with others in some endeavor");
+Glossary.create(glossary_term: "collateral", glossary_description: "accompanying as a secondary fact, activity, or agency but subordinate to a main consideration b : not directly relevant or material");
+Glossary.create(glossary_term: "commerce", glossary_description: "the exchange or buying and selling of goods, commodities, property, or services esp. on a large scale and involving transportation from place to place");
+Glossary.create(glossary_term: "commission", glossary_description: "a formal written authorization to perform various acts and duties");
+Glossary.create(glossary_term: "company", glossary_description: "an association of persons for carrying on a commercial or industrial enterprise");
+Glossary.create(glossary_term: "compilation", glossary_description: "a collection of preexisting materials and data so arranged to form a new original work under the law of copyright");
+Glossary.create(glossary_term: "complaint", glossary_description: "the initial pleading that starts a lawsuit and that sets forth the allegations made by the plaintiff against the defendant and the plaintiff's demand for relief");
+Glossary.create(glossary_term: "compliance", glossary_description: "an act or process of complying with a demand or recommendation");
+Glossary.create(glossary_term: "compulsary", glossary_description: "required or compelled by law");
+Glossary.create(glossary_term: "conceal", glossary_description: "to prevent disclosure of or fail to disclose (as a provision in a contract)");
+Glossary.create(glossary_term: "concurrent", glossary_description: "occurring, arising, or operating at the same time often in relationship, conjunction, association, or cooperation");
+Glossary.create(glossary_term: "confidential", glossary_description: "known or conveyed only to a limited number of people");
+Glossary.create(glossary_term: "confidentiality", glossary_description: "The relation between lawyer and client which guarantees any information shared by the client is treated as private and as such cannot be divulged to third parties without the client's consent");
+Glossary.create(glossary_term: "conscience", glossary_description: "exempting persons whose religious beliefs forbid compliance");
+Glossary.create(glossary_term: "consent", glossary_description: "compliance in or approval of what is done or proposed by another");
+Glossary.create(glossary_term: "consign", glossary_description: "to entrust (one's goods) to the possession of a dealer to be sold for profit or returned if unsold");
+Glossary.create(glossary_term: "contingent", glossary_description: "likely but not certain to happen compare executory");
+Glossary.create(glossary_term: "convention", glossary_description: "an agreement between nations for regulation of matters affecting all of them");
+Glossary.create(glossary_term: "deadlock", glossary_description: "a state of inaction resulting from the opposition of equally powerful uncompromising persons or factions");
+Glossary.create(glossary_term: "death certificate", glossary_description: "a document setting forth information (as age, occupation, and place of birth) relating to a dead person and including a doctor's certification of the cause of death");
+Glossary.create(glossary_term: "death penalty", glossary_description: "death as punishment for a crime called also capital punishment");
+Glossary.create(glossary_term: "death row", glossary_description: "a prison area housing inmates sentenced to death");
+Glossary.create(glossary_term: "depraved", glossary_description: "marked by moral corruption or perversion as shown by a capacity for extreme and wanton physical cruelty");
+Glossary.create(glossary_term: "discrimination", glossary_description: "unfair treatment or denial of normal privileges to persons because of their race, age, sex, nationality or religion");
+Glossary.create(glossary_term: "district attorney", glossary_description: "the prosecuting officer of a judicial district see also state's attorney");
+Glossary.create(glossary_term: "divorce", glossary_description: "the dissolution of a valid marriage granted");
+Glossary.create(glossary_term: "domestic violence", glossary_description: "violence committed by one family or household member against another see also restraining order at order");
+Glossary.create(glossary_term: "environmental crime", glossary_description: "an act that is destructive to the environment and that has been criminalized by statute");
+Glossary.create(glossary_term: "espionage", glossary_description: "the practice of gathering, transmitting, or losing through gross negligence information relating to the defense of the U.S.");
+Glossary.create(glossary_term: "expatriate", glossary_description: "to voluntarily withdraw (oneself) from allegiance to one's native country");
+Glossary.create(glossary_term: "faith", glossary_description: "allegiance or loyalty to a duty or a person");
+Glossary.create(glossary_term: "false advertising", glossary_description: "the crime or tort of publishing, broadcasting, or otherwise publicly distributing an advertisement that contains an untrue, misleading, or deceptive representation or statement");
+Glossary.create(glossary_term: "felony", glossary_description: "a crime that has a greater punishment imposed by statute than that imposed on a misdemeanor");
+Glossary.create(glossary_term: "fidelity", glossary_description: "the quality or state of being faithful or loyal");
+Glossary.create(glossary_term: "forgery", glossary_description: "the act of falsely making, altering, or imitating (as a document or signature) with intent to defraud");
+Glossary.create(glossary_term: "freedom", glossary_description: "the absence of necessity, coercion, or constraint in choice or action");
+Glossary.create(glossary_term: "freedom of speech", glossary_description: "the right to express information, ideas, and opinions free of government restrictions based on content and subject only to reasonable limitations");
+Glossary.create(glossary_term: "freedom of press", glossary_description: "The right to publish and distribute one's thoughts and views without governmental restriction as guaranteed by the First Amendment to the U.S. Constitution.");
+Glossary.create(glossary_term: "fugitive", glossary_description: "a person who flees one jurisdiction (as a state) for another in order to elude law enforcement personnel");
+Glossary.create(glossary_term: "faith", glossary_description: "honesty, fairness, and lawfulness of purpose");
+Glossary.create(glossary_term: "green card", glossary_description: "an identity card attesting the permanent resident status of an alien in the U.S.");
+Glossary.create(glossary_term: "guilty", glossary_description: "justly charged with a specified crime");
+Glossary.create(glossary_term: "guilty verdict", glossary_description: "a verdict convicting a criminal defendant of a charge or charges. When a verdict of guilty is returned, the court orders a presentence investigation of the defendant and sets a sentencing date");
+Glossary.create(glossary_term: "habeas corpus", glossary_description: "any of several writs originating at common law that are issued to bring a party before the court");
+Glossary.create(glossary_term: "hacker", glossary_description: "a clever computer programmer, who does not necessarily engage in illegal activities");
+Glossary.create(glossary_term: "hate crime", glossary_description: "a crime that violates the victim's civil rights and that is motivated by hostility to the victim's race, religion, creed, national origin, sexual orientation, or gender");
+Glossary.create(glossary_term: "hearing", glossary_description: "a proceeding of relative formality at which evidence and arguments may be presented on the matter at issue to be decided by a person or body having decision-making authority");
+Glossary.create(glossary_term: "hijack", glossary_description: "to seize possession or control of (a vehicle) from another person by force or threat of force");
+Glossary.create(glossary_term: "hit and run", glossary_description: "having left the scene of a motor vehicle accident without stopping to fulfill the duties imposed by law");
+Glossary.create(glossary_term: "homicide", glossary_description: "the killing of one human being by another");
+Glossary.create(glossary_term: "honorable discharge", glossary_description: "A formal final judgment passed by the government upon the entire military record of a soldier. An authoritative declaration by the government that a soldier has left the service in a status of honor");
+Glossary.create(glossary_term: "housebreaking", glossary_description: "the act of breaking into and entering the dwelling house of another for the purpose of committing a felony");
+Glossary.create(glossary_term: "incest", glossary_description: "sexual intercourse between persons so closely related that they are forbidden by law to marry");
+Glossary.create(glossary_term: "infamous", glossary_description: "of, relating to, or being a crime punishable by imprisonment (as a year or more in a penitentiary) that can lead to loss of rights and privileges upon conviction");
+Glossary.create(glossary_term: "infanticide", glossary_description: "the killing of a newly or recently born child");
+Glossary.create(glossary_term: "infringement", glossary_description: "the unauthorized use of copyrighted or patented material or of a trademark, trade name, or trade dress");
+Glossary.create(glossary_term: "inquisition", glossary_description: "a judicial or official inquiry or examination usually before a jury");
+Glossary.create(glossary_term: "jeopardy", glossary_description: "exposure to or imminence of death, loss, or injury");
+Glossary.create(glossary_term: "jaywalk", glossary_description: "to cross a street carelessly or in an illegal manner so as to be endangered by traffic");
+Glossary.create(glossary_term: "jus soli", glossary_description: "a rule of law that a child's citizenship is determined by his or her place of birth");
+Glossary.create(glossary_term: "jus sanguinis", glossary_description: "a rule of law that a child's citizenship is determined by that of his or her parents");
+Glossary.create(glossary_term: "kidnapping", glossary_description: "an act or instance or the crime of seizing, confining, inveigling, abducting, or carrying away a person by force or fraud often with a demand for ransom");
+Glossary.create(glossary_term: "kickback", glossary_description: "a payment (as of money or property) made to one in a position to open up or control a source of income for the payor");
+Glossary.create(glossary_term: "larceny", glossary_description: "the unlawful taking and carrying away of personal property with the intent to deprive the rightful owner of it permanently");
+Glossary.create(glossary_term: "law", glossary_description: "a rule of conduct or action prescribed or formally recognized as binding or enforced by a controlling authority");
+Glossary.create(glossary_term: "lawyer", glossary_description: "one whose profession is to advise clients as to legal rights and obligations and to represent clients in legal proceedings");
+Glossary.create(glossary_term: "leverage", glossary_description: "the use of credit to enhance one's speculative capacity");
+Glossary.create(glossary_term: "lewd", glossary_description: "involving or being sexual conduct that is considered indecent or offensive");
+Glossary.create(glossary_term: "liberty", glossary_description: "freedom from external (as governmental) restraint, compulsion, or interference in engaging in the pursuits or conduct of one's choice to the extent that they are lawful");
+Glossary.create(glossary_term: "liquid asset", glossary_description: "a cash asset or an asset that is easily converted into cash");
+Glossary.create(glossary_term: "litigate", glossary_description: "to seek resolution of a legal contest by judicial process");
+Glossary.create(glossary_term: "malice", glossary_description: "the intention or desire to cause harm (as death, bodily injury, or property damage) to another through an unlawful or wrongful act without justification or excuse");
+Glossary.create(glossary_term: "malpractice", glossary_description: "negligence, misconduct, lack of ordinary skill, or a breach of duty in the performance of a professional service (as in medicine) resulting in injury or loss");
+Glossary.create(glossary_term: "martial law", glossary_description: "the law applied in occupied territory by the military authority of the occupying power");
+Glossary.create(glossary_term: "mayor", glossary_description: "an official elected or appointed to act as chief executive or nominal head of a city, town, or borough");
+Glossary.create(glossary_term: "memorandum", glossary_description: "a record (as a note) which is used by a party seeking to enforce an otherwise oral agreement");
+Glossary.create(glossary_term: "misadventure", glossary_description: "an accident that causes serious injury or death to a person and that does not involve negligence, wrongful purpose, or unlawful conduct");
+Glossary.create(glossary_term: "modus operandi", glossary_description: "a distinct pattern or method of operation esp. that indicates or suggests the work of a single criminal in more than one crime");
+Glossary.create(glossary_term: "molest", glossary_description: "to make annoying sexual advances to");
+Glossary.create(glossary_term: "monopoly", glossary_description: "exclusive control of a particular market that is marked by the power to control prices and exclude competition");
+Glossary.create(glossary_term: "mortgage", glossary_description: "a conveyance of title to property that is given to secure an obligation (as a debt)");
+Glossary.create(glossary_term: "motion", glossary_description: "a formal proposal made in a legislative assembly");
+Glossary.create(glossary_term: "murder", glossary_description: "the crime of unlawfully and unjustifiably killing another under circumstances defined by statute");
+Glossary.create(glossary_term: "naked", glossary_description: "characterized by the lack of an interest or of exclusive control, use, or possession");
+Glossary.create(glossary_term: "neglect", glossary_description: "a disregard of duty resulting from carelessness, indifference, or willfulness");
+Glossary.create(glossary_term: "nexus", glossary_description: "a connection or link between things, persons, or event");
+Glossary.create(glossary_term: "nightwalker", glossary_description: "a person who roams about at night soliciting others for illicit sexual acts often preceded by common");
+Glossary.create(glossary_term: "nominal", glossary_description: "existing or being something in name or form but usually not in reality");
+Glossary.create(glossary_term: "notary public", glossary_description: "a public officer who certifies and attests to the authenticity of writings");
+Glossary.create(glossary_term: "notorious", glossary_description: "generally known and talked of");
+Glossary.create(glossary_term: "oath", glossary_description: "a solemn attestation of the truth of one's words or the sincerity of one's intentions ;specif : one accompanied by calling upon a deity as a witness");
+Glossary.create(glossary_term: "object", glossary_description: "something toward which thought, feeling, or action is directed");
+Glossary.create(glossary_term: "obligation", glossary_description: "a promise, acknowledgment, or agreement (as a contract) that binds one to a specific performance (as payment)");
+Glossary.create(glossary_term: "odd lot", glossary_description: "a quantity of stock that is less than the usual rounded amount (as 100 shares) compare round lot");
+Glossary.create(glossary_term: "oligopoly", glossary_description: "a condition in which a few sellers dominate a particular market to the detriment of competition by others");
+Glossary.create(glossary_term: "oppression", glossary_description: "an unjust or excessive exercise of power");
+Glossary.create(glossary_term: "order", glossary_description: "a state of peace, freedom from unruly behavior, and respect for law and proper authority");
+Glossary.create(glossary_term: "organization", glossary_description: "a body (as a corporation or union) that has a membership acting or united for a common purpose");
+Glossary.create(glossary_term: "organized crime", glossary_description: "criminal activity on the part of an organized and extensive group of people compare racketeering");
+Glossary.create(glossary_term: "originality", glossary_description: "the quality or fact of being the product of individual creation that warrants copyright protection for a particular work regardless of novelty");
+Glossary.create(glossary_term: "overdraft", glossary_description: "the act or result of drawing on a bank account for more than the balance");
+Glossary.create(glossary_term: "overrrule", glossary_description: "to rule against upon review by virtue of a higher authority");
+Glossary.create(glossary_term: "pandering", glossary_description: "the act or crime of recruiting prostitutes or of arranging a situation for another to practice prostitution");
+Glossary.create(glossary_term: "panel", glossary_description: "a group of community members summoned for jury service");
+Glossary.create(glossary_term: "paralegal", glossary_description: "of, relating to, or being a paraprofessional who assists a lawyer");
+Glossary.create(glossary_term: "parcel", glossary_description: "a tract or plot of land");
+Glossary.create(glossary_term: "pardon", glossary_description: "a release from the legal penalties of an offense");
+Glossary.create(glossary_term: "parole", glossary_description: "a conditional release of a prisoner who has served part of a sentence and who remains under the control of and in the legal custody of a parole authority");
+Glossary.create(glossary_term: "parricide", glossary_description: "a person who murders his or her mother or father or sometimes a close relative");
+Glossary.create(glossary_term: "party", glossary_description: "one (as a person, group, or entity) constituting alone or with others one of the sides of a proceeding, transaction, or agreement");
+Glossary.create(glossary_term: "patricide", glossary_description: "an individual who murders his or her father");
+Glossary.create(glossary_term: "penology", glossary_description: "a branch of criminology dealing with prison management and the treatment of offenders");
+Glossary.create(glossary_term: "pension", glossary_description: "money paid under given conditions to a person following retirement or to surviving dependents");
+Glossary.create(glossary_term: "peril", glossary_description: "exposure to the risk of death, destruction, or loss");
+Glossary.create(glossary_term: "perjury", glossary_description: "the act or crime of knowingly making a false statement (as about a material matter) while under oath or bound by an affirmation or other officially prescribed declaration that what one says, writes, or claims is true");
+Glossary.create(glossary_term: "petition", glossary_description: "a formal written request made to an official person or body (as a court or board)");
+Glossary.create(glossary_term: "petty", glossary_description: "relatively minor in degree");
+Glossary.create(glossary_term: "picket", glossary_description: "a person posted by a labor organization at a place of employment affected by a labor dispute");
+Glossary.create(glossary_term: "pickpocket", glossary_description: "a thief who surreptitiously steals money or valuables from the pockets or person of an individual");
+Glossary.create(glossary_term: "piracy", glossary_description: "an act of robbery esp. on the high seas");
+Glossary.create(glossary_term: "plaintiff", glossary_description: "the party who institutes a legal action or claim (as a counterclaim)");
+Glossary.create(glossary_term: "polygamy", glossary_description: "the offense of having several and specif. more than two spouses at one time compare bigamy");
+Glossary.create(glossary_term: "pornography", glossary_description: "material that depicts erotic behavior and is intended to cause sexual excitement");
+Glossary.create(glossary_term: "prayer", glossary_description: "the part of a pleading (as a complaint) that specifies the relief sought");
+Glossary.create(glossary_term: "president", glossary_description: "an official chosen to preside over a meeting or assembly");
+Glossary.create(glossary_term: "presume", glossary_description: "to suppose to be true without proof or before inquiry");
+Glossary.create(glossary_term: "presumption", glossary_description: "an inference as to the existence of a fact not certainly known that the law requires to be drawn from the known or proven existence of some other fact conclusive");
+Glossary.create(glossary_term: "prison", glossary_description: "an institution usually under state control for confinement of persons serving sentences for serious crimes");
+Glossary.create(glossary_term: "privacy", glossary_description: "freedom from unauthorized intrusion");
+Glossary.create(glossary_term: "pro bono", glossary_description: "being, involving, or doing legal work donated esp. for the public good");
+Glossary.create(glossary_term: "property tax", glossary_description: "a tax levied on real or personal property (as by a municipality)");
+Glossary.create(glossary_term: "proponent", glossary_description: "one who argues in favor of something");
+Glossary.create(glossary_term: "proprietor", glossary_description: "one who has legal right or exclusive title to something");
+Glossary.create(glossary_term: "prosecute", glossary_description: "to institute and carry forward legal action against for redress or esp. punishment of a crime");
+Glossary.create(glossary_term: "prosecution", glossary_description: "the act or process of prosecuting ;esp : the institution and carrying on of a criminal action involving the process of seeking formal charges against a person");
+Glossary.create(glossary_term: "prostitution", glossary_description: "the act or practice of engaging in sexual activity indiscriminately esp. for money");
+Glossary.create(glossary_term: "protest", glossary_description: "a solemn declaration of opinion and usually of disagreement");
+Glossary.create(glossary_term: "provoke", glossary_description: "to incite to anger");
+Glossary.create(glossary_term: "public utility", glossary_description: "a business organization (as an electric company) performing a public service and subject to special government regulation");
+Glossary.create(glossary_term: "punish", glossary_description: "to impose a penalty on for a fault, offense, or violation");
+Glossary.create(glossary_term: "pure speech", glossary_description: "the communication of ideas through spoken or written words or through conduct limited in form to that necessary to convey the idea");
+Glossary.create(glossary_term: "racketeering", glossary_description: "the extortion of money or advantage by threat or force");
+Glossary.create(glossary_term: "rainmaker", glossary_description: "a person (as a partner in a law firm) who brings in new business");
+Glossary.create(glossary_term: "ransom", glossary_description: "a consideration paid or demanded for the release of someone or something from captivity see also kidnapping");
+Glossary.create(glossary_term: "rational", glossary_description: "having reason or understanding");
+Glossary.create(glossary_term: "reasonable doubt", glossary_description: "a doubt esp. about the guilt of a criminal defendant that arises or remains upon fair and thorough consideration of the evidence or lack thereof");
+Glossary.create(glossary_term: "recess", glossary_description: "a temporary adjournment of a trial, hearing, or legislative session");
+Glossary.create(glossary_term: "recital", glossary_description: "a formal statement or setting forth of some relevant matter of fact in a deed or other document");
+Glossary.create(glossary_term: "sexual harassment", glossary_description: "employment discrimination consisting of unwelcome verbal or physical conduct directed at an employee because of his or her sex");
+Glossary.create(glossary_term: "tax evasion", glossary_description: "a willful and esp. criminal attempt to evade the imposition or payment of a tax");
+Glossary.create(glossary_term: "terrorism", glossary_description: "the unlawful use or threat of violence esp. against the state or the public as a politically motivated means of attack or coercion");
+Glossary.create(glossary_term: "treason", glossary_description: "the offense of attempting to overthrow the government of one's country or of assisting its enemies in war");
+Glossary.create(glossary_term: "vandalism", glossary_description: "the willful or malicious destruction or defacement of property");
+Glossary.create(glossary_term: "war crime", glossary_description: "an act committed usually during an international war for which individual criminal liability will be imposed by a domestic or international tribunal");
+Glossary.create(glossary_term: "warrant", glossary_description: "a commission or document giving authority to do something");
+Glossary.create(glossary_term: "youthful offender", glossary_description: "a young person (as one within a statutorily specified age range) who commits a crime but is granted special status entitling him or her to a more lenient punishment");
+Glossary.create(glossary_term: "zoning", glossary_description: "municipal or county regulation of land use effected through the creation and enforcement of zones under local law");
 
 Case.create(case_title: "Goines v. Valley Community Servs. Bd.", case_content: "In an action under 42 U.S.C. section 1983 alleging that plaintiff was unlawfully seized without probable cause in violation of the Fourth and Fourteenth Amendments when he went to the police station to report the theft of his cable services and ended up involuntarily detained for six days for a mental-health evaluation, the district court's grant of defendants' motion to dismiss for failure to state a claim, Fed. R. Civ. P. 12(b)(6), and dismissal of the entire complaint is: 1) affirmed in part as dismissal of the claims against the mental-health evaluator and her employer; and 2) vacated in part as to the two officers who initially took plaintiff into custody, where the allegations of plaintiff's complaint are sufficient to survive the motion to dismiss.");
 Case.create(case_title: "Ministerio Roca Solida v. McKelvey", case_content: "In an action brought under Bivens v. Six Unknown Named Agents of the Federal Bureau of Narcotics, 403 U.S. 388 (1971), by a non-profit religious organization that runs a church camp on a parcel of land in Nye County, Nevada seeking an injunction against a US Fish and Wildlife Service officer for the allegedly unconstitutional diversion of a stream that once flowed through plaintiff's church camp property, the District Court's denial of defendants' motion to dismiss is reversed where relief under Bivens does not encompass injunctive and declaratory relief where the equitable relief sought requires official government action.");
 Case.create(case_title: "Hamby v. Hammond", case_content: "In an action brought by a prison inmate pursuant to 42 U.S.C. section 1983 alleging that officials were deliberately indifferent to his serious medical needs when they refused to grant his request for hernia surgery, the district court's summary judgment in favor of prison officials is affirmed where the officials were entitled to qualified immunity because in light of existing precedent and the specific facts of this case, it was at least debatable that they complied with the Eighth Amendment.");
-# Case.create(case_title: "", case_content: "");
-# Case.create(case_title: "", case_content: "");
-# Case.create(case_title: "", case_content: "");
-# Case.create(case_title: "", case_content: "");
-# Case.create(case_title: "", case_content: "");
-# Case.create(case_title: "", case_content: "");
-# Case.create(case_title: "", case_content: "");
-# Case.create(case_title: "", case_content: "");
+Case.create(case_title: "Najas Realty, LLC v. Seekonk Water Dist.", case_content: "In an action stemming from the plaintiffs' purchase of a piece of land and the opposition the defendants mounted to the plaintiffs' plan to develop that property, alleging defendants' conduct violated various constitutional and state law provisos, including 42 U.S.C. section 1983 and the Massachusetts Civil Rights Act (MCRA), Mass. Gen. Laws Ann. ch. 12, section 11, the District Court's grant of judgment on the pleadings in favor of defendants is affirmed where plaintiffs did not give sufficient facts to state plausible-on-their-face claims, ones that gave rise to more than a mere possibility of liability.");
+Case.create(case_title: "HUD v. Castillo Condominium", case_content: "In a case that involves a man, his emotional support dog, and a condominium association's 'no pets' rule, alleging disability discrimination under the Fair Housing Act, 42 U.S.C. sections 3601-3619, the condominium association's petition for judicial review of a final order of the Secretary of the United States Department of Housing and Urban Development is denied and the Secretary's cross-petition for enforcement of his order is granted where substantial evidence supports the Secretary's finding that the Association's refusal to allow the former condo owner to keep an emotional support dog in his condominium unit as a reasonable accommodation for his disability was unlawful.");
+Case.create(case_title: "Abascal v. Fleckenstein", case_content: "In a prisoner's suit under 42 U.S.C. section 1983 alleging, among other things, that while he was incarcerated at Attica Correctional Facility, defendant corrections officers subjected him to cruel and unusual punishment by depriving him of meals and physically assaulting him in violation of his Eighth Amendment rights, the District Court's denial of defendants' motion to set aside the jury verdict against them is vacated where the District Court abused its discretion when it admitted a report into evidence that included statements by other inmates alleging abuse at Attica, as well as the report's authors' views about the pervasive culture of abuse at the facility, because it was inadmissible hearsay and did not qualify for the business records or public records exceptions.");
+Case.create(case_title: "Jones v. Chandrasuwan", case_content: "In an action brought by a plaintiff who was arrested for allegedly violating the conditions of his probation, claiming violation of his Fourth Amendment rights under 42 U.S.C. section 1983, the District Court's grant of summary judgment to defendants on qualified immunity grounds is affirmed where, although the district court's discussion at step one of the qualified immunity analysis is flawed, the right at issue was not clearly established at the time plaintiff was arrested.");
+Case.create(case_title: "Cooper v. N.Y. State Dep't of Labor", case_content: "In a suit under Title VII of the Civil Rights Act of 1964, 42 U.S.C. sections 2000e et seq. (Title VII), and the New York State Human Rights Law, N.Y. Exec. Law sections 290 et seq. (NYSHRL) alleging that plaintiff's former employer, defendant New York State Department of Labor, unlawfully retaliated against her for opposing an employment practice proscribed by Title VII and the NYSHRL, the District Court's dismissal under Federal Rule of Civil Procedure 12(b)(6) is affirmed where reasonably have believed that the conduct she opposed violated either statute.");
+Case.create(case_title: "Heffernan v. City of Paterson", case_content: "In a suit brought by a demoted police officer, claiming that the police chief and other defendants had demoted him because, in their mistaken view, he had engaged in conduct that constituted protected speech, the Third Circuit's decision, that plaintiff's claim was actionable under 42 U.S.C. section 1983 only if his employer's action was prompted by plaintiff's actual rather than his perceived exercise of his free-speech rights, is reversed where when an employer demotes an employee out of a desire to prevent the employee from engaging in protected political activity, the employee is entitled to challenge that unlawful action under the First Amendment and section 1983, even if the employer's actions are based on a factual mistake about the employee's behavior.");
+Case.create(case_title: "LaPierre v. City of Lawrence", case_content: "In a civil rights action brought by a plaintiff who was sexually assaulted by one of the City's police officers, involving Federal Rule of Civil Procedure 68, which allows a party defending against a claim to make an offer of judgment that, if accepted within 14 days, must be enforced upon the filing of the offer, the acceptance, and proof of service, and such offer \"to allow judgment on specified terms, with the costs then accrued,\" the District Court's judgment granting defendant's motion to strike the filing on grounds that plaintiff's acceptance was invalid is reversed where plaintiff was entitled to accept the City's original Rule 68 offer and to treat it as a complete offer exclusive of costs.");
+Case.create(case_title: "Murray v. Warren Pumps, LLC", case_content: "In a suit brought against plaintiff's former employer and its parent company, claiming that their actions toward him violated the Americans with Disabilities Act (ADA) and its Massachusetts analog, 42 U.S.C. sections 2112(a) and (b)(5)(A) and M.G.L. ch. 151B section 4(16), and alleging a state common law claim that he had been terminated from his employment for raising complaints about suspected workplace safety violations, in contravention of Massachusetts public policy, the District Court's grant of summary judgment to defendant on all claims is affirmed where: 1) plaintiff cannot establish a nexus between his complaints about disability harassment and the alleged retaliation; and 2) Massachusetts courts recognize limitations on the protection afforded to at-will employees under the public policy exception and the district court adhered to the line drawn in the state court decisions.");
+Case.create(case_title: "Guadalupe-Baez v. Pesquera", case_content: "In a case dealing with the Rule 12(b)(6) pleading threshold, which involves a plaintiff who reasonably believed that he was shot by a police officer but who thereafter was deprived of access to information that would have enabled him to establish the facts and circumstances surrounding the incident, the district court's dismissal, on grounds that the allegations in plaintiff's amended complaint lacked the requisite plausibility, is reversed in part as to defendant Pesquera where under the theory of supervisory liability of 42 U.S.C. section 1983, a DOJ-issued report put him on clear notice of his potential liability, thus he plainly cannot satisfy one of the showings required for qualified immunity.");
+Case.create(case_title: "G.G. v. Gloucester County Sch. Bd.", case_content: "In a suit brought by a transgender boy who seeks to use the boys' restrooms at his high school, alleging that the school board impermissibly discriminated against him in violation of Title IX and the Equal Protection Clause of the Constitution, the district court's dismissal of the Title IX claim and denial of plaintiff's request for a preliminary injunction is: 1) reversed as to the Title IX claim where the district court did not accord appropriate deference to the relevant Department of Education regulations; 2) vacated as to the the denial of motion for preliminary injunction where the district court used the wrong evidentiary standard in assessing the motion; and 3) remanded for consideration under the correct standard.");
+Case.create(case_title: "Johnson v. Patterson", case_content: "In a civil rights action, challenging police officer defendant's arrest of plaintiff following her refusal to allow Child Protective Services to interview her child as part of a child neglect investigation, the district court's grant of summary judgment to defendant on qualified immunity grounds is vacated where the current record doesn't establish that defendant had grounds to arrest plaintiff.");
+Case.create(case_title: "O'Brien v. Welty", case_content: "In a civil rights action, brought by a California State University student claiming the university's disciplining of him violated his First Amendment rights, the district court's dismissal for failure to state a claim is reversed in part and affirmed in part where: 1) California Code of Regulations, tit. 5, section 41301(b)(7) is not unconstitutionally overbroad or vague and supported discipline for plaintiff's conduct; 2) plaintiff has alleged sufficient facts to state a plausible First Amendment retaliation claim; and 3) the district court erred by finding defendants were protected by qualified immunity.");
+Case.create(case_title: "Oklevueha Native Am. Church v. Lynch", case_content: "In a civil rights action, the district court's grant of summary judgment to the federal government is affirmed where: 1) plaintiffs failed to prove that federal prohibitions on possessing and distributing cannabis are a \"substantial burden\" on their free exercise of religion under the Religious Freedom Restoration Act; and 2) the American Indian Religious Freedom Act does not create a cause of action or judicially enforceable individual right.");
+Case.create(case_title: "Thomas v. Dillard", case_content: "In a civil rights action, arising after defendant police officer tased plaintiff while responding to a possible domestic violence call, the district court's grant of summary judgment to plaintiff and denial of qualified immunity to defendant police officer is reversed where defendant officer lacked reasonable suspicion to detain plaintiff to perform a Terry frisk, violating his Fourth Amendment rights, but such right was not clearly established at the time.");
+Case.create(case_title: "Scheer v. Kelly", case_content: "In a 42 U.S.C. section 1983 action, brought by plaintiff attorney challenging California's procedures for attorney discipline, the district court's dismissal of the complaint is affirmed where: 1) plaintiff's as-applied challenge is barred by the Rooker-Feldman doctrine; 2) plaintiff's facial claims were not time-barred because the State Bar misread the relevant circuit precedent concerning the statute-of-limitations; 3) plaintiff's facial claims have already been rejected by the Supreme Court of California and plaintiff received adequate notice and opportunity for a hearing; and 4) California's decision to regulate lawyers principally through the State Bar of California is constitutional.");
+Case.create(case_title: "Lowry v. City of San Diego", case_content: "In a civil rights action, arising after a police dog pounced on plaintiff and tore open her upper lip following her accidental tripping of a burglar alarm at her office, the district court's grant of summary judgment to defendant is reversed where a reasonable jury could fine that the force used was excessive and defendant city concedes the force employed conformed with its policy for training its police dogs.");
+Case.create(case_title: "Giant Eagle Inc v. Commissioner IRS", case_content: "In a tax case brought by a supermarket company, the Tax Court's judgment in favor of the IRS, disallowing deductions claimed by plaintiff based on rewards shoppers had earned but not yet redeemed, is reversed where the claimed deductions are permissible under the 'all events' test used with accural method taxpayers.");
+Case.create(case_title: "Davis v. City of Philadelphia", case_content: "In a suit brought by a veteran challenging delinquent property tax interest and penalties that the City of Philadelphia assessed against his company while he was on active duty, the District Court's dismissal of the complaint is affirmed where the protections of the Servicemembers Civil Relief Act (SCRA), 50 U.S.C. section 3901 (SCRA) afforded to plaintiff as a servicemember do not extend to his company's property.");
+Case.create(case_title: "Mercury Systems, Inc. v. Shareholder Representative Servs.", case_content: "In a dispute arising out of a merger agreement in which one party agreed to indemnify the other against a purely hypothetical tax loss, involving the issue of whether the prepayments and credits, and resulting tax refunds, affect the tax indemnification obligation of the sellers, the District Court's judgment in favor of sellers is vacated and remanded for further proceedings where; 1) the indemnification provision is ambiguous as to how the tax refunds affect the indemnification obligation of the sellers; and 2) the parties' arguments about the purpose and negotiating history of the provision cannot be resolved without the aid of a fact-finder.");
+Case.create(case_title: "O'Brien v. AMBS Diagnostics", case_content: "In a debt collection action, the trial court's ruling in favor of debtor is reversed where: 1) money that a person sets aside for the \"qualified higher education expenses\" of his children under Internal Revenue Code section 529 (so-called \"section 529 savings accounts\") is not exempt from the collection efforts under the California Enforcement of Judgments Law, Code of Civil Procedure section 680.010 et seq., of a creditor who has a valid judgment against that person; and 2) the court did not apply the proper legal standard in evaluating the exemption for private retirement accounts in finding that the debtor's retirement accounts are fully exempt from collection.");
+Case.create(case_title: "Franchise Tax Bd. of Cal. v. Hyatt", case_content: "In a taxpayer's suit filed in Nevada state court, seeking damages for California's alleged abusive audit and investigation practices. the Nevada Supreme Court's decision, affirming $1 million of the lower court's $500 million award and ordering a retrial on another damages issue, stating that the $50,000 maximum that Nevada law would permit in a similar suit against its own official would not apply on remand, is vacated where the Constitution does not permit Nevada to apply a rule of Nevada law that awards damages against California that are greater than it could award against Nevada in similar circumstances, under the Constitution's Full Faith and Credit Clause, Art. IV, section 1.");
+Case.create(case_title: "US v. Chen", case_content: "In a case in which the IRS is investigating civilly the failure to pay taxes and the matter has not been referred for criminal prosecution, the district court's enforcement of a summons as to foreign bank account information and documents required to be kept under the Bank Secrecy Act (BSA), 31 U.S.C. section 5311 et seq., is affirmed where the taxpayer must comply with an IRS summons for documents he or she is required to keep under the BSA. As to enforcement of the summons for documents not subject to the BSA, the judgment is reversed and remanded for further explanation.");
+Case.create(case_title: "City of Bellflower v. Cohen", case_content: "In a consolidated appeal relating to the redevelopment dissolution law, presenting a facial constitutional challenge as to whether the statute allowing withholding of sales and use tax revenues and property tax revenues violates Proposition 22 (2010), which prohibits the state from reallocating, transferring, or otherwise using revenues from taxes imposed or levied by a local government solely for the local government's purposes, the trial court's decision is reversed in the Bellflower case and affirmed in the League of Cities case where the statutes are unconstitutional to the extent they allow the state to reallocate, transfer, or otherwise use tax revenue belonging to the local government.");
+Case.create(case_title: "Ellis v. County of Calaveras", case_content: "In a suit relating to property taxes assessed against plaintiff's real property, the trial court's sustainment of the government defendants' demurrer is affirmed where neither of the defendants, nor the trial court can effectively give plaintiff the relief he is seeking despite his procedurally timely appeal of the 2010 base year value assessment because his timely appeal would only entitle him to request a refund for tax years 2012 and thereafter, and even if entitled to a reduction in the 2010 tax assessment, it would have had no effect because the 2010 base year value was superseded by subsequent assessments in 2011 and 2012 while construction was yet incomplete.");
+Case.create(case_title: "Schiffmann v. US", case_content: "In an appeal by corporate officers found to be personally responsible for causing their corporation to shirk its payroll tax obligations, the district court grant of summary judgment to the government is affirmed where: 1) there is no genuine issue as to any material fact; and 2) both plaintiffs were responsible persons during the relevant quarters, and each of them acted wilfully in failing to see to the payment of the corporation's overdue and current trust fund taxes.");
+Case.create(case_title: "Newhall County Water Dist. v. Castaic Lake Water Agency", case_content: "In a challenge to wholesale water rates adopted by the board of directors of defendant water agency, the trial court's judgment in favor of plaintiffs is affirmed where the agency's rates violated article XIII C of the California Constitution (Proposition 26).");
+Case.create(case_title: "Route 231, LLC v. Commissioner", case_content: "In a tax action, the Tax Court's determination that $3.816 million constituted gross income instead of a capital contribution is affirmed where: 1) the money constitutes income received from a tax credit sale; and 2) plaintiff was obligated to report the amount on its 2005 federal tax form under the accrual method of accounting.");
+Case.create(case_title: "Jewish Community Centers Develop. Corp. v. County of Los Angeles", case_content: "In a property tax refund action based on the welfare exemption set forth in Revenue and Taxation Code section 214, the trial court's judgment in favor of plaintiff is affirmed where: 1) the State Board of Equalization's (SBE) interpretation of section 214 was clearly erroneous; 2) the SBE's advisory rule regarding who must file a welfare exemption is not binding and therefore should not be given independent legal effect; and 3) the County failed to establish that the trial court should have denied a tax refund because plaintiff's claims were tardy and its claim forms were incomplete.");
+Case.create(case_title: "Gillette Co. v. Franchise Tax Bd.", case_content: "In taxpayers' challenge to how California calculates income taxes on multistate businesses under the Multistate Tax Compact, former Rev. & Tax. Code section 38001 et seq., which contained an apportionment formula and permitted a taxpayer election between the Compact's formula and any other formula provided by state law, the Court of Appeals judgment in favor of plaintiffs is reversed where, in light of the Legislature's later amendments to the Revenue and Taxation Code to specify a different apportionment formula that shall apply notwithstanding the Compact's provisions, the Legislature may properly preclude a taxpayer from relying on the Compact's election provision.");
+Case.create(case_title: "Dorrance v. US", case_content: "In a tax action, the district court's order of a partial-refund is reversed where taxpayers who sell stock obtained through demutualization of mutual life insurance companies cannot claim a basis in the proceeds of that sale for tax purposes because they had zero basis in the mutual rights extinguished as part of demutualization.");
+Case.create(case_title: "Maimonides Med. Ctr. v. US", case_content: "In a tax refund action, the district court's grant of summary judgment to the government is affirmed and the court held that the interest rate set forth in I.R.C. section 6621(a)(1) for refunds of overpayment of tax to corporations also applies to non-profit corporations.");
+Case.create(case_title: "Ai v. US", case_content: "In a tax action, the district court's entry of judgment on the pleadings to the government is affirmed where temporary foreign workers in the Commonwealth of the Northern Mariana Islands (CNMI) and their employers are required to pay FICA taxes under section 606(b) of the Covenant governing relations between the U.S. and the CNMI.");
+Case.create(case_title: "Golden Gate Hill Development Co. v. County of Alameda", case_content: "In an action seeking a refund of taxes paid under voter-approved Measures I and J (the Measures), which levy special parcel taxes by the Albany Unified School District, the trial court's sustainment of the demurrer without leave to amend is affirmed where appellant has not shown there is a basis for its refund claim independent of the alleged invalidity of the Measures.");
+Case.create(case_title: "Marlton Recovery Partners, LLC v. County of Los Angeles", case_content: "In a petition action for preemptory writ of mandate seeing to overturn a decision denying plaintiff's request for cancellation of tax penalties under Revenue and Taxation Code section 4985.2(a), the denial of the writ is affirmed where, under section 4985.2, a tax payer may not be in delinquent status as to any tax period in excess of four years in order to seek relief for penalties accrued.");
+Case.create(case_title: "People v. Sprint Nextel Corp.", case_content: "In a civil enforcement action alleging that defendant Sprint knowingly submitted false tax statements in violation of the New York False Claims Act (FCA), the order of the Appellate Division is affirmed where: 1) New York imposes sales tax on interstate voice service sold by mobile providers; 2) New York's tax law is not preempted by federal law; 3) plaintiff sufficiently pleaded a New York FCA cause of action; and 4) recoverable damages are not barred by the Ex Post Facto Clause of the U.S. Constitution.");
+Case.create(case_title: "Carloss v. County of Alameda", case_content: "In an action challenging defendant's county's denial of plaintiff's claim, under Rev. & Tax. Code section 4675(a), for the excess proceeds from the sale of seized residential property that was in default on property taxes, the trial court's dismissal of the action, on grounds that it is time-barred and fails to state a claim for relief, is reversed where: 1) the action is timely; and 2) a recorded grant deed is not the exclusive means of proving a person's title of record, and allegations in the complaint do sufficiently state a claim.");
+Case.create(case_title: "Yates v. Terry", case_content: "In a 42 U.S.C. section 1983 claim, brought by plaintiff against defendant police officer who tased him three times during a traffic stop, the district court's denial of qualified immunity for the defendant is affirmed where: 1) the stop concerned minor, non-violent traffic infractions and a misdemeanor driving without a license offense; 2) plaintiff was unarmed and complying with defendant's orders, and 3) plaintiff was not attempting to flee or resist.");
+Case.create(case_title: "Chavez v. Robinson", case_content: "In a civil rights action, brought by a probationer convicted of attempted sexual abuse against his probation officer and sex offender treatment program therapist, the district court's sua sponte dismissal of his in forma pauperis complaint on the basis of qualified immunity is reversed where 28 U.S.C. section 1915(e)(2)(B)(iii)'s required dismissal of actions seeking monetary relief against immune defendants covers both absolute and qualified immunity. The court remanded the matter for further proceedings.");
+Case.create(case_title: "Avenue 6E Investments v. City of Yuma", case_content: "In a housing discrimination action brought by two real estate developers against defendant city, contending that the defendant's refusal to rezone land to permit higher-density development stemmed from discrimination against Hispanics, the district court's grant of summary judgment to defendant is reversed where: 1) plaintiffs presented plausible claims for relief for disparate treatment under the Fair Housing Act and the Equal Protection Clause sufficient to pass the plausibility bar; and: 2) the district court's view that that availability of other similarly-priced and similarly-modelled housing elsewhere precluded a disparate impact finding was erroneous.");
+Case.create(case_title: "Saldivar v. Racine", case_content: "In a suit alleging 42 U.S.C. section 1983 violations and state law negligence claims against the City of Fall River, Massachusetts, and Fall River Police Chief, arising out of the assault, battery and rape of plaintiff by a police officer, the district court's dismissal of the complaint under Federal Rule of Civil Procedure 12(b)(6) for failure to state a claim is affirmed where, while the complaint alleges conduct by a member of the city police force that is shocking, it seeks to hold the officer's supervisor and the city liable, and absent more facts, the court cannot discern a plausible claim for doing so under section 1983 or Massachusetts' negligence law.");
+Case.create(case_title: "MHANY Mgmt., Inc. v. City of Nassau", case_content: "In a fair housing action, the district court's judgment after a bench trial for plaintiffs is affirmed in part, vacated in part, and remanded where: 1) plaintiffs have Article III standing to sue under the Fair Housing Act; 2) defendants did not meet the standards of the voluntary cessation doctrine; 3) the district court's finding that defendant's decision to change zoning was made with discriminatory intent was not clear error; 4) 24 C.F.R section 100.500(c) abrogated circuit precedent as to burden-shifting to prove a disparate impact claim, requiring a remand; and 5) defendant Nassau County was properly dismissed as the summary judgment stage because plaintiffs did not raise genuine issues of material fact as to whether the County had legal responsibility for the city's zoning actions.");
+Case.create(case_title: "Graziadio v. Culinary Institute of America", case_content: "In an employment action, brought by a former employee of defendant under the Family and Medical Leave Act (FMLA) and the Americans with Disabilities Act (ADA) after being fired for taking leave to care for her children, the district court's grant of summary judgment to defendant is: 1) vacated in part where plaintiff has raised genuine issues of material fact with respect to her FMLA interference and retaliation claims; and 2) affirmed in part where plaintiff has failed to adduce evidence supporting her discrimination claim under the ADA.");
+Case.create(case_title: "Beauchamp v. Anaheim Union High Sch. Dist.", case_content: "In an attorney's fees action, arising from a due process complaint filed under the Individuals with Disabilities in Education Act, the district court's award of $7,780 in fees and reduction in plaintiff attorney's hourly rate is affirmed where the attorney unreasonably rejected a timely settlement offer that the plaintiff was not substantially justified in rejecting.");
+Case.create(case_title: "Harris v. Fischer", case_content: "In an action brought by former prisoner, alleging that three female corrections officers held her down while a male corrections officer visually inspected her genitalia in search of cotton, the district court's grant of summary judgment to defendants is vacated where: 1) the district court's conclusions rested on an incomplete assessment of the Fourth Amendment's protection of an inmate's right to bodily privacy; and 2) there are genuine disputes of material fact remaining");
+Case.create(case_title: "Mitchell v. State of Washington", case_content: "In a prisoner civil rights action, contending that defendants violated the Equal Protection Clause in refusing to treat plaintiff’s Hepatitis C with interferon and ribavirin, the district court’s judgment is affirmed where: 1) the district court erred in holding that the Eleventh Amendment barred plaintiff’s claims for damages; but 2) plaintiff’s claims for injunctive and declaratory relief are moot because defendant has since treated plaintiff with interferon and ribavirin; and 3) defendant is entitled to qualified immunity because the use of race-related-success-of-treatment data when making medical treatment decisions was not clearly established as unconstitutional.");
+Case.create(case_title: "Arizona ex rel. Horne v. The Geo Group, Inc.", case_content: "In an employment action brought by the EEOC and the Arizona Civil Rights Division against defendant Geo Group for violating the employment rights of its female employees, the district court's grant of summary judgment to defendant is vacated where: 1) plaintiffs sufficiently conciliated their class claims against defendant in light of Mach Mining, LLC v. EEOC, 135 S.Ct. 1645 (2015); 2) plaintiffs can maintain their claims on behalf of aggrieved employees provided that the employee has alleged at least one act of misconduct that occurred within 300 days prior to the date the first aggrieved employee filed her charge against defendant; and 3) an aggrieved employee is not required to file a new charge of discrimination with the EEOC if her claim is already encompassed within the Reasonable Cause Determination or is like or reasonably related to the initial charge.");
+Case.create(case_title: "Melendres v. Maricopa Cnty.", case_content: "In a civil rights action, brought against Maricopa County Sherrif Arpaio for the alleged racial profiling of Latino drivers and passengers, defendant county’s appeal following its is dismissed as untimely where the 30 day period for filing an appeal passed before defendant was substituted into the case, and the court cannot make equitable exceptions to its jurisdictional requirements");
+Case.create(case_title: "A.G. v. Paradise Valley Unified Sch. Dist. No. 69", case_content: "In an education action, brought by a student eligible for special education services and claiming discrimination in violation of the Rehabilitation Act, 29 U.S.C. section 794, Title II of the Americans with Disabilities Act, and Arizona law, the district court’s grant of summary judgment to defendant is vacated and remanded. The Court offered extensive, wide-ranging guidance for the district court on overlapping federal statutes and state law claims at issue in this case.");
+Case.create(case_title: "Mercado v. Government of Puerto Rico", case_content: "In a suit against government entities under Title II of the Americans with Disabilities Act (ADA), alleging defendants had denied her access to public services and discriminated against her because she was 'regarded as' having a physical or mental impairment within the meaning of the ADA, 42 U.S.C. sections 12102 and 12132, the district court's dismissal of the complaint as time barred is reversed where 28 U.S.C. section 1658's limitations period does apply here because plaintiff's legal claims were made possible by the 2008 amendments to the ADA codified in the ADA Amendments Act of 2008 (ADAAA).");
+Case.create(case_title: "Mendez v. County of L.A.", case_content: "In a civil rights action arising from a warrantless search of a shack that resulted in police shooting plaintiffs, a homeless couple who lived there, the district court's judgment for plaintiffs is: 1) affirmed as to the denial of qualified immunity for the warrantless entry; and 2) reversed as to the denial of qualified immunity for violating the knock-and-announce rule, which was not clearly established for separate residences within the curtilage of a home at the time");
+Case.create(case_title: "Wallace v. County of Stanislaus", case_content: "In a discrimination case was brought by a sheriff's deputy against a county under Government Code section 12940, alleged disability discrimination based on county's removing him from his job as bailiff and placing him on an unpaid leave of absence because of its incorrect assessment that he could not safely perform his duties as a bailiff even with reasonable accommodation, the trial court's judgment is reversed and remanded for retrial where: 1) the instruction on what role animus plays in defining the employer's intent to discriminate against a disabled employee and the related question in the special verdict form contained error; 2) the instructional error was prejudicial.");
+Case.create(case_title: "Ernst v. Carrigan", case_content: "In a defamation action, the court dismissed the appeal for lack of appellate jurisdiction where the district court’s passing on the merits of the defendants’ special motions to strike under Vermont’s anti-SLAPP statute was not an order that could be the subject of an interlocutory appeal under the collateral order doctrine.");
+Case.create(case_title: "Mammaro v. N.J. Div. of Child Protection", case_content: "In a civil rights action following defendant’s temporary removal of plaintiff’s child from her custody after inaccurately she removed her child from approved housing, the district court’s refusal to grant qualified immunity is reversed where there was no clearly established law that temporarily removing a child after the parent takes the child from approved housing violates a parent’s substantive due process rights under the Fourteenth Amendment.");
+Case.create(case_title: "Village of Freeport v. Barrella", case_content: "In a civil rights action, the district court's entry of judgment for plaintiff is: 1) affirmed where 'race' includes ethnicity under 42 U.S.C. section 1981 and Title VII of the Civil Rights Act of 1964, 42 U.S.C. section 2000e et seq., and an employer who promotes a white Hispanic candidate over a white non-Hispanic candidate can engage in racial discrimination; and 2) vacated and remanded for a new trial where the district court erred in permitting lay opinion testimony that speculated as to a defendant's reasons for not appointing plaintiff to the position, in violation of Rule 701(b) of the Federal Rules of Evidence");
+Case.create(case_title: "Miranda-Rivera v. Toledo-Davila", case_content: "In a suit under 42 U.S.C. section 1983 brought by family members of a decedent who died in a police holding cell after being arrested for driving under the influence, alleging that the arresting officers used excessive force against decedent and denied him needed medical care, the district court's grant of summary judgment to defendants on insufficient evidence and qualified immunity grounds, is: 1) affirmed in part as to claims against Superintendent Toledo; and 2) reversed and remanded in part as to claims against Officer Perez and Sergeant Rodriguez.");
+Case.create(case_title: "Selective Ins. Co. of Am. v. County of Rensselaer", case_content: "In an insurance action, in which defendant refused to pay plaintiff more than a single deductable payment following the defense of a class action and resulting settlement involving the county, the trial court’s grant of summary judgment to plaintiff is affirmed where county’s improper strip searches of arrestees over a four-year period constituted multiple occurrences under the insurance policy and defendant is responsible for paying deductibles to plaintiff with respect to each class member.");
+Case.create(case_title: "Nat'l Fed'n of the Blind v. Lamone", case_content: "In an election action challenging Maryland's absentee ballot law under Title II of the Americans with Disabilities Act and section 504 of the Rehabilitation Act, the district court's judgment for plaintiffs is affirmed where: 1) Maryland's law effectively requires disabled individuals to rely on the assistance of others to vote absentee, denying them meaningful access to the absentee ballot program; 2) the district court's remedy of an online ballot marking tool for disabled voters is reasonably secure and reasonably accessible; and 3) defendants have not proven that the proposed remedy would fundamentally alter the program.");
+Case.create(case_title: "Andon, LLC v. City of Newport News", case_content: "In an action contending that defendant city violated the Religions Land Use and Institutionalized Persons Act (RLUIPA), 42 U.S.C. section 2000cc et seq., by denying plaintiffs' request for a variance to permit property to be used as a church, the district court's dismissal with prejudice is affirmed where: 1) plaintiffs failed to state a claim that defendant's decision imposed a substantial burden on their right of religious exercise; and 2) the district court did not abuse its discretion in denying plaintiffs' request to amend their complaint.");
+Case.create(case_title: "Stamps v. Town of Framingham", case_content: "In a civil rights case brought under 42 U.S.C. section 1983 arising from the tragic shooting death of an innocent, elderly man by a local police officer during a SWAT team raid executing a search warrant for drugs and related paraphernalia belonging to two drug dealers with violent criminal histories thought to reside in decedent's home, alleging defendant violated the decedent's Fourth Amendment right against unreasonable seizure when he pointed a loaded semi-automatic rifle at decedent's head, with his finger on the trigger and the safety off, the district court's denial of defendants' motion for entry of summary judgment on the basis of qualified immunity is affirmed where the unreasonableness of defendant's conduct, as a jury could find it, was well established.");
+Case.create(case_title: "Fischer v. N.Y. State Dep't of Law", case_content: "In a labor and employment action, brought by a former Assistant Solicitor General in the New York Office of the Attorney General against her former employer and alleging discrimination under the Rehabilitation Act of 1973, 29 U.S.C. section 701 et seq., the district court's denial of defendant's motion to dismiss is affirmed where the district court's ruling that it retains subject matter jurisdiction under the Government Employee Rights Act is not a final order and not subject to the collateral order doctrine.");
+Case.create(case_title: "D'Agostino v. Baker", case_content: "In an action brought under 42 U.S.C. section 1983 by family child care providers, who are considered public employees that may organize for collective bargaining pursuant to Mass. Gen. Laws ch. 15D, section 17(b), challenging the statutory scheme that authorizes the selection of an exclusive bargaining agent to agree on terms that affect plaintiffs' relationships with their clients and the government, and alleging the statutory regime violates their rights of freedom of association and other expressive rights guaranteed by the First Amendment, the district court's dismissal of the complaint under Federal Rule of Civil Procedure 12(b)(6) is affirmed where case law precedent renders plaintiffs' constitutional arguments meritless.");
+Case.create(case_title: "Kolbe v. Hogan", case_content: "In a constitutional action challenging the Maryland Firearm Safety Act's ban prohibiting law-abiding citizens from possessing the vast majority of semi-automatic assault rifles, the district court's grant of summary judgment to the state is: 1) vacated and remanded where the applicable standard of review for plaintiffs' Second Amendment claim is strict scrutiny instead of the intermediate scrutiny applied by the district court; 2) affirmed where the act's exception for retired law enforcement officers does not violate the Equal Protection Clause; and 3) affirmed where the act's ban on 'copies' is not unconstitutionally vague.");
+Case.create(case_title: "Garcia v. County of Riverside", case_content: "In a 42 U.S.C. section 1983 action arising from the detention of Mario A. Garcia on a felony warrant issued for Mario L. Garcia, the district court's denial of defendants' motion to dismiss and denial of defendants' motions for qualified immunity, quasi-judicial immunity, and state law immunity are affirmed where: 1) plaintiff has sufficiently pleaded a Fourteenth Amendment violation arising from law enforcement's failure to investigate his claim of mistaken identity; and 2) the circumstances of this case do not provides grounds for state or federal immunity at this stage.");
+Case.create(case_title: "Victory v. Pataki", case_content: "In a 42 U.S.C. section 1983 action raising due process claims with regard to the rescission of plaintiff's grant of parole, the district court's grant of summary judgment to defendants is vacated in part where: 1) A New York parole grantee possesses a liberty interest protected by the Due Process Clause; and 2) there are genuine issues of material fact remaining with respect to the personal involvement of certain defendants in connection with the rescission of plaintiff's grant of parole.");
+Case.create(case_title: "Aikens v. Ingram", case_content: "In a 42 U.S.C. section 1983 action brought by a former reserve military officer alleging that other service members monitored his email messages in violation of his Fourth Amendment rights, the district court's grant of summary judgment to defendants is affirmed where the military abstention doctrine's incident to service test, articulated in Feres v. US, 340 U.S. 135 (1950), requires the court to abstain from reviewing plaintiff's section 1983 case.");
+Case.create(case_title: "Martinez-Rivera v. Commonwealth of Puerto Rico", case_content: "In an employment suit brought by a former employee of Puerto Rico's Vocational Rehabilitation Administration (VRA), an agency tasked with integrating persons with disabilities into the workforce, alleging the VRA had discriminated against her because of her disability, age, and politics, in violation of state and federal law, the district court's unexplained dismissal of her claims is: 1) reversed in part as to dismissal of both plaintiff's ADA claim and her local-law claims; but 2) affirmed in all other respects.");
+Case.create(case_title: "James v. Boise", case_content: "In a case involving attorney fees under 42 U.S.C. section 1988, the Idaho Supreme Court's award of attorney fees, on the grounds that it was not bound by the U.S. Supreme Court's interpretation of section 1988 in Hughes v. Rowe, 449 U.S. 5 (1980), is reversed where the Idaho Supreme Court, like any other state or federal court, is bound by this Court's interpretation of federal law.");
+Case.create(case_title: "Menominee Tribe of Wis. v. US", case_content: "In a dispute arising out of a contract between a tribe and the US, made pursuant to the the Indian Self-Determination and Education Assistance Act (ISDA), seeking recovery of certain contract support costs from the government, the Third Circuit's judgment denying the claims for recovery, on grounds that the claims were made after the 6-year statute of limitations period, is affirmed where equitable tolling does not apply to the presentment of petitioner's claims.");
+Case.create(case_title: "T.K. v. N.Y.C. Dep't of Educ.", case_content: "In an education action, the district court's judgment that defendants violated the right of plaintiffs' daughter to a free appropriate public education under the Individuals with Disabilities Education Act is affirmed where: 1) defendant's refusal to discuss the bullying of plaintiffs' daughter while developing her individualized education program violated plaintiffs' procedural rights; and 2) the district court's order that defendant reimburse plaintiffs for one year of private school education was appropriate as the balance of equities favored reimbursement.");
+Case.create(case_title: "Nat'l Fed'n of the Blind v. United Airlines", case_content: "In a class action raising California anti-discrimination claims against defendant over its use of automatic kiosks inaccessible to blind travelers, the district court's dismissal on federal preemption grounds is affirmed where plaintiff's claims are impliedly field preempted by the Air Carrier Access Act of 1986 and 14 C.F.R. section 382.57.");
+Case.create(case_title: "Klein v. City of Laguna Beach", case_content: "In a 42 U.S.C. section 1988 attorney's fees action, the district court's order denying fees under federal law is vacated and remanded where plaintiff's lawsuit achieved its future-oriented goals and is not subject to the exception of Farrar v. Hobby, 506 U.S. 103 (1992). The court affirmed the district court's denial of fees under California law.");
+Case.create(case_title: "Bruce v. Samuels", case_content: "In a case involving the calculation of subsequent monthly installment payments when more than one fee is owed by a prisoner, in the context of the Prison Litigation Reform Act of 1995, which provides that prisoners qualified to proceed in forma pauperis (IFP) must nonetheless pay an initial partial filing fee, 28 U.S.C. section 1915(b)(1), the D.C. Circuit's decision, that petitioner's monthly payments were due simultaneously with monthly payments in the earlier case, is affirmed where section 1915(b)(2) calls for simultaneous, not sequential, recoupment of multiple monthly installment payments.");
+Case.create(case_title: "Reyes v. Smith", case_content: "In prisoner civil rights action, the district court's dismissal is reversed and the court held that a prisoner exhausts administrative remedies under the Prison Litigation Reform Act, 42 U.S.C. section 1997e, when his grievance is decided on the merits at all levels of administrative review despite failure to comply with a procedural rule.");
+Case.create(case_title: "Bravo v. City of Santa Maria", case_content: "In a 42 U.S.C. section 1983 case, the district court's fee award under 42 U.S.C. section 1988 is affirmed where it was appropriate to use a settlement with another party arising out of the same facts to determine the fee award in this case.");
+Case.create(case_title: "Bauer v. Lynch", case_content: "In an employment discrimination case challenging the FBI's use of gender-normed physical fitness standards, the district court's grant of summary judgment to plaintiff is reversed where employers can utilize physical fitness standards that distinguish between the sexes on the basis of their physiological differences but impose an equal burden of compliance on both men and women.");
+Case.create(case_title: "Connelly v. Lane Construction Corp.", case_content: "In an action alleging gender-based employment discrimination and sexual harassment by a female truck driver, in violation of Title VII of the Civil Rights Act of 1964 and the Pennsylvania Human Relations Act, the district court's dismissal of plaintiff's claims under F. R. Civ. P. Rule 12(b)(6) is vacated and the case remanded where plaintiff's amended complaint alleged facially plausible claims sufficient to survive a motion to dismiss.");
+Case.create(case_title: "Estate of Armstrong v. Village of Pinehurst", case_content: "In a 42 U.S.C. section 1983 action arising from the death of Ronald H. Armstrong after being tased by police, the district court's grant of summary judgment to defendants is affirmed where: 1) defendant police officers used unconstitutionally excessive force by tasing a stationary, non-violent, but resisting Armstrong during the execution of an involuntary commitment order; but 2) defendants are entitled to qualified immunity because Armstrong's right not to be tased under the circumstances was not clearly established at the time.");
+Case.create(case_title: "Fetters v. County of Los Angeles", case_content: "In a section 1983 claim against police officers and the city for a shooting of a minor who was carrying a toy gun, the jury verdict in favor of plaintiff finding that the deputy used excessive force and awarding him approximately $1.1 million in compensatory damage plus attorneys fees is reversed where the trial court erred in concluding that plaintiff's section 1983 claim was not barred under Heck v. Humphrey (1994) 512 U.S. 477.");
+Case.create(case_title: "Buntin v. City of Boston", case_content: "In a suit alleging that the City and plaintiff's supervisors discriminated against plaintiff on the basis of his race and retaliated against him by terminating his employment, dismissal of the claim is: 1) affirmed in part as to dismissal of the Section 1983 claim where plaintiff failed to plead facts sufficient to support the claim; but 2) reversed in part as to dismissal of the Section 1981 claim where the district court erred by imposing an administrative exhaustion requirement where none exists.");
+Case.create(case_title: "Willis v. UPMC Children's Hospital of Pittsburgh", case_content: "In an age discrimination action, the district court's grant of summary judgment to defendant-employer is affirmed where: 1) plaintiff did not produce sufficient evidence to raise an inference that defendant treated similarly situated, substantially younger employees more favorably; and 2) plaintiff did not produce enough evidence to establish the necessary pretext for her case to survive summary judgment.");
+Case.create(case_title: "Milan v. Wertheimer", case_content: "In pro se 42 U.S.C. section 1983 action arising after the New York City Administration for Children's Services removed plaintiff's children from her custody in 2004, the district court's sua sponte dismissal of the suit is affirmed where: 1) the three-year statute of limitations for section 1983 actions bars suit against defendant case workers; 2) law guardians acting as \"attorneys for the child\" under New York law are not state actors for the purposes of section 1983 suits; and 3) plaintiff's mother was not a state actor.");
+Case.create(case_title: "Mangino v. Inc. Vill. Of Patchogue", case_content: "In a 42 U.S.C. section 1983 action arising out of a defendant-town's inspection of plaintiff's rental property, the district court's order is affirmed as to: 1) the dismissal of plaintiff's First Amendment retaliation claim where a non-criminal Fire Prevention Violation Order was supported by probable cause; 2) the dismissal of plaintiff's abuse-of-process claim on qualified immunity grounds where New York had no clearly established right to freedom from abuse of process where probable cause existed at the time; and 3) the denial of plaintiff's motion to set aside the verdict and for a new trial where the district court's jury instructions were not erroneous.");
+Case.create(case_title: "Jewel v. Nat'l Sec. Agency", case_content: "In a case challenging the legality of government surveillance programs, the court dismissed plaintiff's appeal for lack of jurisdiction where the district court improperly certified plaintiff's dismissed Fourth Amendment claim as final under Federal Rule of Civil Procedure 54 (b).");
+Case.create(case_title: "Harrison v. City of Rancho Mirage", case_content: "In a challenge to a municipal ordinance that provided rules and regulations for renting private homes as short-term vacation rentals, the trial court sustainment the demurrer without leave to amend is affirmed where: 1) the complaint did not sufficiently state facts to constitute a cause of action for a violation of the Unruh Act; and 2) the complaint cannot now be amended to claim a violation of Government Code section 65008, especially considering plaintiff refused to amend the Complaint in the trial court.");
+Case.create(case_title: "Kerkeles v. City of San Jose", case_content: "In an appeals of an order awarding plaintiff a small fraction of the attorney fees he requested after settling his civil rights lawsuit against a city and police officer, the order is reversed where the court's reasoning was inadequate and remanded for reconsideration under the law governing analysis of section 1988 fee claim to provide a clear, specific explanation of the resulting award, including the reasons for its calculation of the lodestar amount and for any adjustment of the lodestar amount.");
+Case.create(case_title: "Morrison v. Peterson", case_content: "In a 42 U.S.C. section 1983 action challenging the constitutionality of California Penal Code section 1405, which allows for DNA testing of evidence after a defendant's conviction, the district court's dismissal of plaintiff's complaint is affirmed where section 1405's remedy is not illusory and the section's provisions are consistent with Dist. Attorney's Office for Third Judicial Dist. v. Osborne, 557 U.S. 52 (2009).");
+Case.create(case_title: "Javorsky v. Western Athletic Clubs, Inc.", case_content: "In a suit brought against a health and fitness club under the Unruh Civil Rights Act, Civil Code section 51 et seq., and the unfair competition law (UCL), Bus. & Prof. Code section 17200, the trial court's ruling, that the club did not violate the Unruh Civil Rights Act by charging persons ages 18 to 29 a lower membership fee than it charged persons age 30 and over, is affirmed where the practice was not arbitrary, unreasonable, or invidious discrimination.");
+Case.create(case_title: "Students for Fair Admissions, Inc. v. President and Fellows of Harvard College", case_content: "In a case challenging Harvard College's consideration of race in its undergraduate admissions decisions, the district court's denial of a motion to intervene, filed by an opposing group of current and prospective Harvard students (Students) who claim to be benefited by the school's current practice, over the objection of both parties, is affirmed where: 1) the district court thoughtfully and carefully considered disposition of the Students' motion; and 2) the Students will find that amicus briefs will provide them with a fair opportunity to voice their views concerning the issues posed by the litigation.");
+Case.create(case_title: "Sjurset v. Button", case_content: "In a 42 U.S.C. section 1983 action, arising after Oregon Department of Human Services (DHS) officials, with the help of defendant police officers, took plaintiff's children into protective custody without a court order, the district court's denial of qualified immunity to the police officers is reversed where DHS officials made the protective-custody determination and the officers did not violate clearly established law.");
+Case.create(case_title: "Lyall v. City of Los Angeles", case_content: "In a 42 U.S.C. section 1983 action arising after a police entry, search, and seizure at a musical event held in an L.A. warehouse, the district court's judgment for defendants is affirmed in part and reversed in part where: 1) most plaintiffs who merely attended the event lacked standing on the warrantless entry claim while plaintiff Cortez's unreasonable seizure claim is procedurally barred; but 2) plaintiffs Cortez and Lopez have standing on their warrantless entry claims because they were in possession of the warehouse at the time.");
+Case.create(case_title: "Mullenix v. Luna", case_content: "In a suit under 42 U.S.C. section 1983, alleging that a police officer had violated the Fourth Amendment by using excessive force against decedent, who was fleeing by car from police officers executing his arrest warrant, the Fifth Circuit's determination that the officer is not entitled to qualified immunity is reversed because the constitutional rule applied by the Fifth Circuit was not " 'beyond debate,' " Stanton v. Sims, 571 U. S. ___, ___ (2013) (per curiam).");
+Case.create(case_title: "Range v. 480-486 Broadway, LLC", case_content: "In an action seeking injunctive relief against defendant for allegedly violating Title III of the Americans with Disabilities Act, 42 U.S.C. section 12182 et seq., the appeal is dismissed for want of appellate jurisdiction where the district court's stay of the action 1) does not constitute a final decisions under 28 U.S.C. section 1291; 2) is not a collateral order that can be appealed under Gulfstream Aerospace Corp. v. Mayacamas Corp., 485 U.S. 271 (1988); and 3) mandamus relief is unwarranted.");
+Case.create(case_title: "Ramirez v. County Of San Bernardino", case_content: "In a civil rights action, the district court's dismissal of the plaintiff's complaint is reversed where plaintiff's First Amended Complaint, filed under a stipulation between the parties, was not filed as a matter of course under F.R.C.P. Rule 15(a) and that plaintiff's Second Amended Complaint could be filed as a matter of course.");
+Case.create(case_title: "Shirley v. Yates", case_content: "In a habeas corpus petition raising a claim under Batson v. Kentucky, 476 U.S. 79 (1986), the district court's denial of the petition is reversed where the prosecutor's statement of general reasons for striking jurors during selection, absent an actual recollection of the reason for issuing the peremptory challenge, was insufficient to satisfy the third-step of a Batson analysis to determine purposeful racial discrimination.");
+Case.create(case_title: "Abril-Rivera v. Johnson", case_content: "In a Title VII lawsuit brought by former employees of a now-closed Puerto Rico call center run by the Federal Emergency Management Agency (FEMA), alleging that FEMA’s actions in implementing a rotational staffing plan at the center and in eventually closing the facility discriminated against them on the basis of their Puerto Rican national origin and constituted unlawful retaliation for protected conduct, the district court's grant of summary judgment to defendants is affirmed where: 1) plaintiffs' disparate impact claims fail because a) the challenged actions were job-related and consistent with business necessity, and b) plaintiffs have not shown that there were alternatives available to FEMA that would have had less disparate impact and served FEMA's legitimate needs; and 2) both retaliation claims fail because plaintiffs have not shown that the allegedly adverse employment actions were causally related to any protected conduct.");
+Case.create(case_title: "Chavarriaga v. State of N..J. Dept. of Corr.", case_content: "In a prisoner civil rights action, the district court's grant of summary judgment to three named defendants and dismissal of other claims under Federal Rule of Civil Procedure 12(b)(6) is reversed in part. The Court reversed the district court's dismissal of claims under the Cruel and Unusual Punishment Clause and the Equal Protection Clause and New Jersey state law but affirmed the denial of plaintiff's motion for class certification without prejudice and affirmed the grant of summary judgment for three named defendants.");
+Case.create(case_title: "Class v. Towson University", case_content: "In an action challenging defendant Towson University's refusal to allow plaintiff to return to playing football after he suffered a near-death heat-stroke induced coma requiring a liver transplant and additional surgeries, the district court's judgment for plaintiff under Title II of the Americans with Disabilities Act is reversed where plaintiff was not otherwise qualified to participate in defendant's football program under defendant's reasonably applied Return-to-Play Policy.");
+Case.create(case_title: "ALLCO v. Klee", case_content: "In an action challenging the Connecticut Department of Energy and Environmental Protection's award of two wholesale renewable energy contracts for violating the Federal Power Act, the district court's dismissal of plaintiff's claims is affirmed where: 1) plaintiff's 42 U.S.C. sections 1983 and 1988 claims are foreclosed by the Federal Power Act's private right of action; 2) plaintiff failed to exhaust administrative remedies; and 3) plaintiff lacks standing to bring a preemption action.");
+Case.create(case_title: "Uzoukwu v. Krawiecki", case_content: "In a 42 U.S.C. section 1983 action alleging false arrest and excessive force by defendant police officers, the district court's judgment entering the jury's verdict for defendants is vacated and the case is remanded for a new trial where the district court's response to a jury note during deliberations mischaracterized New York law on the obstruction of governmental business and that mischaracterization was prejudicial.");
+Case.create(case_title: "Jarvis v. Village Gun Shop, Inc.", case_content: "In an action under 42 U.S.C. section 1983, involving the actions of a privately owned storage facility with respect to firearms confiscated by Massachusetts police officers, the district court's grant of summary judgment to defendant is affirmed where the storage facility sued here was not a state actor, and was not so entangled with the actions of public entities so as to become liable as a state actor.");
+Case.create(case_title: "Griffin v. Baltimore Police Dep't", case_content: "In a 42 U.S.C. section 1983 action following plaintiff's release from custody after post-conviction proceedings uncovered numerous Brady violations relating to his 1982 murder conviction, the district court's dismissal of his claims is affirmed where Heck v. Humphrey, 512 U.S. 477 (1994), bars plaintiff from filing a 42 U.S.C. section 1983 case seeking damages based on Brady violations when his conviction is still valid.");
+Case.create(case_title: "Shamir v. City of New York", case_content: "In a 42 U.S.C. section 1983 action alleging false arrest and use of excessive force, the district court's dismissal of plaintiff's complaint under Federal Rule of Civil Procedure 12(b)(6) is: 1) affirmed in part as to dismissal of claims for false arrest and retaliatory arrest; and 2) reversed in part as to the excessive force claim where defendant's motion for summary judgment and the district court's resulting order dismissed plaintiff's false arrest claim without addressing his excessive force claim.");
+Case.create(case_title: "Del Valle-Santana v. Servicios Legales de PR", case_content: "In a suit alleging that plaintiff's former employer wrongfully terminated her on the basis of her age in violation of the Age Discrimination in Employment Act (ADEA), 29 U.S.C. sections 621-634, the district court's grant of summary judgment in favor of the employer is affirmed where, after de novo review, plaintiff failed to establish the fourth prima facie element.");
+Case.create(case_title: "Jameson v. Desta", case_content: "In a suit alleging numerous claims stemming from defendant's allegedly negligent medical treatment of plaintiff's hepatitis while he was incarcerated at the Richard J. Donovan Correctional Facility, the trial court's judgments are affirmed where: 1) trial court properly denied plaintiff's motion for summary judgment and/or adjudication because he did not establish that he is entitled to judgment as a matter of law on any of his claims; 2) the trial court did not err in failing to have the trial proceedings recorded by a court reporter; 3) plaintiff cannot demonstrate that the trial court erred in granting defendant's motion for nonsuit, because the record on appeal does not contain a reporter's transcript; and 4) plaintiff's contentions that the trial court displayed bias or prejudice throughout the proceedings and that the cumulative error doctrine requires reversal are without merit.");
+Case.create(case_title: "Davis v. N.Y.C. Dept. of Educ.", case_content: "In an action alleging disability discrimination in the award of teacher performance bonuses at a New York City public school, the district court's grant of summary judgment to defendants is affirmed where: 1) the denial or reduction of a discretionary bonus can constitute an adverse employment action under the Americans with Disabilities Act; but 2) plaintiff failed to present evidence establishing a discriminatory motive.");
+Case.create(case_title: "The Anderson Group v. City of Saratoga Springs", case_content: "In an action alleging that defendant's housing policies perpetuated racial discrimination and had a disparate impact on African American families, in violation of the Fair Housing Act, 42 U.S.C. section 3604, the court: 1) reversed the district court's order of a new trial following a $1 million jury verdict for plaintiff because defendant waived its argument that the jury verdict was inconsistent; 2) reinstated the jury's verdict concerning the disparate impact claim alone; and 3) ordered a new trial on damages unless plaintiff agreed to accept remittitur to $100,000.");
+Case.create(case_title: "Hasan v. City of New York", case_content: "In a 42 U.S.C. section 1983 case contending that the New York Police Department has secretly conducted a surveillance program monitoring Muslims since 9/11, the district court's grant of defendant's motion to dismiss for lack of standing and failure to state a claim is reversed where 1) plaintiffs have standing to seek relief in federal courts; 2) plaintiffs have stated an equal protection claim; and 3) classifications based on religious affiliation are subject to heightened scrutiny under the Equal Protection Clause.");
+Case.create(case_title: "Shervin v. Partners Healthcare System Inc.", case_content: "In a suit arising out of a medical resident's placement on academic probation, alleging gender discrimination, the district court's entry of a jury verdict in favor of defendants is affirmed over plaintiff's claims that the court miscalibrated the statute of limitations, improperly denied recusal, and committed evidentiary and instructional errors, where there is no reversible error.");
+Case.create(case_title: "Dean v. University at Buffalo School of Medicine and Biomedical Services", case_content: "In an action filed after plaintiff was dismissed from the M.D. program at the University at Buffalo School of Medicine and Biomedical Sciences, the district court's grant of summary judgment for the defendants is affirmed in part and vacated in part where: 1) a trier of fact could find defendants did not grant plaintiff reasonable accommodation under Title II of the Americans with Disabilities Act, 42 U.S.C. section 12132, and discriminated against plaintiff under the Rehabilitation Act, 29 U.S.C. section 794; and 2) defendant's notice of potential termination from the M.D. program and careful and deliberate decision satisfied procedure due process.");
+Case.create(case_title: "Smith v. Fischer", case_content: "In a 42 U.S.C. section 1983 action contending that defendant state prison officials violated plaintiff's federal due process rights and seeking appointment of appellate counsel under 28 U.S.C. section 1915(e)(1), the motion for appointment of counsel is denied and the appeal is dismissed as frivolous where plaintiff implicitly waived his right to attend the his disciplinary hearing by refusing to attend after receiving notice and being given an opportunity to attend.");
+Case.create(case_title: "Norsworthy v. Beard", case_content: "In a prisoner civil rights action appealing the district court's preliminary injunction, ordering defendant California Department of Corrections and Rehabilitation to perform sex reassignment surgery on transgendered plaintiff, the appeal is dismissed as moot and remanded for further proceedings where plaintiff was released on parole while the appeal was pending.");
+Case.create(case_title: "Bradford v. Scherschligt", case_content: "In a 42 U.S.C. section 1983 action alleging that police officer and agency defendants deliberately fabricated evidence that led to plaintiff's conviction and sentence for burglary and rape, later vacated based on newly-available DNA evidence, the district court's summary judgment for defendants is reversed where defendant's claim accrued when he was no longer subject to criminal charges, not from the vacatur of his conviction.");
+Case.create(case_title: "Knife Rights v. Vance", case_content: "In an action contending that N.Y. Penal Law sections 265.00(5) and 254.01(1)'s ban on gravity knives is unconstitutionally vague and violates plaintiffs due process rights, the district court's dismissal of the complaint for lack of standing is vacated as to the individual plaintiffs and business plaintiff and affirmed as to advocacy group plaintiffs where: 1) the individual and business plaintiffs expressed a present intent to possess potentially banned knives and demonstrated a credible threat of prosecution; and 2) advocacy groups plaintiffs lacked standing on behalf of their members under 42 U.S.C. section 1983 and cannot demonstrate impending injury to their organizations.");
+Case.create(case_title: "Jones v. Wang", case_content: "In a civil rights action under 42 U.S.C. section 1983, alleging violations of plaintiffs' Fourth and Fourteenth Amendment rights and various torts during doctor-defendant's investigation into whether plaintiff's child has been abused, the district court's denial of defendant's motion for summary judgment is affirmed where plaintiffs could support a finding that defendant's actions of seizing the infant child from plaintiffs and holding him in a hospital over a weekend were not entitled to qualified immunity.");
+Case.create(case_title: "Davis v. Coakley", case_content: "In an action against a former governor of Massachusetts and former Attorney General in their personal capacities, seeking monetary damages under 42 U.S.C. section 1983, alleging defendants violated plaintiff's equal protection and due process rights because they refused to indemnify a punitive damages award, which plaintiff received in a federal civil rights action that he brought against individual state employees where were held responsible for restraining and beating him in a state mental hospital, the district court's grant of defendant's motion to dismiss is affirmed for failure to state a claim under Federal Rule of Civil Procedure 12(b)(6).");
+Case.create(case_title: "Lee v. Norfolk Southern Railway Co.", case_content: "In an appeal arising from two lawsuits brought against plaintiff's employer, claiming he was suspended on the basis of his race in violation of 42 U.S.C. section 1981 and that he was suspended for reporting rail safety offenses in violation of the whistleblower protection provision of the Federal Railroad Safety Act (FRSA), the district court's grant of summary judgment to employer on grounds that the whistleblower suit was barred by the FRSA's \"Election of Remedies\" provision, 49 U.S.C. section 20109(f), is vacated where a suspension on the basis of race is not \"the same allegedly unlawful act\" as a suspension in retaliation for FRSA whistleblowing.");
+Case.create(case_title: "Wabakken v. California Dep't of Corrections and Rehabilitation", case_content: "In an action brought by a former employee of defendant, alleging violations of 42 U.S.C. section 1983 and California's Whistleblower Protection Act, and intentional infliction of emotional distress, the district court's summary judgment in favor of prison officials is reversed where, pursuant to State Board of Chiropractic Examiners v. Superior Court, 45 Cal. 4th 963, 976 (2009), the State Personnel Board's decision did not have preclusive effect under theories of res judicata and collateral estoppels and thus did not prevent the plaintiff from litigating his whistleblower retaliation damages claim in the district court.");
+Case.create(case_title: "EEOC v. Sterling Jewelers, Inc.", case_content: "In an enforcement action under Title VII of the Civil Rights Act of 1964, 42 U.S.C. section 2000e et seq., alleging that defendant engaged in a nationwide practice of sex-base pay and promotion discrimination, the district court's grant of summary judgment is reversed where the magistrate judge improperly reviewed the sufficiency of the evidence of the EEOC investigation rather than whether there was an investigation.");
+Case.create(case_title: "Young v. Martin", case_content: "In a suit brought by a prisoner with a long history of mental illness, alleging violations of his Eighth Amendment rights by securing him in a four-point restraint chair, naked, for fourteen hours, although he did not pose a threat to himself or others, the district court's grant of summary judgment to defendants is vacated where the court erred as a matter of law by failing: 1) to apply the Supreme Court's controlling precedent in Hope; and 2) to draw all reasonable inferences from the facts in favor of plaintiff.");
+Case.create(case_title: "Cortes v. MTA New York City Transit", case_content: "In a suit under the Americans with Disabilities Act (ADA), 42 U.S.C. sections 12112-12117, the district court's grant of summary judgment dismissing the claims is: 1) vacated and remanded with respect to plaintiff's disability discrimination claim where, relying on Collins v. New York City Transit Authority, 305 F.3d 113 (2d Cir. 2002), the district court gave almost preclusive weight to the NYSDHR's dismissal of this claim, however Collins addresses only the effect of arbitration awards under a collective bargaining agreement and does not apply to the decisions of state administrative agencies; but 2) otherwise affirmed.");
+Case.create(case_title: "Vega v. Hempstead Union Free School Dist.", case_content: "In a civil rights employment action by a teacher bringing discrimination and retaliation claims under Title VII of the Civil Rights Act of 1964, 42 U.S.C. section 2000e et seq., and 42 U.S.C. section 1983 against a school district, alleging defendants discriminated against him because of his \"Hispanic ethnicity\" and that they retaliated against him after he complained of discrimination, the district court's grant of defendants' motion for judgment on the pleadings under Federal Rule of Civil Procedure 12(c) is reversed where: 1) certain of plaintiff's claims were not time-barred, as the district court had concluded; 2) retaliation claims are actionable under section 1983; 3) a Title VII plaintiff need to plead a prima facie case of discrimination to survive a motion to dismiss; and 4) plaintiff has sufficiently pleaded discrimination and retaliation claims.");
+Case.create(case_title: "Spady v. Bethlehem Area School Dist.", case_content: "In an action stemming from the death of plaintiff's 15-year old son from a rare form of asphyxiation known as \"dry drowning\" or \"secondary drowning\" shortly after his participation in a mandatory swimming class run by his physical education teacher, claiming violations of her son's civil rights under 42 U.S.C. section 1983, the district court's denial of defendant's motion for summary judgment, on the basis of qualified immunity, is reversed where defendant's conduct did not violate a clearly established constitutional right.");
+Case.create(case_title: "Bill v. Brewer", case_content: "In an action brought by three Phoenix police officers who alleged that two other officers violated the Fourth and Fourteenth Amendments when, pursuant to a state court order, they obtained DNA samples from the plaintiffs to exclude them as contributors of DNA at a crime scene, the district court's dismissal of the case is affirmed where: 1) the superior court orders authorizing the collection of plaintiffs’ DNA satisfied the Warrant Clause of the Fourth Amendment; and 2) it was not unreasonable, under the circumstances, to ask sworn officers to provide saliva samples for the sole purpose of demonstrating that the DNA left at a crime scene was not the result of inadvertent contamination by on-duty public safety personnel.");
+Case.create(case_title: "Willey v. Kirkpatrick", case_content: "In a former prisoner's civil rights action under 42 U.S.C. section 1983 alleging harassment at the hands of correction officers, false imprisonment and malicious prosecution, the district court's judgment is: 1) reversed as to grant of summary judgment where it conflicts with Rule 56(f) of the Federal Rules of Civil Procedure because it reached, sua sponte and without notice, claims not briefed in the defendants’ motion; 2) vacate the district court's conclusion that the plaintiff failed to state claims for unsanitary conditions and retaliation; and 3) vacated as to the dismissal of plaintiff's claims for claims for inadequate nutrition, theft of legal documents, harassment, malicious prosecution, and false imprisonment.");
+Case.create(case_title: "Paeste v. Government of Guam", case_content: "In a class action brought by Guam taxpayers against Guam and several of its officers in their official capacities alleging that defendants violated the tax provisions of the Organic Act of Guam, 48 US.C. section 1421i, by failing timely to refund income tax overpayments, and claiming under 42 U.S.C. section 1983, that Guam's expedited tax refund program violated plaintiff's equal protection rights, the district court's grant of summary judgment and permanent injunction is affirmed where: 1) the question of whether a party is a person under section 1983 is not a jurisdictional question but rather a statutory one and therefore Guam's section 1983 arguments did not implicate subject matter jurisdiction, however the court exercises its discretion to consider the arguments; and 2) the official-capacity defendants were \"persons\" within the meaning of section 1983 for purposes of prospective relief; and 3) the district court did not abuse its discretion in issuing a permanent injunction that required Guam to pay refunds within six months once it determined that the requests were valid and not subject to investigation or audit.");
+Case.create(case_title: "Carillo v. Count of Los Angeles", case_content: "In two separate actions brought under 42 U.S.C. section 1983 by plaintiffs who had been wrongfully imprisoned for decades before eventually securing habeas relief, alleging that police officers failed to disclose evidence that would have cast serious doubt on the testimony of key prosecution witnesses, the district court's denial of qualified immunity to police officers is affirmed where the law in 1984 clearly established that police officers had to disclose material, exculpatory evidence under Brady v. Maryland, 373 U.S. 83 (1963), and any reasonable officer would have understood that Brady required the disclosure of the specific evidence allegedly withheld in the case.");
+Case.create(case_title: "Brown v. City of New York", case_content: "In an civil rights action brought against police officers, alleging unlawful arrest, excessive force and First Amendment claims, the district court's grant of summary judgment in favor of defendants is: 1) affirmed in part where the unlawful arrest claims are defeated by the defense of qualified immunity, and the First Amendment claim was properly dismissed as lacking merit; and 2) reversed and remanded as to the excessive force claim where when the amount of force used by two police officers involves taking a 120-pound woman to the ground and twice spraying her directly in the face with pepper spray, the availability of a much less aggressive technique is at least relevant to making the ultimate determination of whether excessive force was used.");
+Case.create(case_title: "Patel v. City of Montclair", case_content: "In an action under 42 U.S.C. section 1983 alleging that police officers violated plaintiff's Fourth Amendment rights when they came onto the public areas of his motel and cited him for code violations observed in plain view, the district court's order dismissing the complaint is affirmed where police officers do not conduct a search within the meaning of the Fourth Amendment merely by entering an area of private, commercial property that is open to the public.");
+Case.create(case_title: "Gonzalez-Oyarzun v. Commonwealth of Puerto Rico", case_content: "In an employment dispute brought by an employee alleging violations of the Age Discrimination in Employment Act, 29 U.S.C. section 621, and various Puerto Rico statutes, the district court's dismissal of the dispute on the basis of a valid forum selection clause and simultaneous issuance of a declaratory judgment stating that the Seventh Amendment requires Puerto Rico to provide civil litigants with a jury trial, is vacated as to the declaratory judgment where it was in contravention of binding Supreme Court precedent.");
+Case.create(case_title: "Reza v. Pearce", case_content: "In an action under 42 U.S.C. section 1983 alleging that an Arizona State Senator-defendant violated plaintiff's rights when he ordered plaintiff removed and barred from the Arizona Senate building at the state capital, the district court's judgment is: 1) reversed as to grant of summary judgment in favor of defendant, where although the restrictions on plaintiff were viewpoint neutral, there were material issues of disputed fact concerning whether plaintiff actually disrupted the proceedings, and defendant violated plaintiff's clearly established First Amendment rights; 2) affirmed as to the Fed. R. Civ. P. 12(b)(6) dismissal of claims against police officers on qualified immunity grounds because the officers arrested plaintiff for criminal trespass pursuant to a facially-valid order issued by the Senator; and 3) affirmed where the district court did not abuse its discretion in granting the Senator's motion for a protective order, which prevented plaintiff from questioning him about his acquaintance with a purported white supremacist.");
+Case.create(case_title: "Demuth v. County of Los Angeles", case_content: "In an action under 42 U.S.C. section 1983 by a Los Angeles County public defender who alleged that her Fourth Amendment rights were violated when a deputy sheriff briefly arrested her pursuant to a judicial command that she appear in court, the district court's bench trial judgment is affirmed in part and reversed in part where: 1) the deputy sheriff was not entitle to qualified immunity because he could not reasonably have believed that he had one of the usual Fourth Amendment justifications for the arrest; and 2) the presiding referee's order, by its clear terms, did not authorize the deputy sheriff to seize plaintiff, and no reasonable officer could have understood the referee as ordering that plaintiff be forcibly brought into court.");
+Case.create(case_title: "Jones v. Southeastern Pennsylvania Transp. Auth.", case_content: "Suspension with pay does not typically constitute an \"adverse employment action\" under the substantive discrimination provision of Title VII.");
+Case.create(case_title: "American Freedom Defense Initiative v. King County", case_content: "In an action brought under 42 U.S.C. section 1983, after King County's public transit agency, rejected plaintiffs' \"Faces of Global Terrorism\" advertisement, which plaintiffs sought to have displayed on the exterior of buses, the district court's denial of a preliminary injunction is affirmed where: 1) the advertising space on buses under the 2012 transit advertising policy was a nonpublic forum, and the agency's rejection of plaintiffs' ad, on the ground that it was false, likely was reasonable and viewpoint neutral; and 2) plaintiffs had not demonstrated irreparable harm.");
+Case.create(case_title: "Crawford v. Cuomo", case_content: "In a suit by former inmates alleging that the sexual abuse by a guard subjected them to cruel and unusual punishment in violation f the Eighth Amendment, the district court's dismissal of the suit is affirmed where the complaint failed state a claim under Boddie v. Schnieder , 105 F.3d 857, 861 (2d Cir. 1997), which set forth the standard for stating an Eighth Amendment claim arising from sexual abuse in prison.");
+Case.create(case_title: "Castro v. County of Los Angeles", case_content: "In an action under state and federal law brought by a pretrial detainee who was attacked by another arrestee and suffered serious harm, alleging that the County and Sheriff were deliberately indifferent to the substantial risk of harm created by housing him in the same sobering cell as the other arrestee and by failing to maintain appropriate supervision of the cell, the district court's judgment entered following a jury trial is: 1) affirmed as to damage award and judgment against individual defendants, where they were not entitled to qualified immunity; and 2) reversed as to judgment against the entity defendants where plaintiff's claim under Monell v. Dep't of Soc. Servs., 436 U.S. 658 (1978), was legally viable but insufficiently proven.");
+Case.create(case_title: "Rogoz v. City of Hartford", case_content: "In an action under 42 U.S.C. section 1983 brought against police officers for excessive force in the course of arrest, in breaking one of plaintiff's ribs and breaking his spine in two places after he had unresistingly complied with orders to lie on the ground face down with his hands behind his back, the district court's grant of summary judgment in favor of defendants is: 1) vacated in part where summary judgment dismissing the section 1983 claims against officer Watson was error; and 2) affirmed in part as to dismissal of claims against the other police officers.");
+Case.create(case_title: "DeMasters v. Carilion Clinic", case_content: "In a former-employee's suit under Title VII of the Civil Rights Act of 1964, alleging that he was terminated for engaging in protected activity, including opposing an unlawful employment practice, the district court's dismissal of the complaint, on the grounds that no individual activity in which plaintiff engaged by itself constituted protected oppositional conduct and that the co-called \"manager rule\" prevented an employee whose job responsibilities included reporting discrimination claims from seeing protection under Title VII's anti-retaliation provision, is reversed where: 1) the proper test for analyzing oppositional conduct requires consideration of the employee's course of conduct as a whole; and 2) the \"manager rule\" has no place in Title VII jurisprudence.");
+Case.create(case_title: "Cahaly v. Larosa", case_content: "In a case brought by a Republican political consultant challenging South Carolina's anti-robocall statute on First Amendment grounds and alleging claims under 42 U.S.C. section 1983 and state law for false imprisonment and malicious prosecution, the district court's grant of summary judgment to defendants is affirmed where: 1) the anti-robocall statute is a content-based regulation that does not survive strict scrutiny; and 2) vacated and remanded for dismissal as to the compelled-speech claim, where plaintiff lacks standing to bring compelled-speech and vagueness challenges.");
+Case.create(case_title: "France v. Johnson", case_content: "In an action by a border patrol agent alleging violation of the Age Discrimination in Employment Act (ADEA), the district court's grant of summary judgment in favor of the US Department of Homeland Security is reversed where plaintiff has established a prima facie case of age discrimination.");
+Case.create(case_title: "Belanus v. Clark", case_content: "In an prisoner civil rights complaint alleging constitutional violations as a result of searches of plaintiff's home, storage shed, and workplace in 2008, that were made in connection with his criminal prosecution, the district court's dismissal is affirmed where: 1) the court properly noted that to the extent plaintiff asserted that the evidence collected during the searches caused his conviction, his claim was barred by Heck v. Humphrey, 512 U.S. 477 (1994) or by Montana's three-year statute of limitations and equitable tolling did not apply; and 2) the court acted within its discretion in assessing a strike against plaintiff pursuant to 28 U.S.C. section 1915(g), even though he had paid a docket fee.");
+Case.create(case_title: "Roman-Oliveras v. Puerto Rico Electric Power Auth.", case_content: "In an suit brought by a former employee against his former employer and two individual supervisors, alleging unlawful targeting due to disability and union activities in violation of the Americans with Disabilities Act (ADA), 42 U.S.C. sections 12101 - 12213; Title VII of the Civil Rights Act of 1964, 42 U.S.C. sections 2000e - 2000e-17, 42 U.S.C. section 1983, and several Puerto Rico laws, the district court's dismissal is affirmed where the settlement negotiations produced a binding oral settlement agreement that the District Court had jurisdiction to enforce.");
+Case.create(case_title: "Davis v. Velez", case_content: "In an action under 42 U.S.C. section 1983 for false arrest, malicious prosecution, and denial of a fair trial, the district court's judgment and damage award to plaintiff is affirmed over defendants' arguments that they are entitled to a new trial because of the admission f hearsay evidence and because of improprieties by the jury in its deliberations.");
+Case.create(case_title: "T.B. v. San Diego Unified School Dist.", case_content: "In an action brought by a disabled student and his parents against a school district under the Americans with Disabilities Act and Section 504 of the Rehabilitation Act, the district court's judgment is: 1) affirmed as to grant of summary judgment in favor of the school on a claim that the district retaliated against the student and his mother in violation of the ADA; and 2) reversed in part with regard to the determination of attorney's fees and costs under Individuals with Disabilities Education Act (IDEA) where the court abused its discretion in concluding that the fee claim was unreasonable.");
+Case.create(case_title: "Burgis v. New York City Dep't of Sanitation", case_content: "In a putative class action, plaintiffs allege discrimination on the basis of race and/or national origin in the New York City Department of Sanitation's promotional practices, the district court's dismissal of plaintiff's Equal Protection and section 1981 claims for failure to allege discriminatory intent, and dismissal of the Title VII disparate impact claim for failure to exhaust administrative remedies, is affirmed where: 1) the statistics here alleged in the complaint were insufficient for the purpose of showing discriminatory intent; and 2) plaintiffs failed to exhaust their administrative remedies prior to filing the Title VII disparate impact claim.");
+Case.create(case_title: "Abril-Rivera v. Johnson", case_content: "In a Title VII suit by employees of the now-closed Puerto Rico National Processing Service Center (PR-NPSA) run by Federal Emergency Management Agency (FEMA), alleging that FEMA's actions in implementing a rotational staffing plan at the PR-NPSC and in eventually closing the facility discriminated against them on the basis of their Puerto Rican national origin and constituted unlawful retaliation for protected conduct, the district court's grant of summary judgment to defendants is affirmed where defendants had legitimate, nondiscriminatory reasons for their actions and, with respect to the rotational staffing plan retaliation claim, that plaintiffs had not shown a causal link between their protected conduct and the purported retaliation.");
+Case.create(case_title: "Velez-Velez v. Puerto Rico Highway and Transp. Auth.", case_content: "In an action under 42 U.S.C. section 1983 alleging political belief termination, the district court's grant of summary judgment to defendants is affirmed where the logic of the Supreme Court's decisions in Delaware State College v. Ricks, 449 U.S. 250 (1980), and Chardon v. Fernandez, 454 U.S. 6 (1981), requires findings that the claim here was untimely.");
+Case.create(case_title: "Green v. Co. of Riverside", case_content: "In an action for violation of civil rights and the Fourteenth Amendment under 42 U.S.C. section 1983 and wrongful death under California law against the County of Riverside and Riverside County Deputy Sheriffs, arising out of the death of plaintiff's son while in the officers' custody, judgment if favor of defendants is affirmed where: 1) the court properly admitted evidence on the decedent's use of cocaine; 2) any error that resulted from the court's failure to instruct on negligence was harmless; and 3) the court correctly instructed the jury on the mental state required in a Fourteenth Amendment excessive use of force case under section 1983 because this case did not involve reflective decision making by the officers, but instead their reaction to fast-paced circumstances presenting competing public safety obligations.");
+Case.create(case_title: "Mayo v. PCC Structurals, Inc.", case_content: "In a case alleging employment discrimination in violation of Oregon disability law, the district court's grant of summary judgment to defendant is affirmed where, in agreement with other circuits, because plaintiff threatened to kill certain coworkers, he was not a \"qualified individual\" under the Oregon statute.");
+Case.create(case_title: "Doe 2 v. Rosa", case_content: "In a consolidated case under 42 U.S.C. section 1983, involving the sexual abuse of two minor boys by a summer camp counselor, contending that defendant took steps to conceal previous allegations of abuse by the same counselor thereby allowing the perpetrator to continue his abuse of the plaintiffs, and alleging defendant's affirmative duty to protect the victims under the Due Process Clause of the Fourteenth Amendment, the district court's grant of summary judgment in favor of defendant is affirmed where defendant had no duty to protect the plaintiffs from a pre-existent danger.");
+Case.create(case_title: "Chinatown Neighborhood Ass'n v. Harris", case_content: "In a case challenging California's \"Shark Fin Law,\" which makes it \"unlawful for any person to possess, sell, offer of sale, trade, or distribute a shark fin\" in the state, the district court’s dismissal of plaintiff's amended complaint is affirmed where the claim that the Shark Find Law is preempted by the Magnuson-Stevens Fishery Conservation and management Act is without merit, as plaintiffs failed to identify any actual conflict between federal authority under the Magnuson-Stevens Act to manage shark fishing in the ocean off the California coast and the California Shark Fin Law.");
+Case.create(case_title: "Dolan v. Connolly", case_content: "In an inmate's lawsuit alleging that defendants retaliated against him for his actions as a member of the prison Inmate Liaison Committee (ILC), in violation of 42 U.S.C. section 1983 and 1985(3), the district court's dismissal of plaintiff's section 1983 claim is reversed where voicing inmate grievances as a member of the ILC constitutes constitutionally protected conduct.");
+Case.create(case_title: "Storman's, Inc. v. Wiesman", case_content: "In an action brought by the owner of a pharmacy and two pharmacists who have religious objections to delivering emergency contraceptives, and who challenged Washington state rules requiring the timely delivery of all prescription medications by licensed pharmacies, the district court's judgment is reversed where: 1) as applied to the free exercise and equal protection claims, the rules, promulgated by the Washington Pharmacy Quality Assurance Commission, were neutral and generally applicable; 2) the rules were rationally related to Washington's legitimate interest in ensuring that its citizens have safe and timely access to their lawful and lawfully prescribed medications; and 3) as to the due process claim, the court declined to recognize a new fundamental right.");
+Case.create(case_title: "Jehova v. Clarke", case_content: "In a prisoner's civil rights action alleging violations of his free exercise rights under the First Amendment and the Religious Land Use and Institutionalized Persons Act (RLUIPA) by prohibiting him from consuming wine during communion, requiring him to work on Sabbath days, and assigning him non-Christian cellmates, the district court's grant of summary judgment dismissing the action is reversed and remanded for further proceedings where plaintiff has raised sufficient prima fascie supporting his claims.");
+Case.create(case_title: "Rivera-Corraliza v. Puig-Morales", case_content: "In an action brought under 42 U.S.C. section 1983, alleging violations of the First, Fourth, and Fourteenth Amendments as well as several commonwealth laws when the Puerto Rico Treasury Department seized plaintiffs' \"adult entertainment machines,\" the district court's grant of summary judgment on the federal claims and dismissal of the commonwealth claims without prejudice is: 1) vacated in part as to the search-and-Seizure and local-law claims; and 2) affirmed in all other respects.");
+Case.create(case_title: "Santiago-Diaz v. Rivera-Rivera", case_content: "In a suit claiming that, as a result of his membership in the Popular Democratic Party, plaintiff was subject to impermissible political discrimination after the New Progressive Party came to power in Puerto Rico in January 2009, the district court's grant of summary judgment for defendants is affirmed where: 1) plaintiff has not raised a genuine issue of material fact that his party affiliation was a factor in his reassignment or that his job responsibilities were diminished; and 2) plaintiff's remaining allegations of workplace discrimination are insufficient to constitute adverse employment actions.");
+Case.create(case_title: "Morales v. Chadbourne", case_content: "In an action brought by a plaintiff detained for 24 hours pursuant to an immigration detainer so agents from the U.S. Immigration and Customs Enforcement (ICE) could investigate her immigration status, alleging that ICE agents unlawfully detained her in violation of her Fourth and Fifth Amendment rights, the district court's judgment is: 1) affirmed as to denial of qualified immunity on plaintiff's Fourth Amendment claim against Donaghy on the ground that the law was clearly established in 2009 that an ICE agent required probable cause to issue an immigration detainer; 2) affirmed as to denial of qualified immunity on plaintiff's Fourth Amendment supervisory liability claim against Chadbourne and Riccio; and 3) dismissed as to plaintiff's appeal on his Fourth Amendment argument regarding the circumstances surrounding the issuance of the detainer and his Fifth Amendment equal protection argument for want of jurisdiction.");
+Case.create(case_title: "Flowers v. Prasad", case_content: "In an underlying action for disability discrimination, alleging that plaintiffs were denied service at respondents' restaurant due to plaintiff's service dog, the trial court's grant of summary adjudication to defendant, conclusion that plaintiffs could assert a claim under the Disabled Persons Act, Civ. Code sections 54-55.3, but not under the Unruh Civil Rights Act, Civ. Code sections 51 and 52, and dismissal of the action with prejudice, are reversed and remanded where the court erred with regard to the ruling on the Unruh Act issue.");
+Case.create(case_title: "Planadeball v. Wyndham Vacation Resorts, Inc.", case_content: "In a suit under Title VII of the Civil Rights Act of 1964, 42 U.S.C. section 2000e, alleging retaliation against plaintiff by Wyndham Vacation Resorts, Inc. for making informal and formal complaints against her then-supervisor after he subjected her to a hostile work environment on the basis of her race and national origin, the district court's grant of summary judgment to defendant is affirmed where plaintiff has not presented sufficient evidence to establish a retaliation claim under Title VII.");
+Case.create(case_title: "Ranza v. Nike, Inc.", case_content: "In a suit alleging sex and age discrimination in the workplace in violation of Title VII and the Age Discrimination in Employment Act, the district court's dismissal, on grounds of lack of personal jurisdiction and forum non conveniens is affirmed where the Netherlands provided a more convenient forum than Oregon, and the Dutch Equal Treatment Commission was an adequate alternative forum and had already considered and rejected the plaintiff's claims.");
+Case.create(case_title: "Torres v. Goddard", case_content: "In an action brought under 42 U.S.C. section1983 against Arizona state officials who executed over twenty warrants to seize thousands of wire transfers that officials alleged were likely to be connected to criminal conduct associated with the smuggling of undocumented aliens into the US, the district court's summary judgment is affirmed in part and reversed in part where: 1) absolute immunity is available to prosecutors in the context of civil forfeiture proceedings; 2) service and execution of the seizure warrants were not protected by absolute immunity because those acts are functions of police officers, not the traditional functions of an advocate; 3) Goddard, in his individual capacity as the Arizona Attorney General at the time the seizure warrants were carried out, was protected by absolute immunity for supervision of Holmes's preparation of and application for the warrant; 4) Goddard could not claim absolute immunity with respect to his supervision of Holmes's service and execution of the seizure warrants because his supervision was a function of a supervising police officer, not a supervising prosecutor; and 5) plaintiffs waived the issue of whether the district court erred by granting summary judgment on the official capacity claims against Thomas Horne, Goddard’s successor as Arizona Attorney General.");
+Case.create(case_title: "Velasquez v. City of Long Beach", case_content: "In an action under 42 U.S.C. section 1983, in which plaintiff alleged that he was unlawfully arrested for resisting a police officer, in violation of California Penal Code Section 148(a)(1), and that excessive force was used during his arrest, the district court's judgment is reversed where: 1) as to the unlawful arrest claim, there was sufficient evidence at trial on which a reasonable jury could have concluded that no probable cause for the arrest existed; 2) as to the excessive force claim, the district court’s grant of judgment as a matter of law on the lawfulness of the arrest, in conjunction with its instructions on the excessive force claim, improperly influenced the jury's consideration; and 3) the district court's categorical exclusion of evidence relevant to establishing plaintiff's theory of municipal liability was an abuse of discretion and this incorrect evidentiary ruling resulted in the court erroneously entering judgment as a matter of law for the defendants.");
+Case.create(case_title: "Arce v. Douglas", case_content: "In an action challenging Arizona revised statutes sections15-111 and 15-112, which were sponsored and implemented by the Arizona state superintendent of education, and which eliminated the Mexican American Studies program in Tucson public schools, the district court's summary judgment is: 1) affirmed in part as to rulings that section 15-112(A)(3) is unconstitutional in violation of the First Amendment but severable from the rest of the statute, that sections 15-112(A)(2) and (A)(4) are not overbroad in violation of the First Amendment, and that sections 15-112(A)(2) and (A)(4) are not vague in violation of the Due Process Clause; and 2) reversed in part as to plaintiffs' equal protection claim where there were genuine issues of fact regarding whether the enactment and/or enforcement of section 15-112 was motivated at least in part by a discriminatory intent.");
+Case.create(case_title: "McBride v. Lopez", case_content: "In a prisoner civil rights action under the Prison Litigation Reform Act, the district court's order granting defendants' motion to dismiss is affirmed where plaintiffs failed to exhaust administrative remedies under the PLRA. Although exhaustion issues must generally be decided on a motion for summary judgment pursuant to Fed. R. Civ. P. 56, in this case there was no need for further factual development. Fear of retaliation may be sufficient to render the inmate grievance procedure unavailable, and the Court approves of the test applied in the Eleventh Circuit that requires both a subjective and objective basis for the fear.");
+Case.create(case_title: "Pistor v. Garcia", case_content: "In an action brought against tribal officers who were sued in their individual capacities for an assertedly unconstitutional detention and seizure of property that took place at a casino owned and operated by a tribe on tribal land, the district court's denial of motion to dismiss is affirmed where although the district court erred in concluding that it would be inappropriate to dismiss the claims against the defendants at the 12(b)(1) stage, the tribal defendants were not entitled to tribal sovereign immunity because they were sued in their individual rather than their official capacities, as any recovery will run against the individual tribal defendants, rather than the tribe.");
+Case.create(case_title: "Angelotti Chirporactice, Inc. v. Baker", case_content: "In a suit claiming Senate Bill 863, which was enacted to combat an acute \"lien crisis\" in its workers' compensation system, violated the Takings Clause, the Due Process Clause and the Equal Protection Clause of the US Constitution, the district court's judgment is: 1) affirmed as to dismissal of plaintiffs' claims under the Takings Clause and Due Process Clause challenging California Senate Bill 863; 2) vacated as to the grant of preliminary injunction; and 3) reversed as to denial of defendants' motion to dismiss plaintiffs' Equal Protection Clause claim.");
+Case.create(case_title: "Glossip v. Gross", case_content: "In an action filed by Oklahoma death-row inmates filed a 42 U. S. C. section1983 action claiming that the use of midazolam in executions violates the Eighth Amendment, the Tenth Circuit's denial of plaintiff's motion for preliminary injunction is affirmed where plaintiffs have failed to establish a likelihood of success on the merits of their claim that the use of midazolam violates the Eighth Amendment.");
+Case.create(case_title: "Obergefell v. Hodges", case_content: "In a case in which 14 same-sex couples and two men whose same-sex partners are deceased filed suits in Federal District Courts in their home States, claiming that respondent State officials violate the Fourteenth Amendment by denying them the right to marry or to have marriages lawfully performed in another State given full recognition, the Sixth Circuit's decision in favor of State officials is reversed where the Fourteenth Amendment requires a State to license a marriage between two people of the same sex and to recognize a marriage between two people of the same sex when their marriage was lawfully licensed and performed out-of-State.");
+Case.create(case_title: "Fernandez-Salicrup v. Figueroa-Sancha", case_content: "In a case under 42 U.S.C. section 1983 and analogous provisions of the Puerto Rico Civil Code's torts statute, that plaintiffs' Fourth, Fifth, Ninth, and Fourteenth Amendment rights were violated when plaintiff was unconstitutionally arrested and subjected to excessive force during an incident at a high school, the district court's judgment is: 1) affirmed as to exclusion of expert witness testimony, grant of summary judgment in favor of Supervisory Defendants, and dismissal with prejudice of Plaintiffs' Fourth Amendment excessive force claim against Rosado; and 2) reversed as to dismissal of the Fourth Amendment unconstitutional arrest claim against Rosado where plaintiff provided just enough evidence to establish a genuine dispute over two key material facts.");
+Case.create(case_title: "Texas Dept. of Housing and Community Affairs v. Inclusive Communities Project, Inc.", case_content: "In a suit by a Texas-based nonprofit corporation that assists low-income families in obtaining affordable housing, bringing a disparate-impact claim under sections 804(a) and 805(a) of the Fair Housing Act (FHA), alleging that the Department and its officers had caused continued segregated housing patterns by allocating too many tax credits to housing in predominantly black inner-city areas and too few in predominantly white suburban neighborhoods, the Fifth Circuit's judgment is affirmed where disparate-impact claims are cognizable under the FHA.");
+Case.create(case_title: "Chess v. Dovey", case_content: "In an action brought under 42 U.S.C. section 1983 by a California state prisoner who alleged that he was denied constitutionally adequate medical care when members of the prison's medical staff denied him effective pain medication, the district court's judgment is affirmed over claims of erroneous jury instructions where: 1) when a pro se civil litigant fails to object to a jury instruction, the court should review the instruction under the ordinary standard of review, rather than for plain error; and 2) the deference instruction should not ordinarily be given in Eighth Amendment medical care cases brought by prisoners.");
+Case.create(case_title: "Tolbert v. Smith", case_content: "In a case brought by an African American former teacher alleging defamation, discrimination, and hostile work environment, in violation of Title VII of the Civil Rights Act of 1964, 42 U.S.C. section 2000e et seq., the New York State Human Rights Law, 25 N.Y. Exec. Law section 296 et seq., and 42 U.S.C. section 1981, the district court's grant of summary judgment dismissing the case is: 1) vacated as to the judgment dismissing the discrimination claims and remanded as to those claims for further proceedings; but 2) otherwise affirmed.");
+Case.create(case_title: "Kingsley v. Hendrickson", case_content: "In a case under 42 U.S.C. section 1983 brought by a pretrial detainee, alleging that two officers used excessive force against him in violation of the Fourteenth Amendment's Due Process Clause, the Seventh Circuit's judgment in favor of the officers, holding that the law required a subjective inquiry into the officers' state of mind, is reversed where under section 1983, a pretrial detainee must show only that the force purposely or knowingly used against him was objectively unreasonable to prevail on an excessive force claim.");
+Case.create(case_title: "Fowlkes v. Ironworkers Local 40", case_content: "In a case brought by a plaintiff who self-identifies as male but was born biologically female, alleging his labor union discriminated against him on the basis of sex and retaliated against him for filing an earlier action against them, the district court's order dismissing the claims for lack of jurisdiction due to failure to exhaust administrative remedies is vacated where the administrative exhaustion requirement of Title VII, 42 U.S.C. section 2000e‐5(e), is not a jurisdictional prerequisite to suit in federal court, but rather is a necessary precondition to suit and is subject to equitable defenses.");
+Case.create(case_title: "Walker v. Beard", case_content: "In a prisoner civil rights case, brought by an Aryan Christian Odinist who challenged the states classification of his as eligible to occupy a prison cell with an individual of a different race, alleging that such a placement would interfere with his religious practice, the district court's ruling is affirmed where the state's refusal to exempt a state prisoner from its Integral Housing Policy did not violate the Religious Land Use and Institutionalized Persons Act or the First Amendment.");
+Case.create(case_title: "Roman v. BRE Properties", case_content: "In a lawsuit alleging defendant had engaged in disability discrimination when plaintiffs attempted to view available units at an apartment complex, the trial court's grant of summary judgment to defendants is affirmed where ruling was not an abuse of discretion, however the cost award is reversed and remanded for reconsideration in light of Williams v. Chino Valley Independent Fire District (2015) 61 Cal.4th 97.");
+Case.create(case_title: "Mulero-Carrillo v. Roman-Hernandez", case_content: "In a 42 U.S.C. section 1983 action brought by twenty graduates from medical schools outside of the US who are ineligible to receive a medical license in Puerto Rico because they failed the Puerto Rico Medical Licensing Examination (PRMLE), challenging the the validity of the PRMLE's purportedly arbitrary passing score and alleging defendants violated the plaintiffs' due process and equal protection rights, the district court's grant of defendants' motion to dismiss is affirmed where there is no plausible basis for a claim for relief.");
+Case.create(case_title: "Mitchell v. Miller", case_content: "In an action brought by a suspect/plaintiff against a police officer who shot at him as he sped away breaking into his estranged wife's apartment, the district court's grant of summary judgment to the officer-defendant is affirmed where he did not violate plaintiff's Fourth Amendment rights and was entitled qualified immunity.");
+Case.create(case_title: "Reyazuddin v. Montgomery County", case_content: "In an action by a blind government employee who was not transferred to or hired at a call center along with her sighted workers, alleging violations of Section 504 of the Rehabilitation Act of 1973, 29 U.S.C.A. section 794, or Title II of the American Disabilities Act of 1990 (ADA), 42 U.S.C. section 12131, the district court's order granting summary judgment to defendants is: 1) reversed as to plaintiff's Section 504 claims where genuine issues of material fact remain; and 2) affirmed as to the Title II claim because public employees cannot use Title II to bring employment discrimination claims against their employers.");
+Case.create(case_title: "Adams v. Anne Arundel County Public Schools", case_content: "In a suit by a former assistant principal contending that the board of education violated her rights under the Family and Medical Leave Act of 1993 (FMLA) and the Americans with Disabilities Act of 1990 (ADA) and alleging interference with medical leaves, retaliation for taking those leaves, discrimination and retaliation on the basis of disability, and failure to accommodate his condition, the district court’s judgment is affirmed where there is no merit in the claims.");
+Case.create(case_title: "Hunter v. Town of Mocksville", case_content: "In a Section 1983 case alleging First Amendment rights violations in the context of government employment, the district court's denial of defendants' motion for summary judgment is affirmed where the court rightly rejected defendants' argument that plaintiffs' outreach enjoyed no First Amendment protection.");
+Case.create(case_title: "Bermudez v. City of New York", case_content: "In a suit under 42 U.S.C. section 1983 brought by a man incarcerated 18 years for a murder he did not commit, alleging due process violations and malicious prosecution, the district court's grant of summary judgment to defendant officers is: 1) affirmed in part where there are no genuine issues of material fact concerning plaintiff's malicious prosecution claims; and 2) vacated in part where there are genuine issues of material fact concerning the due process claims.");
+Case.create(case_title: "Nafee v. Frey", case_content: "In an actinon brought by a conservative political activist against a Los Angeles County Deputy District Attorney, who published derogatory and intimidating statements about plaintiff on his personal Internet blog and on Twitter, the district court's dismissal is: 1) affirmed in part as to claims under 42 U.S.C. section 1983, where plaintiff's factual allegations did not sufficiently support her claim that defendant acted under color of state law; and 2) reversed in part as to the state law claims where it erred by requiring plaintiff to establish by a preponderance of the evidence the amount in controversy for showing federal diversity jurisdiction.");
+Case.create(case_title: "Escobedo v. Applebees", case_content: "In a sexual harassment and discrimination action under Title VII, the district court's judgment is reversed where it erred by: 1) dismissing the action as untimely, because for the ninety-day filing limit set forth in 42 U.S.C. section 2000e-5(f)(1), the filing date of a complaint is the date it is delivered to the court clerk, whether it is submitted with or without an in forma pauperis application; and 2) denying the application to proceed in forma pauperis, because it is an abuse of discretion to deny an in forma pauperis application based upon a spouse's financial resources, unless there is a reasonable inquiry into (a) whether the spouse's resources are actually available to the would-be plaintiff and (b) whether the spouse in fact has sufficient funds, given his or her own expenses, to assist in paying the fee.");
+Case.create(case_title: "Backer v. Shah", case_content: "In a 42 U.S.C. section 1983 action alleging that the New York State Department of Health (DOH) violated the Medicaid Act, 42 U.S.C. section 1396 et seq., when DOH determined that guardianship fees approved by a state court could not be deducted from plaintiff's Medicaid-required contributions to her nursing home costs, the district court's dismissal of the suit is affirmed where although plaintiff has standing, she has nevertheless failed to state a valid Section 1983 claim.");
+Case.create(case_title: "Everett v. Pitt County Board of Education", case_content: "In an appeal arising from two desegregation orders entered in 1970, which were administratively closed and lay dormant for over thirty-five years, an action to enjoin the implementation of the Board's 2011-12 student assignment plan alleging it failed to move the school district toward unitary status, the district court's dismissal of the request for injunction as moot is affirmed where: 1) the district court acted within its discretion in choosing to address the Board's motion for declaration of unitary status before ruling on plaintiffs' motion for injunctive relief; and 2) the court did not clearly err in determining that the school district is unitary.");
+Case.create(case_title: "Rodriguez v. Village Green Realty, Inc.", case_content: "In a suit for disability discrimination under the Fair Housing Act (FHA), 42 U.S.C. section 3601 et seq., against a real estate company and its agent, the district court's grant of summary judgment to defendants is vacated and remanded where: 1) the court erred because there was sufficient evidence that minor-plaintiff qualifies as disabled under the FHA; 2) the FHA's prohibition against statements that indicate any preference, limitation, or discrimination based on handicap, section 3604(c), may be violated even if the subject of those statements does not qualify as disabled under the FHA; and 3) the \"ordinary listener\" standard is not applicable to claims under 45 U.S.C. section 3604(d) for misrepresenting the availability of housing.");
+Case.create(case_title: "Hubbs v. Suffolk Cnty. Sheriff's Dep't", case_content: "In an action brought by a plaintiff who asserts that he was severely beaten by deputy sheriffs while he was being detained in a holding cell, grant of summary judgment to defendants on grounds that plaintiff failed to exhaust his administrative remedies as required by the Prison Litigation Reform Act (PLRA), 42 U.S.C. section 1997e(a), is vacated where defendants have failed to establish as a matter of law that administrative remedies were available to plaintiff.");
+Case.create(case_title: "Taylor v. Barkes", case_content: "In a suit under Rev. Stat. section 1979, 42 U. S. C. section 1983, against various entities and individuals connected with a correctional institution, who plaintiffs claimed violated decedent's civil rights in failing to prevent his suicide, the Third Circuit's denial of defendants' motion for summary judgment on qualified immunity grounds is reversed where:1) even if the institution's suicide screening and prevention measures contained the shortcomings that plaintiffs allege, no precedent on the books in November 2004 would have made clear to petitioners that they were overseeing a system that violated the Constitution; and 2) because, at the very least, defendants were not contravening clearly established law, they are entitled to qualified immunity.");
+Case.create(case_title: "EEOC v. Abercrombie & Fitch Stores, Inc.", case_content: "In an action under Title VII of the Civil Rights Act of 1964 against an employer, arising out of the refusal to hire plaintiff because her headscarf worn as part of her religion conflicted with the employee dress policy, the Tenth Circuit grant of summary judgment to employer, on the ground that failure-to-accommodate liability attaches only when the applicant provides the employer with actual knowledge of his/her need for an accommodation, is reversed and remanded where to prevail in a disparate-treatment claim, an applicant need show only that his/her need for an accommodation was a motivating factor in the employer's decision, not that the employer had knowledge of his/her need.");
+Case.create(case_title: "McCormack v. Herzog", case_content: "In an action challenging the Pain-Capable Unborn Child Protection Act, which regulates the performance of abortions in Idaho, brought under 42 U.S.C. section 1983, the district court's grant of summary judgment for plaintiffs is affirmed where: 1) plaintiff's challenge to Idaho Code section 18606, knowingly submitting to an abortion not authorized under the statute, or purposely self-terminating a pregnancy, was not moot because her claims fell under three exceptions to the mootness doctrine; and 2) plaintiff had standing based on the lingering risk of prosecution under section 18606.");
+Case.create(case_title: "Lair v. Bullock", case_content: "In a First Amendment challenge to Montana's dollar limits on contributions to political candidates, the district court's judgment, entered following a non-jury trial, is reversed and remanded where the court applied the wrong legal standard prior to enjoining permanently the enforcement of Montana's restrictions on campaign contributions by individuals, political action committees and political parties.");
+Case.create(case_title: "Blake v. Ross", case_content: "District court's dismissal of inmate-plaintiff's 42 U.S.C. section 1983 claim on the grounds that plaintiff failed to exhaust his administrative remedies as required by the Prison Litigation Reform Act (PLRA) 42 U.S.C. section 1997e(a), is reversed where plaintiff reasonably believed that he had sufficiently exhausted his remedies by complying with an internal investigation.");
+Case.create(case_title: "Noll v. International Business Machines Corp.", case_content: "In a case under the Americans with Disabilities Act and the New York State Human Rights Law, alleging violations by IBM when it refused to reasonably accommodate plaintiff's deafness by declining to caption all the videos and provide transcripts of all the audio files that are hosted on its corporate intranet, the district court's grant of summary judgment to employer is affirmed where: 1) employer reasonably accommodated plaintiff by providing American Sign Language interpreters capable of translating intranet files; and 2) in light of this accommodation, plaintiff has no claim that employer failed to engage him in an interactive process.");
+Case.create(case_title: "Ussery v. Mansfield", case_content: "In a 42 U.S.C. section 1983, maintaining that a team of correctional officers employed excessive force when they forcibly extracted him from his prison cell, the district court's denial of defendant officers' motion for summary judgment on the basis of qualified immunity is affirmed where the court did not err in its denial because: 1) under the Norman standard the injuries plaintiff maintains he suffered were not de minimis; and 2) the North Carolina Department of Corrections initiated an investigation into the cell extraction.");
+Case.create(case_title: "Diaz-Colon v. Solivan-Solivan", case_content: "In a lawsuit arising out of two sets of wrongful murder convictions in Puerto Rico's courts, denial of law enforcement officials' motions for summary judgment based on qualified or absolute immunity are: 1) reversed in part as to the denial of summary judgment for an assistant district attorney; and 2) affirmed in part as to the remainder of the district court's rulings.");
+Case.create(case_title: "Drimal v. Mako", case_content: "In a suit against numerous FBI agents, alleging they violated Title III of the Omnibus Crime Control and Safe Streets Act of 1968, 18 U.S.C. sections 2510‐2522, when they listened to her private calls with her husband, the district court's denial of the agents' motion to dismiss on qualified immunity grounds is reversed where: 1) plaintiff's complaint in its present form does not plausibly state a claim because it recited only legal conclusions; and 2) in its qualified immunity analysis the district court should have assessed the reasonableness of the agents' minimization efforts as they relate to each defendant.");
+Case.create(case_title: "Kogut v. County of Nassau", case_content: "In a suit alleging malicious prosecution, brought pursuant to 42 U.S.C. section 1983 and state law following plaintiff's conviction, retrial, and acquittal of charges of rape and murder, the district court's dismissal of all claims is affirmed where: 1) plaintiff was not prejudiced by a joint trial, at which evidence was admitted that plaintiff contends would have been inadmissible at a trial of his claims alone; and 2) the district court did not err in denying plaintiff's motion for a new trial because of procedural and evidentiary errors at the joint trial.");
+
 
 LegalForm.create(legal_form_title: "Deed of Donation", legal_form_content: "
 <p>DEED OF DONATION     KNOW ALL MEN BY THESE PRESENTS:</p>
@@ -1282,3 +1668,656 @@ LegalForm.create(legal_form_title: "Information for Homicide", legal_form_conten
 <p> ATTY. BEN TONG  Private Prosecutor</p>
 
 <p> Bail Recommended: None</p>");
+
+LegalForm.create(legal_form_title: "Joint Affidavit of Identity", legal_form_content: "
+<p>JOINT AFFIDAVIT OF IDENTITY</p>
+
+<p>  WE, JOSE F. SANTOS and MARIA B. DELA CRUZ, both of legal age, Filipino citizens, and residents of 4444 Washington Street, Pio del Pilar, Makati City, after having been duly sworn to in accordance with law, depose and state:</p>
+
+<p>1. That we personally know one ARLENE M. DE MESA born on October 3, 1980 in Davao City;</p>
+
+<p>2. That since her childhood, she has been using the name ARLENE M. DE MESA, which appeared in her pertinent records and school records;</p>
+
+<p>3. That when she secured a copy of her birth certificate, she noticed that her name is written as ARLYN M. DE MESA;</p>
+
+<p>4. That the names ARLENE M. DE MESA and ARLYN M. DE MESA refer to one and the same person;</p>
+
+<p>5. That we are executing this Affidavit to attest and declare the truth of the foregoing facts and for whatever legal purposes that this Affidavit may serve.</p>
+
+<p> IN WITNESS WHEREOF, we have hereunto set our hands this 26th day of September 2013 in Makati City, Metro Manila, Philippines.</p>
+
+<p>  JOSE F. SANTOS MARIA B. DELA CRUZ Affiant Affiant</p>
+
+<p>  SUBSCRIBED AND SWORN TO before me this 1st day of August 2013 in Makati City, affiants exhibited to me their SSS Identification Card Nos. 1234 and 4567 issued on March 6, 2012 and April 8, 2012, respectively, in Makati City, Metro Manila.</p>
+
+<p>Doc. No. _____ Page No. _____ Book No. _____</p>
+
+<p> Series of 2013.</p>");
+
+LegalForm.create(legal_form_title: "Affidavit of Adverse Claim", legal_form_content: "
+<p>AFFIDAVIT OF ADVERSE CLAIM</p>
+
+<p>  I, MARIE B. DELA CRUZ, of legal age, Filipino, single and a resident of 2223 Washington Street, Pio del Pilar, Makati City, after having been duly sworn to in accordance with law, depose and state:</p>
+
+<p>1. That on July 10, 2013, I have entered into a Deed of Conditional Sale which was acknowledged on the same date before Notary Public Juan Tamad of Makati City and entered in his Notarial Register as Doc. No. 2, Page 2, Book II, Series of 2013. A copy of the said Deed is hereto attached as ANNEX &ldquo;A&rdquo; and made an integral part of this Affidavit;</p>
+
+<p>2. That in the said Deed of Conditional Sale, I was the VENDEE of a certain parcel of land covered by Transfer Certificate of Title No. 111222, more particularly described as follows:</p>
+
+<p>(Technical Description of Property)</p>
+
+<p>3. That because I still have a balance on the purchase price in the amount of P500,000.00 which is payable within one (1) (year) from the date of signing thereof, it was stipulated in the aforementioned Deed that title and ownership over the subject property will only be transferred upon full payment of the same;</p>
+
+<p>4. That the VENDOR in the said Deed of Conditional Sale agreed that upon its execution, said Deed shall be annotated in the Title with the Office of the Register of Deeds of Makati City;</p>
+
+<p>5. However, since the said Deed of Conditional Sale per se could not be annotated on the Title with the Office of the Register of Deeds, I am therefore executing this Affidavit for the purpose of attesting to the truthfulness of the foregoing allegations and in support of my request for the annotation of an adverse claim over the parcel of land covered by the Transfer Certificate of Title No. 111222.</p>
+
+<p> IN WITNESS WHEREOF, I have hereunto set my hand this 26th day of September 2013 in Makati City, Metro Manila, Philippines.  </p>
+
+<p>MARIE B. DELA CRUZ Affiant</p>
+
+<p> SUBCRIBED AND SWORN TO before me this 26th day of September 2013 in Makati City, Metro Manila, Philippines, affiant exhibiting to me her Philippine Passport No. 123456 issued in Manila on January 12, 2012 and valid until January 12, 2017.</p>
+
+<p>Doc. No. _____; Page No. _____; Book No. _____; Series of 2013.  </p>");
+
+LegalForm.create(legal_form_title: "Affidavit of Declaration of Ownership", legal_form_content: "
+<p>REPUBLIC OF THE PHILIPPINES) CITY OF MAKATI ) S.S. x-------------------------------------x  </p>
+
+<p>AFFIDAVIT OF DECLARATION OF OWNERSHIP</p>
+
+<p>  I, JOSE B. DELA CRUZ, of legal age, Filipino, single, Manager of Rubinzons Corporation, after having been duly sworn to in accordance with law, depose and state:</p>
+
+<p>1. That said Corporation is the owner of certain parcel of land, more particularly described as follows:</p>
+
+<p>(Technical Description of Property)</p>
+
+<p>2. That the said aforementioned Transfer Certificate of Title over said property includes and contains all the permanent improvements and buildings located and situated thereon.;</p>
+
+<p>3. That I execute this Affidavit to attest and declare the truth of the foregoing facts and for whatever legal purposes that this Affidavit may serve.</p>
+
+<p> IN WITNESS WHEREOF, I have hereunto set my hand this 26th day of September 2013 in Makati City, Metro Manila, Philippines.  </p>
+
+<p>JOSE B. DELA CRUZ Affiant</p>
+
+<p> SUBCRIBED AND SWORN TO before me this 26th day of September 2013 in Makati City, Metro Manila, Philippines, affiant exhibiting to me his Philippine Passport No. 123456 issued in Manila on January 12, 2013 and valid until January 13, 2018.</p>
+
+<p>Doc. No. _____; Page No. _____; Book No. _____; Series of 2013.</p>");
+
+LegalForm.create(legal_form_title: "Compliance to the Notice of Decision", legal_form_content: "
+<p>Republic of the Philippines National Capital Judicial Region  METROPOLITAN TRIAL COURT Branch 67 Makati City</p>
+
+<p> ABC CORPORATION,  Plaintiff,</p>
+
+<p> - versus - Civil Case No. 111222</p>
+
+<p>RAYMOND CORPUZ MAPA,  Defendant. x-------------------------------------------x</p>
+
+<p> COMPLIANCE (To Notice of Decision dated 24 January 2013)</p>
+
+<p> PLAINTIFF, by counsel, and by way of compliance to this Honorable Court's Notice of Decision dated 24 January 2013, most respectfully states that a copy of the aforesaid Notice of Decision issued in connection with the above-titled case was received by him on March 6, 2013.</p>
+
+<p> Respectfully submitted.    Makati City, Philippines. January 11, 2013.</p>
+
+<p> ATTY. VX YZ  Counsel for Plaintiff</p>");
+
+LegalForm.create(legal_form_title: "Joint Motion (for Case to Remain in the JDR Court)", legal_form_content: "
+<p>Republic of the Philippines National Capital Judicial Region  METROPOLITAN TRIAL COURT Branch 67 Makati City</p>
+
+<p> ABC CORPORATION,  Plaintiff,</p>
+
+<p> - versus - Civil Case No. 111222</p>
+
+<p>RAYMOND CORPUZ MAPA,  Defendant. x-------------------------------------------x</p>
+
+<p> JOINT MOTION </p>
+
+<p>  Plaintiff, through counsel and defendant's counsel to this Honorable Court, most respectfully moves that even if the Judicial Dispute Resolution has been terminated before this branch, we move that the further proceedings, the pre-trial conference and trial, if any be handled by this court until the termination and/or disposition of this case.    Makati City, Philippines. August 30, 2013.</p>
+
+<p> ATTY. VXYZ  Counsel for Plaintiff</p>
+
+<p> ATTY. ABCD  Counsel for Defendant</p>");
+
+LegalForm.create(legal_form_title: "Contract of Lease of Motor Vehicle", legal_form_content: "
+<p>CONTRACT OF LEASE OF MOTOR VEHICLE</p>
+
+<p>KNOW ALL MEN BY THESE PRESENTS:</p>
+
+<p> This Agreement executed this 25th day of June, 2013 at Makati, Metro Manila, by and between:</p>
+
+<p> JUAN DELA CRUZ, Filipino, of legal age, single and a resident of No. 11 Santillan Street, Makati City, Metro Manila (hereinafter referred to as &ldquo;LESSOR&rdquo;).</p>
+
+<p>-and-</p>
+
+<p> PEDRO DELOS SANTOS, Filipino, of legal age, single with address at No. 11 Gold Loop Street, Ortigas Center, Pasig, Metro Manila (hereinafter referred to as &ldquo;LESSEE&rdquo;).</p>
+
+<p>WITNESSETH: That -</p>
+
+<p>1. That the LESSOR hereby lets and leases unto the LESSEE his motor vehicle described as follows:  MODEL/MAKE : 2011 Isuzu  COLOR : Black  BODY : Canter  MOTOR NO. : 123456  SERIAL/CHASSIS NO. : 789666  PLATE NO. : XYZ-123</p>
+
+<p>2. That the monthly rental shall be in the amount of P50,000.00 per month, payable at the end of each and every month;</p>
+
+<p>3. That the term of this contract shall be one (1) year commencing on June 25, 2013 and ending on June 25, 2014 and automatically renewed from year to year unless sooner terminated by a notice of at least thirty (30) days before such termination;</p>
+
+<p>4. That all the expenses for the registration, insurance, tire, battery, fuel, care and maintenance of the leased unit, as well as any and all damages and liabilities caused to third parties or the public by reason of any accident whatsoever, shall be fore the sole account of the LESSEE;</p>
+
+<p>5. That the LESSEE may sublease the unit to any other person but the right of LESSOR as herein stipulated shall not be affected whatsoever.</p>
+
+<p> IN WITNESS WHEREOF, we have hereunto set our hands this 26th day of June 2013 in Makati City, Metro Manila, Philippines.</p>
+
+<p> </p>
+
+<p>JUAN DELA CRUZ PEDRO DELOS SANTOS  Lessor Lessee  </p>
+
+<p> SIGNED IN THE PRESENCE OF:</p>
+
+<p> MARIA MAKILING JUAN TAMAD  Witness Witness</p>
+
+<p> ACKNOWLEDGMENT</p>
+
+<p>Republic of the Philippines) City of Makati ) S.S.</p>
+
+<p>BEFORE ME, a Notary Public, for and in the City of Makati, this 25th day of June 2013 personally appeared:</p>
+
+<p> Name Identification Card Issued On/At</p>
+
+<p> JUAN DELA CRUZ SSS I.D. No. 123 1-1-11/Makati  PEDRO DELOS SANTOS SSS I.D. No. 222 2-1-11/Makati  MARIA DELA CRUZ SSS I.D. No. 333 3-1-11/Makati   MARIA MAKILING SSS I.D. No. 444 4-1-11/Makati   JUAN TAMAD SSS I.D. No. 555 5-1-11/Makati  all known to me to be the same persons who executed the foregoing instrument and hereby acknowledged to me that the same is their free and voluntary act and deed.</p>
+
+<p> This instrument consisting of two (2) pages, including this page on which this acknowledgment is written refers to a CONTRACT OF LEASE OF MOTOR VEHICLE and has been signed by the parties and their witnesses and sealed with my notarial seal.</p>
+
+<p> WITNESS MY HAND AND NOTARIAL SEAL.</p>
+
+<p>Doc. No. ____ Page No. ____ Book No. ____ Series of 2013.</p>");
+
+LegalForm.create(legal_form_title: "Affidavit of Consolidation of Ownership in Pacto de Retro", legal_form_content: "
+<p>REPUBLIC OF THE PHILIPPINES) CITY OF MAKATI ) S.S. x-------------------------------------x  </p>
+
+<p>AFFIDAVIT OF CONSOLIDATION OF OWNERSHIP</p>
+
+<p>  I, MARIE B. DELA CRUZ, of legal age, Filipino, single and a resident of 2223 Washington Street, Pio del Pilar, Makati City, after having been duly sworn to in accordance with law, depose and state:</p>
+
+<p>1. That on June 10, 2011, Mr. Pedro Penduko, of legal age, Filipino, single, residing at 2222 Teresa Street, Makati City, sold to me a certain parcel of land under pacto de retro, executed before Notarial Public Juan Tamad and bearing Not. Reg. No. 2, Page 2, Book II, Series of 2011 of his Notarial Register (copy of the said pacto de retro sale is hereto attached as ANNEX &ldquo;A&rdquo;);</p>
+
+<p>2. That pursuant to the deed of sale with pacto de retro, the said vendor, Mr. Pedro Penduko, should have exercised his right to repurchase the said property within the period of two (2) years;</p>
+
+<p>3. That the period expired on June 10, 2013 without the said vendor, by himself or by any other person in his behalf complying with the condition and stipulation required for the repurchase of the said property;</p>
+
+<p>4. That the said period of repurchase has not been extended, either expressly or impliedly, by affiant vendee a retro;</p>
+
+<p>5. That by virtue of the said deed of sale with pacto de retro, and by the failure of the vendor, Mr. Pedro Penduko, to duly repurchase the property within the period stipulated, there was consolidated in the affiant, as vendee a retro, the absolute ownership of the said property. Attached hereto, as ANNEX &ldquo;B,&rdquo; is an order of the Regional Trial Court of Makati City issued on August 11, 2013, approving and confirming the above consolidation of ownership in the name of affiant.</p>
+
+<p> IN WITNESS WHEREOF, I have hereunto set my hand this 26th day of September 2013 in Makati City, Metro Manila, Philippines.  </p>
+
+<p>MARIE B. DELA CRUZ Affiant</p>
+
+<p> SUBCRIBED AND SWORN TO before me this 26th day of September 2013 in Makati City, Metro Manila, Philippines, affiant exhibiting to me her Philippine Passport No. 123456 issued in Manila on January 12, 2012 and valid until January 12, 2017.</p>
+
+<p>Doc. No. _____; Page No. _____; Book No. _____; Series of 2013.</p>");
+
+LegalForm.create(legal_form_title: "Affidavit of Consolidation of Ownership", legal_form_content: "
+<p>REPUBLIC OF THE PHILIPPINES) CITY OF MAKATI ) S.S. x-------------------------------------x  </p>
+
+<p>AFFIDAVIT OF CONSOLIDATION OF OWNERSHIP</p>
+
+<p>  I, MARIA B. DELA CRUZ, of legal age, Filipino, single and a resident of 6789 Washington Street, Pio del Pilar, Makati City, after having been duly sworn to in accordance with law, depose and state:</p>
+
+<p>1. That in the public auction conducted by the City Sheriff of Makati City on September 3, 2012 pursuant to the provisions of Act No. 3135 as amended, the undersigned affiant became the purchaser of a certain foreclosed property with all its improvements, more particularly described as follows:</p>
+
+<p>TCT No. T-2222</p>
+
+<p> A PARCEL OF LAND (Lot 32 of the consolidation-subdivision plan (LRC) Pcs-5141, being a portion of the consolidation of Lots 1 and 2, Psu-112287 Amd., LRC (GLRO) Rec. No. N-17511), situated in the Dist. Of Concepcion, City of Sta. Rosa, Laguna, Island of Luzon. Bounded on the NE., points 3 to 6, by Lot 85; on the S., points 6 to 1 by Lot 30; on the SW., points 1 to 2, by Lot 31; and on the N., points 2 to 3 by Lot 35, all of the consolidation-subdivision plan. Beginning at a pont marked &quot;1&quot; on plan, being N. 51 deg. 36' E., 1321.76 m. from B.L.L.M. No.1, Sta. Rosa, Laguna </p>
+
+<p>2. That the said Sheriff sold the above-described property with all the improvements and buildings thereon to the undersigned affiant as the highest bidder for the sum of ONE MILLION PESOS (P1,000,000.00), Philippine Currency;</p>
+
+<p>3. That That a Certificate of Sale at Public Auction was issued by the said Sheriff in favor of the undersigned affiant and the same was duly registered with the Office of the Registry of Deeds of Makati City on September 14, 2012 as Entry No. 123 on the aforementioned title; and</p>
+
+<p>4. That a Certificate of Sale at Public Auction was issued by the said Sheriff in favor of the undersigned affiant is proper and in accordance with law.</p>
+
+<p> WHEREFORE, by failure of the Mortgagor to redeem the said property, I am executing this Affidavit for the purpose of consolidating title and ownership of the above-described property with all the improvements and buildings thereon, as provided for by law, and I am requesting the Office of the Registry of Deeds to register the same and issue a new title in the name of the undersigned affiant.</p>
+
+<p> IN WITNESS WHEREOF, I have hereunto set my hand this 26th day of September 2013 in Makati City, Metro Manila, Philippines.  </p>
+
+<p>MARIA B. DELA CRUZ Affiant</p>
+
+<p> SUBCRIBED AND SWORN TO before me this 26th day of September 2013 in Makati City, Metro Manila, Philippines, affiant exhibiting to me her Philippine Passport No. 123456 issued in Manila on January 12, 2012 and valid until January 12, 2017.</p>
+
+<p>Doc. No. _____; Page No. _____; Book No. _____; Series of 2013.</p>");
+
+LegalForm.create(legal_form_title: "Motion for New Trial", legal_form_content: "
+<p>Republic of the Philippines National Capital Judicial Region REGIONAL TRIAL COURT Branch 1, Manila</p>
+
+<p>____________________,  Plaintiff,</p>
+
+<p> -versus- Civil Case No._______  For ______________</p>
+
+<p>______________________,  Defendant. x - - - - - - - - - - - - - - - - - - x</p>
+
+<p>MOTION FOR NEW TRIAL</p>
+
+<p>  Defendant (or plaintiff), by his undersigned attorney, respectfully moves that the decision of this Honorable Court dated June 10, 2013 and received on June 27, 2013 be set aside and new trial be granted on the following grounds:</p>
+
+<p>GROUNDS</p>
+
+<p> (state the grounds provided for in Rule 37, Rules of Court)</p>
+
+<p>ARGUMENTS</p>
+
+<p>(state the reasons in support of the ground/s mentioned)</p>
+
+<p> WHEREFORE, it is respectfully prayed that decision of this Honorable Court be set aside and new trial be granted.</p>
+
+<p> Other just and equitable reliefs are also prayed for.</p>
+
+<p> Manila, 29 November 2013</p>
+
+<p>  Atty. Y  Counsel for Defendant</p>
+
+<p>(With Notice of Hearing, Proof of Service and Explanation)</p>");
+
+LegalForm.create(legal_form_title: "Motion to Dismiss", legal_form_content: "
+<p>Republic of the Philippines National Capital Judicial Region REGIONAL TRIAL COURT Branch 1, Manila</p>
+
+<p>____________________,  Plaintiff,</p>
+
+<p> -versus- Civil Case No.______  For __________________</p>
+
+<p>______________________,  Defendant. x - - - - - - - - - - - - - - - - - - x</p>
+
+<p>MOTION TO DISMISS</p>
+
+<p>  Defendant, by his undersigned attorney, respectfully moves that the complaint be dismissed on the following grounds:</p>
+
+<p> (state one or more grounds provided for in Rule 16, Rules of Court)</p>
+
+<p>ARGUMENTS</p>
+
+<p>(state the reasons in support of the ground/s mentioned)</p>
+
+<p> WHEREFORE, it is respectfully prayed that the complaint be dismissed.</p>
+
+<p> Other just and equitable reliefs are also prayed for.</p>
+
+<p> Manila, 29 November 2013</p>
+
+<p>   Atty. Y  Counsel for Defendant</p>
+
+<p>(With Notice of Hearing, Proof of Service and Explanation)</p>");
+
+LegalForm.create(legal_form_title: "Release of Claim and Subrogation Receipt", legal_form_content: "
+<p>RELEASE OF CLAIM AND SUBROGATION RECEIPT</p>
+
+<p> For the sole consideration of ____________ the receipt of which is hereby acknowledged, I/WE _______________ for myself/ourselves, my/our heirs, representative, successors, and assigns, do hereby release and forever discharge _____________ of and from all actions, claims, demand and rights of action whatever that now exist or may hereafter develop and particularly on account of all known and unanticipated injuries, damages and/or losses arising out of and as a consequence of an accident that occurred on or about _______________ at ________________.</p>
+
+<p> I/WE further agree that this Release may be pleaded in bar to any suit or proceeding when I/WE or anyone in my/our behalf, may have taken in connection with the accident herein mentioned; that this payment or service is not an admission of liability by the party or compromise, adjustment and settlement of the claim.</p>
+
+<p> It is further agreed that ____________ is hereby subrogated to all rights of recovery by the undersign on all the aforesaid claim, demand and rights of action from whomsoever may be liable therefore, and is hereby authorized to institute whatever legal proceeding necessary for the endorsement thereof, and to present compromise, adjustment and settlement of the claim.</p>
+
+<p> I/WE manifest that the terms of the Release have been read and/or translated to me in __________, a dialect known to me/us and that I/WE fully understand the contents and import of the same.</p>");
+
+LegalForm.create(legal_form_title: "Affidavit in Support of Petition for Injunction", legal_form_content: "
+<p>REPUBLIC OF THE PHILIPPINES) CITY OF MANILA ) S.S.</p>
+
+<p>AFFIDAVIT    X, of legal age and resident of the City of Manila, Philippines, after having been duly sworn in accordance with law, hereby deposes and says:</p>
+
+<p> That he is the Plaintiff in the above entitled case and is entitled to the relief demanded in the complaint in whole or in part and such other relief consists in restraining the commission or continuance of the acts complained of either for a limited period or perpetually;</p>
+
+<p> That the commission or continuance of the acts complained of during the litigation will work injury to herein plaintiff and that the defendant is doing, threatens, or is about to do, or is procuring or suffering to be done the acts tending to render the judgment ineffectual;</p>
+
+<p> And that he is willing and ready to file a bond in the amount which may be fixed by the Court to the effect that he, the plaintiff, will pay the defendant all the damages which the latter may sustain by reason of the injunction if the court should finally decide that the plaintiff was not entitled thereto.</p>
+
+<p> FURTHER AFFIANT SAYETH NAUGHT.</p>
+
+<p>  _______________________  Affiant</p>
+
+<p>JURAT</p>");
+
+LegalForm.create(legal_form_title: "Compromise Agreement", legal_form_content: "
+<p>COMPROMISE AGREEMENT</p>
+
+<p> This Agreement executed this 31st day of October, 2013 at Makati, Metro Manila, by and between:</p>
+
+<p> PEDRO PENDUKO, Filipino, of legal age with address at 222 Montclair Street, Merville Park, Para&ntilde;aque, Metro Manila, represented herein by Atty. Juan Dela Cruz (hereinafter referred to as &ldquo;the plaintiff&rdquo;).</p>
+
+<p>-and-</p>
+
+<p> ENTENG KABISOTE, Filipino, of legal age with address at No. 11 Gold Loop Street, Ortigas Center, Pasig, Metro Manila, represented herein by Atty. Maria Makiling (hereinafter referred to as &ldquo;the defendant&rdquo;).</p>
+
+<p>WITNESSETH: That -</p>
+
+<p> WHEREAS, the plaintiff PENDUKO and defendant KABISOTE have instituted several actions against each other in the past.</p>
+
+<p> WHEREAS, the plaintiff PENDUKO instituted the present action for reconveyance of real property, annulment of deed of sale and accounting of income of property.</p>
+
+<p> WHEREAS, the parties desire to buy peace and wish to avoid a protracted litigation in this case.</p>
+
+<p> NOW THEREFORE, in consideration of the foregoing and the further covenants hereinafter set forth, the parties agree as follows:</p>
+
+<p> 1. Plaintiff shall be paid the sum of FOUR MILLION PESOS (P4,000,000.00) in accordance with the following schedule:</p>
+
+<p> a. Initial payment - TWO MILLION PESOS (P2,000,000.00) shall be paid to the plaintiff by defendant KABISOTE upon the signing and due execution of this Compromise Agreement, Provided, however, that the initial payment by defendant KABISOTE shall be delivered into the custody and possession of a third party, Atty. Maria Mercedes, who shall act as escrow-trustee of the parties and who shall only deliver the said initial payment to the plaintiff through plaintiff&rsquo;s counsel upon the filing in Court of this Compromise Agreement.</p>
+
+<p> b. The balance of TWO MILLION PESOS (P1,000,000.00) shall be paid by defendant Kabisote as follows:</p>
+
+<p>Second payment - ONE MILLION PESOS (P1,000,000.00) within sixty (60) days after the date of the first payment.</p>
+
+<p>Third payment - ONE MILLION PESOS (P1,000,000.00) within forty-five (45) days after the date of the second payment.</p>
+
+<p> 2. The initial payment by defendant KABISOTE shall be made in cash. The two payments on the balance shall be covered by post-dated checks drawn by defendant KABISOTE as payable to ATTY. JUAN DELA CRUZ who shall hold and account for said payments in trust for plaintiff PENDUKO.</p>
+
+<p> 3. This Compromise Agreement shall not affect nor prejudice any case or cases between the parties not specifically referred to herein.</p>
+
+<p> 4. Upon delivery of the initial payment made by defendant KABISOTE and delivered to the escrow-trustee of the parties, the parties shall seek Court approval of this Compromise Agreement and the cancellation or lifting of the notice of lis pendens issued by the Court over the property subject of the action.</p>
+
+<p> 5. The signatories to this Agreement hereby represent and warrant that they are duly authorized to execute this Agreement.</p>
+
+<p> 6. The parties or their assigns hereby waive, renounce and forever quitclaim all their respective claims and counterclaims subject of the instant action as well as those that may arise therefrom, in connection therewith or in relation thereto.</p>
+
+<p> 7. The foregoing covenants are not contrary to law, morals, or public policy and the parties bind themselves to comply strictly with their undertakings.</p>
+
+<p>IN WITNESS WHEREOF, parties herein affixed their signatures on the date and place above written.</p>
+
+<p>  _________________________ _________________________  Plaintiff Defendant     Signed in the presence of:</p>
+
+<p>  _____________________________</p>");
+
+LegalForm.create(legal_form_title: "Affidavit in Petition for Receivership", legal_form_content: "
+<p>REPUBLIC OF THE PHILIPPINES) CITY OF MANILA )S.S.</p>
+
+<p> AFFIDAVIT</p>
+
+<p> A, of legal age, married and a resident of the City of Manila, Philippines, after having duly sworn in accordance with law, hereby deposes and says:    That he is the Plaintiff in the above titled case and that he has read the foregoing complaint and that the facts therein stated are true and correct;</p>
+
+<p> That he is the owner of the estate as pro-indiviso owner of the same with the defendant;    That the defendant is in actual physical possession of the property in litigation and as such, he is in control of the produce of the said property pending litigation;</p>
+
+<p> That the produce or income from said property are in danger of being lost, removed or materially injured unless a receiver be appointed to guard and preserve the same, and the defendant is not only hostile to the plaintiff but also shows his demands to exclude said plaintiff from all the products or proceeds coming from the said property;</p>
+
+<p> That the defendant is hopelessly insolvent for he is heavily indebted to various persons;</p>
+
+<p> That he is willing and ready to file a bond in the amount which this Honorable Court may fix in favor of the defendant against whom this receivership is presented to the effect that he, the plaintiff will pay to the said defendant all damages which he will sustain by reason of the appointment of receiver in case the plaintiff shall have procured such appointment without sufficient cause, and such other bonds which this Honorable Court may require him to file hereafter, as security for such damages.</p>
+
+<p> FURTHER AFFIANT SAYETH NAUGHT.</p>");
+
+LegalForm.create(legal_form_title: "Affidavit in Support of Petition for Injunction", legal_form_content: "
+<p>REPUBLIC OF THE PHILIPPINES) CITY OF MANILA ) S.S.</p>
+
+<p>AFFIDAVIT    X, of legal age and resident of the City of Manila, Philippines, after having been duly sworn in accordance with law, hereby deposes and says:</p>
+
+<p> That he is the Plaintiff in the above entitled case and is entitled to the relief demanded in the complaint in whole or in part and such other relief consists in restraining the commission or continuance of the acts complained of either for a limited period or perpetually;</p>
+
+<p> That the commission or continuance of the acts complained of during the litigation will work injury to herein plaintiff and that the defendant is doing, threatens, or is about to do, or is procuring or suffering to be done the acts tending to render the judgment ineffectual;</p>
+
+<p> And that he is willing and ready to file a bond in the amount which may be fixed by the Court to the effect that he, the plaintiff, will pay the defendant all the damages which the latter may sustain by reason of the injunction if the court should finally decide that the plaintiff was not entitled thereto.</p>
+
+<p> FURTHER AFFIANT SAYETH NAUGHT.</p>");
+
+LegalForm.create(legal_form_title: "Easement of Right of Way", legal_form_content: "
+<p>EASEMENT OF RIGHT OF WAY</p>
+
+<p>KNOW ALL MEN BY THESE PRESENTS:</p>
+
+<p> This AGREEMENT OF EASEMENT OF RIGHT OF WAY, entered into this ______ day of ______________, 2001 by and between &ldquo;A&rdquo; owner of the dominant estate, of legal age, single (or married to ___________________) and a resident of _________________ and &ldquo;B&rdquo; , owner of the servient estate, also of legal age, single (or married to ____________________), and a resident of ________________________ witnesseth:</p>
+
+<p> That &ldquo;A&rdquo; is the owner of a parcel of agricultural land located in the municipality of ________________, province of ________________, and more particularly described as follows, to wit:</p>
+
+<p>(Description of &ldquo;A&rsquo;s&rdquo; property)</p>
+
+<p>which property is covered by T.C.T. No. ________ of the Register of Deeds of ______________, province of _______________, which lot is adjacent to &ldquo;A&rsquo;s&rdquo; property, and more particularly described as follows, to wit:</p>
+
+<p>(Description of &ldquo;B&rsquo;s&rdquo; property)</p>
+
+<p>which property is covered by T.C.T. No. _____________ of the Register of Deeds of the province of _____________________.</p>
+
+<p> That &ldquo;A&rdquo; in order to have an access to and from, and to cultivate the above-mentioned land, and so as to have an outlet to ________________, which is the nearest public road and least burdensome to the servient estate and to third persons, it would be necessary for him to pass through &ldquo;B&rsquo;s&rdquo; property, and for this purpose, a path or passageway of not less than two (2) meters wide through the whole length of the western side of &ldquo;B&rsquo;s&rdquo; property is necessary for the use of &ldquo;A&rdquo; and for all his needs in cultivating his estate;</p>
+
+<p> That said path or passageway is particularly described in the attached plan, &ldquo;Annex A&rsquo;,</p>
+
+<p> WHEREFORE, for and in consideration of the sum of _____________________ PESOS (P_________) the receipt whereof is hereby acknowledged by &ldquo;B&rdquo;, the latter agrees and permits &ldquo;A&rdquo; to have a permanent easement of right of way over the above-mentioned property of said &ldquo;B&rdquo; limited to not more than two (2) meters wide throughout the whole length of the western side of said property and as specifically indicated in the attached plan which is made an integral part of this contract, as &ldquo;Annex A&rdquo;.</p>
+
+<p> It is further agreed that &ldquo;B&rdquo; shall deliver unto &ldquo;A&rdquo; all the necessary papers, deed, and titles in relation to the servient estate in order to facilitate the registration of the above-mentioned right of way, in accordance with.</p>
+
+<p> This agreement shall be binding between the parties and upon all their heirs, successors, and assigns.</p>
+
+<p> IN WITNESS WHEREOF, the parties hereto have signed this agreement the day and the year first above written, in the municipality of _______________, province of _______________, Philippines.</p>
+
+<p> __________________________ __________________________  (Signature of owner of the (Signature of owner of  dominant estate) servient estate)</p>
+
+<p> SIGNED IN THE PRESENCE OF:</p>
+
+<p> __________________________ ___________________________</p>
+
+<p> ACKNOWLEDGMENT</p>");
+
+LegalForm.create(legal_form_title: "Motion to Intervene", legal_form_content: "
+<p>Republic of the Philippines National Capital Judicial Region  METROPOLITAN TRIAL COURT Branch 67 Makati City</p>
+
+<p> ______________________,  Plaintiff,</p>
+
+<p> - versus - Civil Case No. ______</p>
+
+<p>______________________,  Defendant. x-------------------------------------------x</p>
+
+<p>MOTION TO INTERVENE</p>
+
+<p>  COMES NOW X, by his under signed counsel, to this Honorable Court respectfully prays that he be permitted to intervene in this case as a party plaintiff (or as a party defendant) on the ground that he has legal interest in the matter under litigation, and that he may be adversely affected in these proceedings as shown in the attached Complaint-in-Intervention (or answer in intervention).</p>
+
+<p> WHEREFORE, it is respectfully prayed that X be allowed to intervene as party plaintiff (or defendant) and the attached complaint be admitted and served on the defendant (or answer be admitted and X be allowed to serve copy of the same to the Plaintiff).    Makati City, Philippines. September 13, 2013.</p>
+
+<p> ATTY. VXYZ  Counsel for Plaintiff</p>
+
+<p> (With Notice of Hearing, Proof of Service and Explanation)</p>");
+
+LegalForm.create(legal_form_title: "Deed of Absolute Sale with Pacto de Retro", legal_form_content: "
+<p>DEED OF ABSOLUTE SALE WITH PACTO DE RETRO</p>
+
+<p> KNOW ALL MEN BY THESE PRESENTS:</p>
+
+<p>This Deed of Absolute Sale with Pacto de Retro made and executed by and between:</p>
+
+<p>JAKEE CHAN, of legal age, Filipino, widow, and with postal address at No. 333 Kamias Road, Quezon City, hereinafter referred to as the SELLER;</p>
+
+<p>and</p>
+
+<p>JET LEE, of legal age, Filipino, single with residence address at 555 Kamagong Street, Ayala Alabang Village, Muntinlupa City, Metro Manila hereinafter referred to as the BUYER.</p>
+
+<p>WITNESSETH:</p>
+
+<p>That the SELLER is the absolute owner of a certain parcel of land situated in San Pablo City, Province of Laguna, and more particularly described and bounded as follows:</p>
+
+<p>TCT No. T-123456</p>
+
+<p>A PARCEL OF LAND (Lot 32 of the consolidation-subdivision plan (LRC) Pcs-5141, being a portion of the consolidation of Lots 1 and 2, Psu-112287 Amd., LRC (GLRO) Rec. No. N-17511), situated in the Dist. Of Concepcion, City of San Pablo, Laguna, Island of Luzon. Bounded on the NE., points 3 to 6, by Lot 85; on the S., points 6 to 1 by Lot 30; on the SW., points 1 to 2, by Lot 31; and on the N., points 2 to 3 by Lot 35, all of the consolidation-subdivision plan. Beginning at a point marked &quot;1&quot; on plan, being N. 51 deg. 36' E., 1321.76 m. from B.L.L.M. No.1, San Pablo, Laguna (a copy of which title is hereto attached as Annex &quot;A&quot;)</p>
+
+<p>THAT the SELLER, for and in consideration of the amount of FIVE HUNDRED THOUSAND PESOS (P500,000.00), Philippine Currency, receipt in full is hereby acknowledged by her to her satisfaction, hereby SELL, TRANSFER and CONVEY under PACTO DE RETRO unto said BUYER, his heirs and assigns, the above described property with all the buildings and improvement thereon, free from liens and encumbrances whatsoever;</p>
+
+<p>THAT the SELLER, in executing this conveyance, hereby reserves the right to REPURCHASE, and the BUYER, in accepting the same, hereby obligates himself to RESELL the property herein conveyed within a period of five (5) years from and after the date of this instrument for the same price of FIVE HUNDRED THOUSAND PESOS (P500,000.00), Philippine Currency: Provided however, that if the SELLER fails to exercise her right to repurchase as herein granted within the period stipulated, then this conveyance shall become absolute and irrevocable, without the necessity of drawing up a new deed of absolute sale, subject to the requirements of the law regarding consolidation of ownership of real property.</p>
+
+<p>IN WITNESS WHEREOF, the parties have hereunto set their hands this 16th day of June 2013 in Manila, Philippines.</p>
+
+<p>JAKEE CHAN JET LEE   Seller Buyer</p>
+
+<p>Signed in the presence of: ___________________________ __________________________</p>
+
+<p> (ACKNOWLEDGMENT)</p>");
+
+LegalForm.create(legal_form_title: "Revocation of Special Power of Attorney", legal_form_content: "
+<p>REVOCATION OF SPECIAL POWER OF ATTORNEY</p>
+
+<p> KNOW ALL MEN BY THESE PRESENTS:</p>
+
+<p>WHEREAS, I, ANNE KURTIS, of legal age, Filipino, single and a resident of 1122 Antipolo Street, Valenzuela, Makati City, by a certain public instrument made and executed in Makati City on June 28, 2013 before Notary Public BONG NABARO of Makati City and registered as Document No. 1; Page No. 2, Book No. 3; Series of 2013 in his notarial register, did name, constitute and appoint BAYS GANDA, a resident of 3344 Antipolo Street, Valenzuela, Makati City as my true and lawful ATTORNEY-IN-FACT, for the purpose and with powers mentioned in said instrument;</p>
+
+<p>WHEREAS, the said public instrument or Power of Attorney, was never registered with the Register of Deeds for the Province of Bataan;</p>
+
+<p> NOW, THEREFORE, I, ANNE KURTIS, by virtue of these presents hereby REVOKE, ANNUL and VOID the said power of attorney and all powers and authority therein or thereby given or granted or intended to be given or granted to said BAYS GANDA;</p>
+
+<p> FURTHER, I, ANNE KURTIS, hereby revoke all Special Powers of Attorney that I may have executed before the date of this Deed with respect to my property registered under Transfer Certificate of Title No. 123456 of the Register of Deeds for the City of Makati.</p>
+
+<p> ANNE KURTIS Principal</p>
+
+<p> Signed in the presence of:</p>
+
+<p>  _____________________________ ______________________________  [Witness 1] [Witness 2]</p>
+
+<p> </p>
+
+<p>(ACKNOWLEDGMENT)</p>");
+
+LegalForm.create(legal_form_title: "Motion for Production of Documents", legal_form_content: "
+<p>Republic of the Philippines National Capital Judicial Region  METROPOLITAN TRIAL COURT Branch 67 Makati City</p>
+
+<p> ABC CORPORATION,  Plaintiff,</p>
+
+<p> - versus - Civil Case No. 111222</p>
+
+<p>RAYMOND CORPUZ MAPA,  Defendant. x-------------------------------------------x</p>
+
+<p>MOTION FOR PRODUCTION OF DOCUMENTS</p>
+
+<p>  PLAINTIFF, by counsel, moves for an order requiring defendant Raymond Corpuz Mapa:</p>
+
+<p> 1. To produce and permit plaintiff to inspect and to copy each of the following documents:</p>
+
+<p>(Here, list the documents and describe each of them)</p>
+
+<p>2. To produce and permit plaintiff to inspect and to photograph each of the following objects:</p>
+
+<p> (Here, list the objects and describe each of them)</p>
+
+<p>3. To permit plaintiff to enter (here describe property to be entered) and to inspect and photograph (here describe the portion of the real property and the objects to be inspected and photographed)</p>
+
+<p>Defendant has the possession, custody or control of each of the foregoing documents and objects and of the above-mentioned real estate. Each of them constitutes or contains evidence relevant and material to the matter involved in this action.    Makati City, Philippines. September 13, 2013.</p>
+
+<p> ATTY. VX YZ  Counsel for Plaintiff</p>
+
+<p> NOTICE OF HEARING</p>
+
+<p>THE BRANCH CLERK OF COURT MeTC - Branch 67 Makati City</p>
+
+<p> Greetings!   Please submit the foregoing Motion to the Court for its consideration and approval immediately upon receipt hereof and kindly include the same in the court&rsquo;s calendar for hearing on Friday, 27 September 2013 at 8:30 in the morning</p>
+
+<p> VX YZ   Copy furnished:   ATTY. AB CD Counsel for the Defendant 2233 Zamora Street, Pasay City</p>
+
+<p> Please take notice that counsel has requested to be heard on Friday, 27 September 2013 at 8:30 in the morning.</p>
+
+<p> VX YZ</p>");
+
+LegalForm.create(legal_form_title: "Subpoena Duces Tecum", legal_form_content: "
+<p>Republic of the Philippines National Capital Judicial Region  REGIONAL TRIAL COURT Branch 150 Makati City</p>
+
+<p> PEOPLE OF THE PHILIPPINES,    - versus - Crim. Case No. ______   XY,  Accused. x----------------------------------------x</p>
+
+<p> SUBPOENA DUCES TECUM</p>
+
+<p> To: _____________________  _____________________</p>
+
+<p>  You are hereby required to appear before the Regional Trial Court of ________________ on the ______ day of _______________, 2013 at _________ o&rsquo;clock and to bring with you into the court the following (describe book, deed, writing, or other documents), it being necessary to use the same as testimony in the cause there pending, wherein _________________ is the plaintiff and _________________ is defendant.</p>
+
+<p> Witness the Honorable _______________ judge of said court, this ____ day of _________ 2013.</p>
+
+<p> ___________________________  Branch Clerk of Court</p>");
+
+LegalForm.create(legal_form_title: "Search Warrant", legal_form_content: "
+<p>Republic of the Philippines National Capital Judicial Region  REGIONAL TRIAL COURT Branch 150 Makati City</p>
+
+<p> PEOPLE OF THE PHILIPPINES,    - versus - Crim. Case No. ______   XY,  Accused. x----------------------------------------x</p>
+
+<p> SEARCH WARRANT</p>
+
+<p> TO ANY PEACE OFFICER:   Greetings:</p>
+
+<p> It appearing to the satisfaction of the undersigned, after examining under oath (name of applicant) and his witness (name of witness) that there is probable cause to believe that (describe the act charged) has been committed or is about to be committed and that there are good and sufficient reasons to believe that (name of person or persons to be searched) has in his possession or control in (describe premises) in (name of street) district of _______________, (name property subject of the offense; or stolen or embezzled and other proceeds or fruits of the offense; or used or intended to be used as the means of committing an offense which should be seized and brought to the undersigned). (Cancel description not applicable)</p>
+
+<p> You are hereby commanded to make an immediate search at any time in the day (or night) of the premises above described and forthwith seize and take possession of the following personal property, to wit:</p>
+
+<p>________________________________________ ________________________________________ ________________________________________ (give complete and detailed description of the property to be seized)</p>
+
+<p>and bring said property to the undersigned to be dealt with as the law directs.</p>
+
+<p> Witness my hand this ______ day of ______________, at _________________, Philippines.</p>
+
+<p>  ______________________  Judge, RTC of _______</p>");
+
+LegalForm.create(legal_form_title: "Contract or Agreement", legal_form_content: "
+<p>CONTRACT/AGREEMENT</p>
+
+<p> KNOW ALL MEN BY THESE PRESENTS:</p>
+
+<p>This [type of contract/agreement], made and entered into this ____ day of [Month], [Year] in __________, Philippines, by and between:</p>
+
+<p> [Name of Corporation], a corporation duly organized and existing under Philippine law with office address at _____________________ hereinafter referred to as the [indicate a label for the First Party for easy identification, example &ldquo;VENDOR&rdquo; represented by its [Representative&rsquo;s Position], [Representative&rsquo;s Name];</p>
+
+<p>- AND -</p>
+
+<p> (NAME), Filipino and with residence and postal address at (Address), hereinafter referred to as the LESSEE. /married to (Name of spouse if any), Filipino, and with residence and postal address at (Address), hereinafter referred to as the LESSOR.</p>
+
+<p>WITNESSETH:</p>
+
+<p>WHEREAS, [the WHEREAS clauses contain the object and consideration/s of the contract/agreement]</p>
+
+<p>NOW THEREFORE, [the THEREFORE clause contain the consent of both parties]</p>
+
+<p>TERMS AND CONDITIONS: [of the contract/agreement]</p>
+
+<p>IN WITNESS WHEREOF, parties herein affixed their signatures on the date and place above written.</p>
+
+<p>  _________________________ _________________________  [Name of Corporate Representative] Name of Second Party  [Name of Corporation] [Label]  [Label]</p>
+
+<p>  With marital consent: [When Necessary]</p>
+
+<p>_________________________ Spouse&rsquo;s Name</p>
+
+<p> Signed in the presence of:</p>
+
+<p>  _____________________________ ______________________________  [Witness 1] [Witness 2]</p>
+
+<p> </p>
+
+<p>ACKNOWLEDGMENT</p>
+
+<p>Republic of the Philippines) City of ______ ) S.S.</p>
+
+<p>BEFORE ME, a Notary Public, for and in the City of ________, this _____ day of ________ 2013 personally appeared:</p>
+
+<p> Name Identification Card Issued On/At</p>
+
+<p> _______________ ___________ ___________   _______________ ___________ ___________     all known to me to be the same persons who executed the foregoing instrument and hereby acknowledged to me that the same is their free and voluntary act and deed.</p>
+
+<p> This instrument consisting of ____ pages, including this page on which this acknowledgment is written refers to a [type of contract/agreement] and has been signed by the parties and their witnesses and sealed with my notarial seal.</p>
+
+<p> WITNESS MY HAND AND NOTARIAL SEAL.</p>
+
+<p>Doc. No. ____ Page No. ____ Book No. ____ Series of 2013.</p>");
+
+# LegalForm.create(legal_form_title: "", legal_form_content: "");
+
+# LegalForm.create(legal_form_title: "", legal_form_content: "");
+
+# LegalForm.create(legal_form_title: "", legal_form_content: "");
+
+# LegalForm.create(legal_form_title: "", legal_form_content: "");
+
+# LegalForm.create(legal_form_title: "", legal_form_content: "");
+
+# LegalForm.create(legal_form_title: "", legal_form_content: "");
+
+# LegalForm.create(legal_form_title: "", legal_form_content: "");
+
+# LegalForm.create(legal_form_title: "", legal_form_content: "");
+
+# LegalForm.create(legal_form_title: "", legal_form_content: "");
+
+# LegalForm.create(legal_form_title: "", legal_form_content: "");
+
+# LegalForm.create(legal_form_title: "", legal_form_content: "");
+
+# LegalForm.create(legal_form_title: "", legal_form_content: "");
+
+# LegalForm.create(legal_form_title: "", legal_form_content: "");
+
+# LegalForm.create(legal_form_title: "", legal_form_content: "");
+
+# LegalForm.create(legal_form_title: "", legal_form_content: "");
+
+# LegalForm.create(legal_form_title: "", legal_form_content: "");
+
+# LegalForm.create(legal_form_title: "", legal_form_content: "");
+
+# LegalForm.create(legal_form_title: "", legal_form_content: "");

@@ -28,4 +28,10 @@
 <template>Click the logout button at the upper left part of the screen.</template>
 </category>
 
+
+<category>
+<pattern>How do I delete messages</pattern>
+<template>Sorry, that feature is not yet available.</template>
+</category>
+
 </aiml>

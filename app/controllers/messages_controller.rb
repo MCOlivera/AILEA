@@ -107,7 +107,15 @@ class MessagesController < ApplicationController
             result = Glossary.where('glossary_term LIKE ?', '%' + content.singularize + '%').all
             
             if result.count.eql? 0
-              fuzzy_result = Glossary.find_by_fuzzy_glossary_term(content.singularize, :limit => 10)
+              temp = Glossary.find_by_fuzzy_glossary_term(content.singularize, :limit => 5)
+              
+              fuzzy_result = Array.new
+              temp.each do |s|
+                if Text::Levenshtein.distance(content, s.glossary_term) < 3
+                  fuzzy_result.push s
+                end
+              end
+              
               if fuzzy_result.count.eql? 0
                 if @current_user.glossary_requests.create(term: reaction.split(' ').drop(2).join(' ')).valid?
                   reaction = "I can\'t find the definition in my database. I'll ask around."
@@ -119,11 +127,11 @@ class MessagesController < ApplicationController
                   reaction = 'I found ' + fuzzy_result.count.to_s + ' terms matching your request: '
                   reaction += "<ul>"
                   fuzzy_result.each do |r|
-                    reaction += "<li>" + r.glossary_description + "</li>"
+                    reaction += "<li>" + r.glossary_term + "<br>" + r.glossary_description + "</li>"
                   end
                   reaction += "</ul>"
                 else
-                  reaction = fuzzy_result.first.glossary_description
+                  reaction = fuzzy_result.first.glossary_term + "<br>" + fuzzy_result.first.glossary_description
                 end
               end
             else
@@ -131,11 +139,11 @@ class MessagesController < ApplicationController
                 reaction = 'I found ' + result.count.to_s + ' terms matching your request: '
                 reaction += "<ul>"
                 result.each do |r|
-                  reaction += "<li>" + r.glossary_description + "</li>"
+                  reaction += "<li>" + r.glossary_term + "<br>" + r.glossary_description + "</li>"
                 end
                 reaction += "</ul>"
               else
-                reaction = result.first.glossary_description
+                reaction = result.first.glossary_term + "<br>" + result.first.glossary_description
               end
             end
             
@@ -143,7 +151,15 @@ class MessagesController < ApplicationController
             # result = Case.find_by_case_title(content)
             result = Case.where('case_title LIKE ?', '%' + content + '%').all
             if result.count.eql? 0
-              fuzzy_result = Case.find_by_fuzzy_case_title(content, :limit => 10)
+              temp = Case.find_by_fuzzy_case_title(content, :limit => 5)
+              
+              fuzzy_result = Array.new
+              temp.each do |s|
+                if Text::Levenshtein.distance(content, s.case_title) < 3
+                  fuzzy_result.push s
+                end
+              end
+              
               if fuzzy_result.count.eql? 0
                 if @current_user.case_requests.create(title: reaction.split(' ').drop(2).join(' ')).valid?
                   reaction = "Your case request is now under processing."
@@ -179,7 +195,15 @@ class MessagesController < ApplicationController
             # result = LegalForm.find_by_legal_form_title(content)
             result = LegalForm.where('legal_form_title LIKE ?', '%' + content + '%').all
             if result.count.eql? 0
-              fuzzy_result = LegalForm.find_by_fuzzy_legal_form_title(content, :limit => 10)
+              temp = LegalForm.find_by_fuzzy_legal_form_title(content, :limit => 5)
+              
+              fuzzy_result = Array.new
+              temp.each do |s|
+                if Text::Levenshtein.distance(content, s.legal_form_title) < 3
+                  fuzzy_result.push s
+                end
+              end
+              
               if fuzzy_result.count.eql? 0
                 if @current_user.form_requests.create(title: reaction.split(' ').drop(2).join(' ')).valid?
                   reaction = "I can\'t find the form in my database. I\'ll request it for you."
