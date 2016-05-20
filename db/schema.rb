@@ -16,8 +16,9 @@ ActiveRecord::Schema.define(version: 20160511055418) do
   create_table "case_requests", force: :cascade do |t|
     t.integer  "user_id",    limit: 4
     t.string   "title",      limit: 255
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
+    t.text     "content",    limit: 65535
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
   end
 
   create_table "cases", force: :cascade do |t|

@@ -45,6 +45,11 @@ class Admin::CaseRequestsController < AdminController
   def update
     respond_to do |format|
       if @case_request.update(case_request_params)
+        Case.create(case_title: @case_request.title, case_content: @case_request.content)
+        
+        @case_request.user.messages.create(content: "The " + @case_request.title + " case is now available at Cases Section.", is_lea_response: true)
+        
+        @case_request.destroy
         format.html { redirect_to @case_request, notice: 'Case request was successfully updated.' }
         format.json { render :show, status: :ok, location: @case_request }
       else

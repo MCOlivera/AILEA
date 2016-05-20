@@ -6,11 +6,18 @@
         - @case_request.errors.full_messages.each do |msg|
           %li= msg
 
-  .field
-    = f.label :user_id
-    = f.number_field :user_id
-  .field
-    = f.label :title
-    = f.text_field :title
-  .actions
-    = f.submit 'Save'
+  %table{:class => "table"}
+    %tr.field
+      %td= f.label :user
+      %td= @case_request.user_id
+    %tr.field
+      %td= f.label :title
+      %td= @case_request.title
+    %tr.field
+      %td= f.label :content
+      %td= f.text_field :content, :class => "form-control"
+    .field
+      = f.hidden_field :case_request_id, value: @case_request.id
+    %tr.actions
+      %td= f.submit 'Save', :class => "btn btn-success"
+      %td

@@ -111,7 +111,7 @@ class MessagesController < ApplicationController
               
               fuzzy_result = Array.new
               temp.each do |s|
-                if Text::Levenshtein.distance(content, s.glossary_term) < 3
+                if Text::Levenshtein.distance(content.downcase, s.glossary_term) < 3
                   fuzzy_result.push s
                 end
               end
@@ -155,7 +155,7 @@ class MessagesController < ApplicationController
               
               fuzzy_result = Array.new
               temp.each do |s|
-                if Text::Levenshtein.distance(content, s.case_title) < 3
+                if Text::Levenshtein.distance(content.downcase, s.case_title) < 3
                   fuzzy_result.push s
                 end
               end
@@ -199,7 +199,7 @@ class MessagesController < ApplicationController
               
               fuzzy_result = Array.new
               temp.each do |s|
-                if Text::Levenshtein.distance(content, s.legal_form_title) < 3
+                if Text::Levenshtein.distance(content.downcase, s.legal_form_title) < 3
                   fuzzy_result.push s
                 end
               end

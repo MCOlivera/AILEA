@@ -12,6 +12,6 @@
       %tr
         %td= case_request.user.username
         %td= case_request.title
-        %td
-          = link_to 'Done', case_request, :method => :delete, :data => { :confirm => 'Are you sure?' }, :class => "btn btn-success"
+        %td= link_to 'Create', edit_case_request_path(case_request), :class => "btn btn-success"
+        // %td= link_to 'Done', case_request, :method => :delete, :data => { :confirm => 'Are you sure?' }, :class => "btn btn-success"
 
